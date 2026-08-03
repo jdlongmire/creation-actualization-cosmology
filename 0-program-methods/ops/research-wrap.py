@@ -48,12 +48,19 @@ def main():
     else:
         add("PASS", "working tree clean")
 
-    # 2. Unpushed commits
-    _, ahead, _ = run(["git", "rev-list", "--count", "origin/main..HEAD"])
-    if ahead.isdigit() and int(ahead):
-        add("WARN", "unpushed commits", f"{ahead} commit(s) ahead of origin/main — push if intended")
+    # 2. Unpushed commits. A missing remote must not read as "synced" — the whole
+    #    history is unpushed in that case, which is the opposite of the reassurance.
+    rc_remote, remotes, _ = run(["git", "remote"])
+    if rc_remote != 0 or not remotes.strip():
+        add("WARN", "no remote configured",
+            "the repository exists only locally — nothing is backed up off this disk")
     else:
-        add("PASS", "synced with origin/main")
+        _, ahead, _ = run(["git", "rev-list", "--count", "origin/main..HEAD"])
+        if ahead.isdigit() and int(ahead):
+            add("WARN", "unpushed commits",
+                f"{ahead} commit(s) ahead of origin/main — push if intended")
+        else:
+            add("PASS", "synced with origin/main")
 
     # 3. Traceability: build passes + generated fresh
     rc, out, err = run(["python3", "traceability/scripts/build.py"])
