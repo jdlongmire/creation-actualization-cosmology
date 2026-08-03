@@ -1,0 +1,732 @@
+{
+  "ACC-001": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-002",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "EXT-001",
+        "dependency_type": "interpretive"
+      }
+    ],
+    "epistemic_status": "argued",
+    "forbids": "none",
+    "id": "ACC-001",
+    "name": "Low initial entropy is expected rather than anomalous",
+    "notes": "NON-PROGRESSIVE by construction: the low-entropy past was known before the claim. It demonstrates coherence, not evidence. Promotion requires finding a QUANTITATIVE consequence of \"specified order\" that continuous-history cosmology does not permit.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Nothing downstream. Accommodations carry no load in the ladder.",
+    "rival_account": "Standard cosmology treats the low-entropy boundary condition as a genuine open problem (Penrose's Weyl curvature hypothesis; Carroll-Chen; inflationary measure arguments). It is an acknowledged explanatory debt, not a solved point - which is why accommodating it is cheap and does not by itself distinguish the programmes.\n",
+    "role": "accommodation",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "5 (Low Initial Entropy); 7"
+      }
+    ],
+    "statement": "Intentional creation specifies order before entropy increases under ordinary physical law, so the universe's exceptionally low-entropy initial state is a design parameter rather than a statistical improbability requiring explanation.\n",
+    "tier": 2
+  },
+  "ACC-002": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "forbids": "none",
+    "id": "ACC-002",
+    "name": "Redshift as created geometry plus evolution",
+    "notes": "NON-PROGRESSIVE as stated. The (1+z) light-curve time dilation cross-check is the sharp point here and is registered as OPN-010; a created-geometry model that reproduces it quantitatively would be the programme's first real content.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Nothing downstream.",
+    "rival_account": "Standard cosmology derives redshift from FLRW metric expansion, with the distance-redshift relation independently constrained by Type Ia supernovae, BAO, and the CMB, and cross-checked by the observed (1+z) time dilation of supernova light curves. The rival's account is quantitative and multiply constrained; CAC's is presently neither.\n",
+    "role": "accommodation",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "5 (Cosmological Redshift)"
+      }
+    ],
+    "statement": "Observed cosmological redshift is accommodated as the joint result of the metric structure established at Day Four and subsequent ordinary evolution, rather than as evidence for a continuous multi-Gyr expansion history.\n",
+    "tier": 2
+  },
+  "ACC-003": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-002",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "PHY-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "forbids": "none",
+    "id": "ACC-003",
+    "name": "The Hubble tension is conceptually unsurprising",
+    "notes": "NON-PROGRESSIVE, and the weakest of the five. \"Expect discrepancies\" is compatible with ANY observed discrepancy including none, and with any magnitude or sign. The paper's use of the word \"predicts\" here should be read as accommodation; per research-practices.md #1 the wording is a candidate correction for v0.2. Promotion requires deriving a magnitude or a sign for the early-late offset.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Nothing downstream.",
+    "rival_account": "Standard cosmology treats the tension as either unresolved systematics or a signal of new physics (early dark energy, varying Neff, modified recombination), with active programmes on each. Note that the rival's versions PREDICT specific parameter shifts and are being tested; \"systematic discrepancies may appear\" predicts no value and no sign.\n",
+    "role": "accommodation",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "5 (Hubble Tension)"
+      }
+    ],
+    "statement": "If creation involved a discrete cosmological actualization, attempts to reconstruct cosmic history from present observations may produce systematic discrepancies. The disagreement between early- and late-universe determinations of H0 is therefore expected rather than anomalous.\n",
+    "tier": 2
+  },
+  "ACC-004": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-006",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "forbids": "none",
+    "id": "ACC-004",
+    "name": "High-redshift structural maturity is expected",
+    "notes": "NON-PROGRESSIVE. Also the most volatile: it rests on a live literature that has moved AGAINST the strong form of the anomaly since 2022-2023 (research-practices.md #5). Building weight on it is a standing risk. Promotion requires a stated maturity DISTRIBUTION versus redshift that differs from the LCDM expectation and is testable against a defined sample.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Nothing downstream.",
+    "rival_account": "Early JWST claims of over-massive high-z galaxies have been substantially moderated by improved photometric calibration, spectroscopic follow-up, AGN contamination corrections, and revised IMF/dust assumptions. Within LCDM the surviving tension is modest. The paper itself concedes this moderation, which is correct and should be kept.\n",
+    "role": "accommodation",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "5 (JWST Early Structure)"
+      }
+    ],
+    "statement": "Apparent maturity at great cosmological distance need not correspond to billions of years of uninterrupted developmental history. Structural maturity is an expected consequence of creation in functional maturity.\n",
+    "tier": 2
+  },
+  "ACC-005": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-002",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "PHY-003",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "forbids": "none",
+    "id": "ACC-005",
+    "name": "Some dark-sector inference may reflect creation boundary conditions",
+    "notes": "NON-PROGRESSIVE and the most exposed of the five. The paper correctly labels it \"a hypothesis requiring mathematical development.\" The rival_account above is the specific form that development must take; until then the claim should not be cited as support.\n",
+    "proof_status": "open",
+    "risk_if_false": "Nothing downstream.",
+    "rival_account": "Dark matter is constrained by independent lines that are not reconstructions of history: galactic rotation curves, cluster velocity dispersions, strong and weak lensing, the Bullet Cluster mass-light separation, and the CMB third-peak amplitude. A history-artifact account must address the non-historical lines, especially lensing and the Bullet Cluster, which are present-epoch observations.\n",
+    "role": "accommodation",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "5 (Dark Matter and Dark Energy)"
+      }
+    ],
+    "statement": "Some inferred dark-sector phenomena may represent artifacts of reconstructing a continuous history from a universe possessing divinely specified initial conditions. The gravitational observations themselves are not denied.\n",
+    "tier": 2
+  },
+  "CRE-001": {
+    "epistemic_status": "argued",
+    "id": "CRE-001",
+    "name": "Genesis records genuine historical events",
+    "notes": "Immune by methodological DECISION, not by necessity (hard-core.md). The warrant is exegetical and theological and is argued on those grounds, not asserted as scientific.\n",
+    "proof_status": "axiomatized",
+    "risk_if_false": "The programme has no boundary condition to substitute for the standard model's continuous 13.8 Gyr history, and every downstream claim loses its ground. Total loss.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "2 (Axiom 1)"
+      }
+    ],
+    "statement": "The biblical creation narrative is a historically reliable account of what occurred, not myth, allegory, or a purely literary framework. Present observations therefore need not encode an uninterrupted natural history.\n",
+    "tier": 1
+  },
+  "CRE-002": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-001",
+        "dependency_type": "exegetical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "CRE-002",
+    "name": "Creation is divine actualization, not the culmination of prior natural process",
+    "proof_status": "axiomatized",
+    "risk_if_false": "Without discreteness the programme collapses into a theistic gloss on continuous-history cosmology, which is not an alternative research programme and forbids nothing LCDM permits.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "2 (Axiom 2)"
+      }
+    ],
+    "statement": "The created order is brought into being by a divine act rather than as the terminus of a preceding natural process. There is no natural history behind Creation Week.\n",
+    "tier": 1
+  },
+  "CRE-003": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-001",
+        "dependency_type": "exegetical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "CRE-003",
+    "name": "Functional maturity of the created order",
+    "proof_status": "axiomatized",
+    "risk_if_false": "Without maturity the discrete act (CRE-002) leaves an inoperable universe, and the bridge to cosmology (CRE-006) has nothing to extend.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "2 (Axiom 3); 3"
+      }
+    ],
+    "statement": "Creation possesses functional maturity: the created order existed in operational completeness rather than developmental infancy. Adam was created a mature man; fruit trees bore fruit.\n",
+    "tier": 1
+  },
+  "CRE-004": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-001",
+        "dependency_type": "exegetical"
+      },
+      {
+        "claim_id": "CRE-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "CRE-004",
+    "name": "Day Four actualizes the observable heavens into their operational state",
+    "notes": "The axiom fixes THAT the heavens were actualized; it does not fix the mechanism (open, OPN-001/OPN-002) nor the specific exegesis of the day (belt, HER-002).\n",
+    "proof_status": "axiomatized",
+    "risk_if_false": "The cosmological content of the programme is carried almost entirely by this axiom. If Day Four is not the actualization of the observable heavens, CAC has a doctrine of terrestrial creation and no cosmology.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "2 (Axiom 4); 4"
+      }
+    ],
+    "statement": "Day Four represents the actualization of the observable heavens into their operational state as reckoned from Earth's historical frame. Genesis establishes their covenantal functions rather than supplying an astrophysical chronology.\n",
+    "tier": 1
+  },
+  "CRE-005": {
+    "epistemic_status": "argued",
+    "id": "CRE-005",
+    "name": "Stable intelligible physical law after Creation Week",
+    "proof_status": "axiomatized",
+    "risk_if_false": "Without it the programme cannot be tested at all: any observation could be attributed to ongoing miracle, which is the unfalsifiability charge in its strongest form. This is the axiom that makes CAC a candidate research programme rather than a position.\n",
+    "role": "primitive",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "2 (Axiom 5)"
+      }
+    ],
+    "statement": "Following Creation Week the universe operates under stable, intelligible physical laws. Miracle characterizes creation itself; science characterizes providence thereafter.\n",
+    "tier": 1
+  },
+  "CRE-006": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-003",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-004",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "CRE-006",
+    "name": "Functional maturity extends to cosmology",
+    "proof_status": "prose_only",
+    "risk_if_false": "This is the bridge that makes the core cosmological rather than merely theological. Without it CRE-003 is a claim about Eden and implies nothing about the observable universe.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "3"
+      }
+    ],
+    "statement": "The maturity principle is not restricted to biology. A universe created to support life requires cosmological maturity - stable stellar illumination, gravitational architecture, celestial navigation, seasonal cycles, dynamical stability - no less than biological maturity.\n",
+    "tier": 1
+  },
+  "CRE-007": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-003",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-006",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "CRE-007",
+    "name": "Operational completeness does not entail deception",
+    "notes": "The distinction is asserted in the paper but not yet argued. It becomes acute under OPN-010 (processes observed IN TRANSIT), where the created state encodes not merely a mature end configuration but an apparently completed process. Sharpening this is belt work, not core work.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If the distinction from appearance-of-age cannot be sustained, the programme inherits the omphalos objection in full and its theological warrant is undercut by its own doctrine of God.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "3"
+      }
+    ],
+    "statement": "CAC does not assert that God fabricated a fictitious history. It asserts that the created state was sufficient to accomplish its intended purposes immediately. This is functionality, not false testimony, and is distinct from nineteenth-century appearance-of-age arguments.\n",
+    "tier": 1
+  },
+  "EXT-001": {
+    "epistemic_status": "conjectured",
+    "external_citations": [
+      "Longmire, J.D. (2026). Triadic Reality Theory, v0.9. github.com/jdlongmire/triadic-reality-theory"
+    ],
+    "id": "EXT-001",
+    "name": "TRT ontology - reality as constrained information in action",
+    "notes": "The import is at the level of ONTOLOGY only. TRT's belt-level cosmology (ADCE) is NOT imported and is not obviously compatible - see OPN-008 and 1-hypothesis/relation-to-trt.md.\n",
+    "proof_status": "imported",
+    "risk_if_false": "CAC loses its ontological setting for \"actualization\" as a primitive act. The programme could be restated without TRT, but \"discrete divine actualization\" would then be a theological description with no formal home.\n",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "7"
+      }
+    ],
+    "statement": "Imported from Triadic Reality Theory: actual reality is constrained information in action, chi = A(I | L), where logic constrains information and actualization produces physical reality. Creation is accordingly the intentional actualization of coherent informational structure rather than the emergence of order from disorder.\n",
+    "tier": 2
+  },
+  "EXT-002": {
+    "epistemic_status": "established",
+    "id": "EXT-002",
+    "name": "The observational corpus is accepted as data",
+    "notes": "This claim is a standing constraint on the belt: no belt hypothesis may proceed by denying a measurement. Specific references are verified per references/verification-status.md before any claim is built on them.\n",
+    "proof_status": "imported",
+    "risk_if_false": "If the programme were to dispute the measurements rather than their historical interpretation it would be a different and far weaker programme, and would forfeit the position paper's own framing (\"The observations remain the same\").\n",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "Abstract; 5; 6"
+      }
+    ],
+    "statement": "The observational corpus of modern cosmology - CMB anisotropy measurements, the distance-redshift relation, BAO, lensing, abundance and structure surveys - is accepted as data. CAC disputes the historical reconstruction placed on it, not the measurements.\n",
+    "tier": 2
+  },
+  "HER-001": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-001",
+        "dependency_type": "exegetical"
+      },
+      {
+        "claim_id": "CRE-004",
+        "dependency_type": "exegetical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "HER-001",
+    "name": "Genesis narrates creation from an Earth-local frame",
+    "notes": "Needs development: an observational frame in narrative is not the same as a preferred reference frame in relativistic cosmology, and the slide between the two senses is the first thing a competent critic will press.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Without the Earth-local frame the Day Four reading must supply a global simultaneity convention, which general relativity does not supply freely. The frame claim is doing more physical work than its exegetical form suggests.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "4"
+      }
+    ],
+    "statement": "Genesis consistently narrates creation from Earth's perspective and never adopts an external cosmological viewpoint. Day Four is therefore described relative to Earth's historical frame.\n",
+    "tier": 2
+  },
+  "HER-002": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-004",
+        "dependency_type": "exegetical"
+      },
+      {
+        "claim_id": "HER-001",
+        "dependency_type": "exegetical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "id": "HER-002",
+    "name": "Day Four establishes covenantal function, not astrophysical chronology",
+    "notes": "Competing readings must be stated and priced (research-practices.md #4): framework, analogical-day, and functional-ontology (Walton) readings each handle the same data. Note that the functional reading is ALSO used by interpreters who reject CRE-001 - borrowing its machinery while rejecting its usual conclusion needs explicit argument.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "A functional-appointment reading is what allows Day Four to carry cosmological actualization without committing to a formation narrative. If the text will not bear it, CRE-004 needs a different exegetical support.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "2 (Axiom 4)"
+      }
+    ],
+    "statement": "The Day Four account states the appointment of the luminaries to their functions (signs, seasons, days, years) rather than describing their physical formation history.\n",
+    "tier": 2
+  },
+  "HER-003": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-001",
+        "dependency_type": "exegetical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "id": "HER-003",
+    "name": "Creation Week is a sequential historical interval",
+    "notes": "Held in the belt deliberately. CRE-001 (Genesis is history) does not by itself settle WHICH historical reading is correct; treating this claim as though it inherited the core's immunity is the belt-promotion failure METHODOLOGY.md names.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Without a sequential interval, \"discrete actualization during Creation Week\" loses its temporal definiteness and CRE-002 becomes hard to distinguish from an atemporal dependence claim.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "1; 2"
+      }
+    ],
+    "statement": "The days of Genesis 1 denote a sequential historical interval within which the discrete actualization occurred, rather than a literary arrangement of topically grouped material.\n",
+    "tier": 2
+  },
+  "OPN-001": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-001",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "CRE-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-001",
+    "name": "Mathematical postulates for discrete cosmological actualization",
+    "notes": "ROADMAP item 1. Gating, but NOT critical path - see OPN-007.\n",
+    "proof_status": "open",
+    "risk_if_false": "Without postulates the programme cannot compute, and every belt claim below remains prose. This gates ROADMAP items 2, 3 and 4.\n",
+    "role": "open",
+    "statement": "No postulate set has been given for what discrete actualization IS mathematically - what is specified at the boundary, over what manifold, and how the specification connects to the subsequent evolution governed by CRE-005.\n",
+    "tier": 2
+  },
+  "OPN-002": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-001",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-002",
+    "name": "Model of rapid metric actualization during Day Four",
+    "notes": "ROADMAP item 3. Any candidate must be consistent with CRE-005 holding immediately afterward.\n",
+    "proof_status": "open",
+    "risk_if_false": "PHY-001 is the load-bearing physical hypothesis of the programme; without a model it remains an assertion that something happened.\n",
+    "role": "open",
+    "statement": "Whether the Day Four event is representable as rapid metric expansion, as an alternative mechanism, or as a process presently unknown, is left open by the position paper (section 4).\n",
+    "tier": 2
+  },
+  "OPN-003": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-003",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-003",
+    "name": "Field equations compatible with general relativity",
+    "notes": "ROADMAP item 2.\n",
+    "proof_status": "open",
+    "risk_if_false": "Without this the programme cannot connect the actualized initial configuration to any present-epoch observation quantitatively.\n",
+    "role": "open",
+    "statement": "What formulation of gravitational dynamics holds across the actualization boundary, and in what sense general relativity is retained, suspended, or recovered as a limit.\n",
+    "tier": 2
+  },
+  "OPN-004": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-002",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "OPN-002",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-004",
+    "name": "Quantitative model of cosmological redshift",
+    "notes": "ROADMAP item 4. Must also address the (1+z) light-curve time dilation of OPN-010.\n",
+    "proof_status": "open",
+    "risk_if_false": "Redshift is the primary observable through which cosmic history is read. ACC-002 and ACC-003 have no mechanism until this exists.\n",
+    "role": "open",
+    "statement": "A quantitative account of the distance-redshift relation under created geometry plus subsequent evolution, reproducing the observed relation across the measured range.\n",
+    "tier": 2
+  },
+  "OPN-005": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-004",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "OPN-001",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-005",
+    "name": "CMB implications and the acoustic peak structure",
+    "notes": "ROADMAP item 5 area. The peaks encode a PROCESS rather than a configuration, which couples this problem tightly to OPN-010 and to CRE-007.\n",
+    "proof_status": "open",
+    "risk_if_false": "The peaks are the rival's strongest quantitative ground. Silence here is the single largest gap between CAC and a competitive cosmological model.\n",
+    "role": "open",
+    "statement": "Whether the blackbody spectrum, isotropy, and acoustic peak structure of the CMB admit an account under actualized initial conditions plus subsequent ordinary law.\n",
+    "tier": 2
+  },
+  "OPN-006": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-003",
+        "dependency_type": "formal"
+      },
+      {
+        "claim_id": "CRE-006",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-006",
+    "name": "Large-scale structure formation",
+    "notes": "This is the degeneration watch-point named in the appraisal log.\n",
+    "proof_status": "open",
+    "risk_if_false": "If structure must be specified rather than grown, the maturity principle absorbs an increasing share of the explanatory work and the programme's content declines toward 'it was made that way', which forbids nothing.\n",
+    "role": "open",
+    "statement": "Whether observed large-scale structure - the filamentary web, the correlation function, cluster abundance evolution - follows from an actualized initial configuration under ordinary gravitational law.\n",
+    "tier": 2
+  },
+  "OPN-007": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-004",
+        "dependency_type": "empirical"
+      },
+      {
+        "claim_id": "OPN-009",
+        "dependency_type": "empirical"
+      },
+      {
+        "claim_id": "OPN-010",
+        "dependency_type": "empirical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-007",
+    "name": "Observational discriminators distinguishing CAC from LCDM",
+    "notes": "ROADMAP item 6, THE CRITICAL PATH. Everything else can succeed and leave the programme exactly where it is.\n",
+    "proof_status": "open",
+    "risk_if_false": "This is the whole question. Until one exists the programme is unappraisable in Lakatos's sense and the appraisal verdict cannot move off UNAPPRAISED, however much belt machinery accumulates.\n",
+    "role": "open",
+    "statement": "At least one observation that CAC forbids and LCDM permits, or that CAC permits and LCDM forbids, stated with its evaluation protocol in advance.\n",
+    "tier": 2
+  },
+  "OPN-008": {
+    "depends_on": [
+      {
+        "claim_id": "EXT-001",
+        "dependency_type": "interpretive"
+      },
+      {
+        "claim_id": "CRE-002",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-008",
+    "name": "Consistency with TRT's belt-level cosmology (ADCE)",
+    "notes": "Found at stand-up by reading ADCE directly rather than the section 7 summary. Three dispositions are priced in 1-hypothesis/relation-to-trt.md; none chosen. VSOK objective O2.\n",
+    "proof_status": "open",
+    "risk_if_false": "Position paper section 7 claims CAC 'naturally derives from' TRT. If the two cosmologies are incompatible, that claim must be weakened to 'adopts TRT's ontology', which costs the programme its strongest grounding argument.\n",
+    "role": "open",
+    "statement": "TRT's Actualization-Driven Cosmological Expansion note develops a CONTINUOUS accumulation of realized causal history over cosmic time, on a causal-set number-volume substrate with targets anchored to DESI. CAC asserts a DISCRETE actualization. Whether both are admissible belt developments of the same ontology, whether one supersedes the other, or whether the programmes are independent, is undecided.\n",
+    "tier": 2
+  },
+  "OPN-009": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-004",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "HER-001",
+        "dependency_type": "exegetical"
+      },
+      {
+        "claim_id": "PHY-001",
+        "dependency_type": "formal"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-009",
+    "name": "Light travel time from cosmological distances",
+    "notes": "NOT named in the position paper; added at stand-up. VSOK objective O1, KR1.1. Existing young-cosmos treatments (relativistic time-dilation cosmologies, alternative synchrony conventions, in-transit creation) should be surveyed and priced rather than reinvented.\n",
+    "proof_status": "open",
+    "risk_if_false": "This is the first objection any competent reader raises. A programme that cannot state its position is not yet in the conversation.\n",
+    "role": "open",
+    "statement": "Under CRE-004, what accounts for light presently arriving from sources at cosmological distance. Axiom 4's Earth-frame reading and section 4's rapid actualization gesture at an answer; neither supplies one.\n",
+    "tier": 2
+  },
+  "OPN-010": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-007",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "OPN-009",
+        "dependency_type": "empirical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-010",
+    "name": "Processes observed in transit",
+    "notes": "NOT named in the position paper; added at stand-up. Flagged in the ROADMAP as the most promising place to look for OPN-007, on the reasoning that maximum exposure and maximum discriminating power are the same property.\n",
+    "proof_status": "open",
+    "risk_if_false": "This is the sharpest form of the omphalos objection and bears directly on CRE-007's claim that operational completeness does not entail deception. If unanswerable, CRE-007 fails and the theological warrant is undercut by the programme's own doctrine of God.\n",
+    "role": "open",
+    "statement": "Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light.\n",
+    "tier": 2
+  },
+  "PHY-001": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-004",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-006",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "id": "PHY-001",
+    "name": "Rapid actualization of cosmic spacetime into functionally mature extent",
+    "notes": "Mechanism is OPN-001 and OPN-002. Stated here as a hypothesis, not a result.",
+    "proof_status": "prose_only",
+    "risk_if_false": "This is the load-bearing physical hypothesis of the whole programme. If no mechanism can be given that is consistent with CRE-005 (stable law thereafter), the programme has a boundary condition and no physics.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "4"
+      }
+    ],
+    "statement": "The Day Four event involved a rapid actualization of cosmic spacetime into functionally mature extent. Whether this occurred through rapid metric expansion, another mechanism, or a process presently unknown is not fixed by the claim.\n",
+    "tier": 2
+  },
+  "PHY-002": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "id": "PHY-002",
+    "name": "Observed redshift reflects created geometry plus subsequent evolution",
+    "notes": "Quantitative form is OPN-004. Any such model must reproduce the observed distance-redshift relation across the full measured range, not merely permit a nonstandard interpretation of it.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Redshift is the primary observable through which cosmic history is reconstructed. If the created-geometry component cannot be given a quantitative form, ACC-002 and ACC-003 have no mechanism behind them.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "5 (Cosmological Redshift)"
+      }
+    ],
+    "statement": "Much of the observable metric structure may have been established during Day Four actualization, so present redshift reflects the created geometry of spacetime together with subsequent cosmic evolution rather than expansion history alone.\n",
+    "tier": 2
+  },
+  "PHY-003": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-005",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "PHY-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "PHY-003",
+    "name": "Gravitational dynamics following discrete actualization",
+    "notes": "Realized by OPN-003.",
+    "proof_status": "open",
+    "risk_if_false": "If no GR-compatible formulation exists across the actualization boundary, CRE-005 does not connect the created state to present observation and the programme cannot compute anything.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "Future Research Agenda (2)"
+      }
+    ],
+    "statement": "Gravitational structure evolves under ordinary law from the actualized initial configuration, with field equations compatible with general relativity where applicable.\n",
+    "tier": 2
+  },
+  "PHY-004": {
+    "depends_on": [
+      {
+        "claim_id": "PHY-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-005",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "PHY-004",
+    "name": "Cosmic microwave background under discrete actualization",
+    "notes": "Realized by OPN-005. This is where \"created geometry\" is most expensive: the peaks encode a process, not a configuration, which links it tightly to OPN-010.\n",
+    "proof_status": "open",
+    "risk_if_false": "The acoustic peak structure is a quantitative fit to a specific pre-recombination plasma history with several independent parameters. An account that cannot recover it is not competitive with the rival on the rival's strongest ground.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "9"
+      }
+    ],
+    "statement": "The CMB - its blackbody spectrum, its dipole-subtracted isotropy, and its acoustic peak structure - admits an account under actualized initial conditions plus subsequent law.\n",
+    "tier": 2
+  }
+}

@@ -1,0 +1,18 @@
+# CAC traceability index
+# The claim files in claims/ are the source of truth; generated/ is built from them.
+version: "1.0.0"
+schema: schemas/claim.schema.yaml
+generator: scripts/build.py
+prefixes:
+  CRE: creation / hard-core commitments
+  HER: hermeneutics, exegetical hypotheses
+  PHY: physical mechanism (belt)
+  ACC: accommodations of known facts (non-progressive by construction)
+  PRD: empirical predictions (severe tests)
+  OPN: open problems
+  EXT: imported external results
+tiers:
+  0: strategy
+  1: hypothesis (hard core)
+  2: theory (protective belt)
+  3: prediction (severe test)

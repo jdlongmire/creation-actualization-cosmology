@@ -1,0 +1,23 @@
+id: HER-003
+name: Creation Week is a sequential historical interval
+statement: >
+  The days of Genesis 1 denote a sequential historical interval within which the discrete
+  actualization occurred, rather than a literary arrangement of topically grouped material.
+tier: 2
+role: derived
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: CRE-001
+    dependency_type: exegetical
+source_documents:
+  - doc: CAC-v0.1
+    section: "1; 2"
+risk_if_false: >
+  Without a sequential interval, "discrete actualization during Creation Week" loses its
+  temporal definiteness and CRE-002 becomes hard to distinguish from an atemporal
+  dependence claim.
+notes: >
+  Held in the belt deliberately. CRE-001 (Genesis is history) does not by itself settle
+  WHICH historical reading is correct; treating this claim as though it inherited the
+  core's immunity is the belt-promotion failure METHODOLOGY.md names.

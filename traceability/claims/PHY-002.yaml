@@ -1,0 +1,23 @@
+id: PHY-002
+name: Observed redshift reflects created geometry plus subsequent evolution
+statement: >
+  Much of the observable metric structure may have been established during Day Four
+  actualization, so present redshift reflects the created geometry of spacetime together
+  with subsequent cosmic evolution rather than expansion history alone.
+tier: 2
+role: derived
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: PHY-001
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "5 (Cosmological Redshift)"
+risk_if_false: >
+  Redshift is the primary observable through which cosmic history is reconstructed. If the
+  created-geometry component cannot be given a quantitative form, ACC-002 and ACC-003 have
+  no mechanism behind them.
+notes: >
+  Quantitative form is OPN-004. Any such model must reproduce the observed distance-redshift
+  relation across the full measured range, not merely permit a nonstandard interpretation of it.

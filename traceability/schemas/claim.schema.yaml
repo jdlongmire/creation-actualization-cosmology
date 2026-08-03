@@ -1,0 +1,116 @@
+# CAC Claim Schema
+# Version: 1.0.0
+# Purpose: structure for every claim file. Adapted from the TRT traceability schema
+# (itself adapted from LRT), with two CAC-specific changes:
+#   - the `accommodation` role, with a required `forbids` field, so post-hoc
+#     reinterpretation of known facts is tracked as a first-class NON-progressive
+#     category rather than blurring into `prediction` (METHODOLOGY.md, Divergence 2)
+#   - an `exegetical` dependency_type, since belt claims here depend on readings of
+#     a text as well as on physical results
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://creation-actualization-cosmology/claim.schema.yaml"
+
+type: object
+required: [id, name, statement, tier, role, proof_status, epistemic_status]
+
+properties:
+  id:
+    type: string
+    pattern: "^(CRE|HER|PHY|ACC|PRD|OPN|EXT)-[0-9]{3}$"
+    description: |
+      Unique identifier with semantic prefix:
+        CRE - creation / hard-core commitments   HER - hermeneutics, exegetical hypotheses
+        PHY - physical mechanism (belt)          ACC - accommodations of known facts
+        PRD - empirical predictions              OPN - open problems
+        EXT - imported external results
+
+  name: { type: string, maxLength: 100 }
+  statement: { type: string, description: "Precise statement of the claim" }
+
+  tier:
+    type: integer
+    enum: [0, 1, 2, 3]
+    description: "Falsifiability tier: 0 strategy, 1 hard core, 2 belt, 3 prediction"
+
+  role:
+    type: string
+    enum: [primitive, bridge, derived, imported, accommodation, prediction, open]
+    description: |
+      Grounding role (Lakatos):
+        primitive/bridge = hard core; derived/imported = belt;
+        accommodation = post-hoc handling of an ALREADY-KNOWN fact (non-progressive);
+        prediction = severe test; open = frontier
+
+  proof_status:
+    type: string
+    enum: [verified, axiomatized, imported, prose_only, open]
+    description: "Formalization status (verified = reproduced computation or proven result)"
+
+  epistemic_status:
+    type: string
+    enum: [established, argued, conjectured, open]
+    description: "Confidence (maps to HIGH/MEDIUM/LOW/UNCERTAIN in prose)"
+
+  depends_on:
+    type: array
+    items:
+      type: object
+      required: [claim_id]
+      properties:
+        claim_id: { type: string, pattern: "^(CRE|HER|PHY|ACC|PRD|OPN|EXT)-[0-9]{3}$" }
+        dependency_type:
+          type: string
+          enum: [logical, formal, exegetical, interpretive, empirical]
+    description: "Immediate dependencies only. The graph MUST be acyclic (circularity discipline)."
+
+  formal_artifacts:
+    type: object
+    properties:
+      computation:
+        type: array
+        items:
+          type: object
+          required: [notebook]
+          properties:
+            notebook: { type: string, description: "Path to the computational artifact" }
+            result: { type: string }
+            status: { type: string, enum: [reproduces, contradicts, pending] }
+    description: "Links to computational implementation"
+
+  source_documents:
+    type: array
+    items:
+      type: object
+      properties:
+        doc: { type: string, description: "e.g. CAC-v0.1" }
+        section: { type: string }
+    description: "Where this claim appears in prose"
+
+  external_citations: { type: array, items: { type: string } }
+
+  risk_if_false:
+    type: string
+    description: "What breaks downstream if this claim fails (the failure condition)"
+
+  falsifies:
+    type: string
+    description: "REQUIRED for role=prediction — what evidence would refute this (Popperian)"
+
+  forbids:
+    type: string
+    description: |
+      REQUIRED for role=accommodation. What observation, if made, would be
+      INCONSISTENT with this claim. The literal string "none" is a legitimate and
+      expected answer, and is what makes the claim non-progressive: it is recorded,
+      not hidden. A claim that forbids something is a candidate for promotion to
+      role=prediction with a `falsifies` condition.
+
+  rival_account:
+    type: string
+    description: |
+      For role=accommodation — how standard cosmology handles the same observation,
+      at its strongest (research-practices.md #6). An accommodation stated without
+      its rival is not yet assessable.
+
+  notes: { type: string }

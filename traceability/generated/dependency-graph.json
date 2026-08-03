@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    "ACC-001",
+    "ACC-002",
+    "ACC-003",
+    "ACC-004",
+    "ACC-005",
+    "CRE-001",
+    "CRE-002",
+    "CRE-003",
+    "CRE-004",
+    "CRE-005",
+    "CRE-006",
+    "CRE-007",
+    "EXT-001",
+    "EXT-002",
+    "HER-001",
+    "HER-002",
+    "HER-003",
+    "OPN-001",
+    "OPN-002",
+    "OPN-003",
+    "OPN-004",
+    "OPN-005",
+    "OPN-006",
+    "OPN-007",
+    "OPN-008",
+    "OPN-009",
+    "OPN-010",
+    "PHY-001",
+    "PHY-002",
+    "PHY-003",
+    "PHY-004"
+  ],
+  "edges": [
+    {
+      "from": "ACC-001",
+      "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "ACC-001",
+      "to": "EXT-001",
+      "type": "interpretive"
+    },
+    {
+      "from": "ACC-002",
+      "to": "PHY-002",
+      "type": "logical"
+    },
+    {
+      "from": "ACC-003",
+      "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "ACC-003",
+      "to": "PHY-002",
+      "type": "logical"
+    },
+    {
+      "from": "ACC-004",
+      "to": "CRE-006",
+      "type": "logical"
+    },
+    {
+      "from": "ACC-005",
+      "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "ACC-005",
+      "to": "PHY-003",
+      "type": "logical"
+    },
+    {
+      "from": "CRE-002",
+      "to": "CRE-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "CRE-003",
+      "to": "CRE-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "CRE-004",
+      "to": "CRE-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "CRE-004",
+      "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "CRE-006",
+      "to": "CRE-003",
+      "type": "logical"
+    },
+    {
+      "from": "CRE-006",
+      "to": "CRE-004",
+      "type": "logical"
+    },
+    {
+      "from": "CRE-007",
+      "to": "CRE-003",
+      "type": "logical"
+    },
+    {
+      "from": "CRE-007",
+      "to": "CRE-006",
+      "type": "logical"
+    },
+    {
+      "from": "HER-001",
+      "to": "CRE-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "HER-001",
+      "to": "CRE-004",
+      "type": "exegetical"
+    },
+    {
+      "from": "HER-002",
+      "to": "CRE-004",
+      "type": "exegetical"
+    },
+    {
+      "from": "HER-002",
+      "to": "HER-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "HER-003",
+      "to": "CRE-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "OPN-001",
+      "to": "PHY-001",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-001",
+      "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-002",
+      "to": "PHY-001",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-002",
+      "to": "OPN-001",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-003",
+      "to": "PHY-003",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-003",
+      "to": "OPN-001",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-004",
+      "to": "PHY-002",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-004",
+      "to": "OPN-002",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-005",
+      "to": "PHY-004",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-005",
+      "to": "OPN-001",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-006",
+      "to": "PHY-003",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-006",
+      "to": "CRE-006",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-007",
+      "to": "OPN-004",
+      "type": "empirical"
+    },
+    {
+      "from": "OPN-007",
+      "to": "OPN-009",
+      "type": "empirical"
+    },
+    {
+      "from": "OPN-007",
+      "to": "OPN-010",
+      "type": "empirical"
+    },
+    {
+      "from": "OPN-008",
+      "to": "EXT-001",
+      "type": "interpretive"
+    },
+    {
+      "from": "OPN-008",
+      "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-009",
+      "to": "CRE-004",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-009",
+      "to": "HER-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "OPN-009",
+      "to": "PHY-001",
+      "type": "formal"
+    },
+    {
+      "from": "OPN-010",
+      "to": "CRE-007",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-010",
+      "to": "OPN-009",
+      "type": "empirical"
+    },
+    {
+      "from": "PHY-001",
+      "to": "CRE-004",
+      "type": "logical"
+    },
+    {
+      "from": "PHY-001",
+      "to": "CRE-006",
+      "type": "logical"
+    },
+    {
+      "from": "PHY-002",
+      "to": "PHY-001",
+      "type": "logical"
+    },
+    {
+      "from": "PHY-003",
+      "to": "CRE-005",
+      "type": "logical"
+    },
+    {
+      "from": "PHY-003",
+      "to": "PHY-001",
+      "type": "logical"
+    },
+    {
+      "from": "PHY-004",
+      "to": "PHY-001",
+      "type": "logical"
+    },
+    {
+      "from": "PHY-004",
+      "to": "CRE-005",
+      "type": "logical"
+    }
+  ]
+}

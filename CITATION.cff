@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "Creation Actualization Cosmology: A Position Paper for an Alternative Cosmological Research Programme"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Longmire
+    given-names: James D.
+    orcid: "https://orcid.org/0009-0009-1383-7698"
+    email: jdlongmire@outlook.com
+version: "0.1"
+date-released: "2026-08"
+url: "https://github.com/jdlongmire/creation-actualization-cosmology"
+abstract: >
+  Creation Actualization Cosmology proposes an alternative cosmological research
+  programme founded on a different historical boundary condition: that the universe
+  was discretely actualized into functional maturity during Creation Week and has
+  operated under stable physical law since. It is offered as a Lakatosian research
+  programme, not a quantitative cosmological model, and its own appraisal records it
+  as unappraised with zero novel predictive content.
+# Top-level `type` is constrained by CFF 1.2 to software/dataset; the repository
+# carries Python traceability tooling, so `software` is retained. The scholarly
+# object to cite is the position paper, given as preferred-citation below.
+preferred-citation:
+  type: article
+  title: "Creation Actualization Cosmology: A Position Paper for an Alternative Cosmological Research Programme"
+  authors:
+    - family-names: Longmire
+      given-names: James D.
+      orcid: "https://orcid.org/0009-0009-1383-7698"
+  year: 2026
+  notes: "Position paper / preprint, v0.1. See 1-hypothesis/paper/CAC-v0.1.md."

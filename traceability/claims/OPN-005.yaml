@@ -1,0 +1,17 @@
+id: OPN-005
+name: CMB implications and the acoustic peak structure
+statement: >
+  Whether the blackbody spectrum, isotropy, and acoustic peak structure of the CMB admit an account under actualized initial conditions plus subsequent ordinary law.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: PHY-004
+    dependency_type: formal
+  - claim_id: OPN-001
+    dependency_type: formal
+risk_if_false: >
+  The peaks are the rival's strongest quantitative ground. Silence here is the single largest gap between CAC and a competitive cosmological model.
+notes: >
+  ROADMAP item 5 area. The peaks encode a PROCESS rather than a configuration, which couples this problem tightly to OPN-010 and to CRE-007.

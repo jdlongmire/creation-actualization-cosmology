@@ -1,0 +1,17 @@
+id: OPN-008
+name: Consistency with TRT's belt-level cosmology (ADCE)
+statement: >
+  TRT's Actualization-Driven Cosmological Expansion note develops a CONTINUOUS accumulation of realized causal history over cosmic time, on a causal-set number-volume substrate with targets anchored to DESI. CAC asserts a DISCRETE actualization. Whether both are admissible belt developments of the same ontology, whether one supersedes the other, or whether the programmes are independent, is undecided.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: EXT-001
+    dependency_type: interpretive
+  - claim_id: CRE-002
+    dependency_type: logical
+risk_if_false: >
+  Position paper section 7 claims CAC 'naturally derives from' TRT. If the two cosmologies are incompatible, that claim must be weakened to 'adopts TRT's ontology', which costs the programme its strongest grounding argument.
+notes: >
+  Found at stand-up by reading ADCE directly rather than the section 7 summary. Three dispositions are priced in 1-hypothesis/relation-to-trt.md; none chosen. VSOK objective O2.

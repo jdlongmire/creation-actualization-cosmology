@@ -1,0 +1,19 @@
+id: CRE-001
+name: Genesis records genuine historical events
+statement: >
+  The biblical creation narrative is a historically reliable account of what occurred,
+  not myth, allegory, or a purely literary framework. Present observations therefore
+  need not encode an uninterrupted natural history.
+tier: 1
+role: primitive
+proof_status: axiomatized
+epistemic_status: argued
+source_documents:
+  - doc: CAC-v0.1
+    section: "2 (Axiom 1)"
+risk_if_false: >
+  The programme has no boundary condition to substitute for the standard model's
+  continuous 13.8 Gyr history, and every downstream claim loses its ground. Total loss.
+notes: >
+  Immune by methodological DECISION, not by necessity (hard-core.md). The warrant is
+  exegetical and theological and is argued on those grounds, not asserted as scientific.

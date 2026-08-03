@@ -1,0 +1,29 @@
+id: ACC-001
+name: Low initial entropy is expected rather than anomalous
+statement: >
+  Intentional creation specifies order before entropy increases under ordinary physical law,
+  so the universe's exceptionally low-entropy initial state is a design parameter rather
+  than a statistical improbability requiring explanation.
+tier: 2
+role: accommodation
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-002
+    dependency_type: logical
+  - claim_id: EXT-001
+    dependency_type: interpretive
+source_documents:
+  - doc: CAC-v0.1
+    section: "5 (Low Initial Entropy); 7"
+forbids: "none"
+rival_account: >
+  Standard cosmology treats the low-entropy boundary condition as a genuine open problem
+  (Penrose's Weyl curvature hypothesis; Carroll-Chen; inflationary measure arguments). It is
+  an acknowledged explanatory debt, not a solved point - which is why accommodating it is
+  cheap and does not by itself distinguish the programmes.
+risk_if_false: "Nothing downstream. Accommodations carry no load in the ladder."
+notes: >
+  NON-PROGRESSIVE by construction: the low-entropy past was known before the claim. It
+  demonstrates coherence, not evidence. Promotion requires finding a QUANTITATIVE consequence
+  of "specified order" that continuous-history cosmology does not permit.

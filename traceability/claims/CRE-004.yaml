@@ -1,0 +1,25 @@
+id: CRE-004
+name: Day Four actualizes the observable heavens into their operational state
+statement: >
+  Day Four represents the actualization of the observable heavens into their operational
+  state as reckoned from Earth's historical frame. Genesis establishes their covenantal
+  functions rather than supplying an astrophysical chronology.
+tier: 1
+role: primitive
+proof_status: axiomatized
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-001
+    dependency_type: exegetical
+  - claim_id: CRE-002
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "2 (Axiom 4); 4"
+risk_if_false: >
+  The cosmological content of the programme is carried almost entirely by this axiom.
+  If Day Four is not the actualization of the observable heavens, CAC has a doctrine of
+  terrestrial creation and no cosmology.
+notes: >
+  The axiom fixes THAT the heavens were actualized; it does not fix the mechanism (open,
+  OPN-001/OPN-002) nor the specific exegesis of the day (belt, HER-002).

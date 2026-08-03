@@ -1,0 +1,44 @@
+{
+  "_comment": "Zenodo deposit metadata for the CAC position paper. NOT deposit-ready at v0.1. Gate: OPN-008 dispositioned (the section 7 TRT inheritance claim is currently stronger than the repository can support), the section 5 'predicts' wording corrected per the appraisal log, references verified, working-draft status note stripped, version bumped to 1.0.",
+  "metadata": {
+    "title": "Creation Actualization Cosmology: A Position Paper for an Alternative Cosmological Research Programme",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "Creation Actualization Cosmology proposes an alternative cosmological research programme founded on a different historical boundary condition: that God discretely actualized a functionally mature cosmos during Creation Week, with ordinary physical law governing thereafter. Rather than modifying the standard model through additional parameters or entities, the programme replaces its historical boundary conditions and asks whether several standing cosmological tensions follow from that replacement. It is presented as a Lakatosian research programme under Popperian demarcation, with an explicitly stated hard core, a protective belt of adjustable exegetical and physical hypotheses, and a standing self-appraisal that separates post-hoc accommodation from novel prediction.",
+    "creators": [
+      {
+        "name": "Longmire, James D.",
+        "orcid": "0009-0009-1383-7698"
+      }
+    ],
+    "keywords": [
+      "cosmology",
+      "philosophy of cosmology",
+      "research programme",
+      "Lakatos",
+      "boundary conditions",
+      "creation",
+      "functional maturity",
+      "Hubble tension",
+      "cosmological redshift",
+      "initial entropy"
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "version": "0.1",
+    "language": "eng",
+    "notes": "Prepared as an AI-enabled research programme; the repository carries full claim traceability, a stated Popper/Lakatos methodology, and a generated progressiveness ledger. Working-draft version 0.1 is NOT for deposit.",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/jdlongmire/creation-actualization-cosmology",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      },
+      {
+        "identifier": "https://github.com/jdlongmire/triadic-reality-theory",
+        "relation": "references",
+        "scheme": "url"
+      }
+    ]
+  }
+}

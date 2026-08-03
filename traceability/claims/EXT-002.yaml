@@ -1,0 +1,21 @@
+id: EXT-002
+name: The observational corpus is accepted as data
+statement: >
+  The observational corpus of modern cosmology - CMB anisotropy measurements, the
+  distance-redshift relation, BAO, lensing, abundance and structure surveys - is accepted
+  as data. CAC disputes the historical reconstruction placed on it, not the measurements.
+tier: 2
+role: imported
+proof_status: imported
+epistemic_status: established
+source_documents:
+  - doc: CAC-v0.1
+    section: "Abstract; 5; 6"
+risk_if_false: >
+  If the programme were to dispute the measurements rather than their historical
+  interpretation it would be a different and far weaker programme, and would forfeit the
+  position paper's own framing ("The observations remain the same").
+notes: >
+  This claim is a standing constraint on the belt: no belt hypothesis may proceed by
+  denying a measurement. Specific references are verified per
+  references/verification-status.md before any claim is built on them.

@@ -1,0 +1,24 @@
+id: PHY-004
+name: Cosmic microwave background under discrete actualization
+statement: >
+  The CMB - its blackbody spectrum, its dipole-subtracted isotropy, and its acoustic peak
+  structure - admits an account under actualized initial conditions plus subsequent law.
+tier: 2
+role: derived
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: PHY-001
+    dependency_type: logical
+  - claim_id: CRE-005
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "9"
+risk_if_false: >
+  The acoustic peak structure is a quantitative fit to a specific pre-recombination plasma
+  history with several independent parameters. An account that cannot recover it is not
+  competitive with the rival on the rival's strongest ground.
+notes: >
+  Realized by OPN-005. This is where "created geometry" is most expensive: the peaks encode
+  a process, not a configuration, which links it tightly to OPN-010.

@@ -1,0 +1,17 @@
+id: OPN-006
+name: Large-scale structure formation
+statement: >
+  Whether observed large-scale structure - the filamentary web, the correlation function, cluster abundance evolution - follows from an actualized initial configuration under ordinary gravitational law.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: PHY-003
+    dependency_type: formal
+  - claim_id: CRE-006
+    dependency_type: logical
+risk_if_false: >
+  If structure must be specified rather than grown, the maturity principle absorbs an increasing share of the explanatory work and the programme's content declines toward 'it was made that way', which forbids nothing.
+notes: >
+  This is the degeneration watch-point named in the appraisal log.

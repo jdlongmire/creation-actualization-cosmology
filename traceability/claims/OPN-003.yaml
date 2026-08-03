@@ -1,0 +1,17 @@
+id: OPN-003
+name: Field equations compatible with general relativity
+statement: >
+  What formulation of gravitational dynamics holds across the actualization boundary, and in what sense general relativity is retained, suspended, or recovered as a limit.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: PHY-003
+    dependency_type: formal
+  - claim_id: OPN-001
+    dependency_type: formal
+risk_if_false: >
+  Without this the programme cannot connect the actualized initial configuration to any present-epoch observation quantitatively.
+notes: >
+  ROADMAP item 2.

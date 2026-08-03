@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  traceability:
+    name: Traceability (schema + acyclic graph + fresh reports)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Validate claims + check dependency graph is acyclic
+        run: python3 traceability/scripts/build.py
+      - name: Generated reports must be fresh (no stale commits)
+        run: |
+          if ! git diff --quiet traceability/generated; then
+            echo "::error::traceability/generated is stale - run build.py and commit the result"
+            git diff --stat traceability/generated
+            exit 1
+          fi
+
+  honest-status:
+    name: Honest status (appraisal matches the progressiveness ledger)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Rebuild the ledger
+        run: python3 traceability/scripts/build.py
+      - name: Appraisal must match the ledger
+        run: python3 0-program-methods/ops/honest_status_check.py
+
+  accommodation-hygiene:
+    name: Every accommodation prices its rival
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Require forbids + rival_account on every accommodation
+        run: python3 0-program-methods/ops/accommodation_hygiene_check.py
+
+  math-lint:
+    name: GitHub-safe LaTeX
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject \operatorname in committed math
+        run: |
+          HITS=$(grep -rn '\\operatorname' --include='*.md' . | grep -v '`' || true)
+          if [ -n "$HITS" ]; then
+            echo "::error::\\operatorname found in math - use \\mathrm (0-program-methods/research-practices.md)"
+            echo "$HITS"
+            exit 1
+          fi
+          echo "OK - no \\operatorname in committed math"

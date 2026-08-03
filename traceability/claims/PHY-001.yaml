@@ -1,0 +1,23 @@
+id: PHY-001
+name: Rapid actualization of cosmic spacetime into functionally mature extent
+statement: >
+  The Day Four event involved a rapid actualization of cosmic spacetime into functionally
+  mature extent. Whether this occurred through rapid metric expansion, another mechanism,
+  or a process presently unknown is not fixed by the claim.
+tier: 2
+role: derived
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: CRE-004
+    dependency_type: logical
+  - claim_id: CRE-006
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "4"
+risk_if_false: >
+  This is the load-bearing physical hypothesis of the whole programme. If no mechanism can
+  be given that is consistent with CRE-005 (stable law thereafter), the programme has a
+  boundary condition and no physics.
+notes: "Mechanism is OPN-001 and OPN-002. Stated here as a hypothesis, not a result."

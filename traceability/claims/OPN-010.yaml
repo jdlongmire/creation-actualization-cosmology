@@ -1,0 +1,17 @@
+id: OPN-010
+name: Processes observed in transit
+statement: >
+  Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: CRE-007
+    dependency_type: logical
+  - claim_id: OPN-009
+    dependency_type: empirical
+risk_if_false: >
+  This is the sharpest form of the omphalos objection and bears directly on CRE-007's claim that operational completeness does not entail deception. If unanswerable, CRE-007 fails and the theological warrant is undercut by the programme's own doctrine of God.
+notes: >
+  NOT named in the position paper; added at stand-up. Flagged in the ROADMAP as the most promising place to look for OPN-007, on the reasoning that maximum exposure and maximum discriminating power are the same property.

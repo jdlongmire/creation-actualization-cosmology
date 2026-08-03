@@ -1,0 +1,17 @@
+id: OPN-004
+name: Quantitative model of cosmological redshift
+statement: >
+  A quantitative account of the distance-redshift relation under created geometry plus subsequent evolution, reproducing the observed relation across the measured range.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: PHY-002
+    dependency_type: formal
+  - claim_id: OPN-002
+    dependency_type: formal
+risk_if_false: >
+  Redshift is the primary observable through which cosmic history is read. ACC-002 and ACC-003 have no mechanism until this exists.
+notes: >
+  ROADMAP item 4. Must also address the (1+z) light-curve time dilation of OPN-010.

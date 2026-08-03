@@ -1,0 +1,19 @@
+id: OPN-009
+name: Light travel time from cosmological distances
+statement: >
+  Under CRE-004, what accounts for light presently arriving from sources at cosmological distance. Axiom 4's Earth-frame reading and section 4's rapid actualization gesture at an answer; neither supplies one.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: CRE-004
+    dependency_type: logical
+  - claim_id: HER-001
+    dependency_type: exegetical
+  - claim_id: PHY-001
+    dependency_type: formal
+risk_if_false: >
+  This is the first objection any competent reader raises. A programme that cannot state its position is not yet in the conversation.
+notes: >
+  NOT named in the position paper; added at stand-up. VSOK objective O1, KR1.1. Existing young-cosmos treatments (relativistic time-dilation cosmologies, alternative synchrony conventions, in-transit creation) should be surveyed and priced rather than reinvented.

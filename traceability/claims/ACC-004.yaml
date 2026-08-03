@@ -1,0 +1,28 @@
+id: ACC-004
+name: High-redshift structural maturity is expected
+statement: >
+  Apparent maturity at great cosmological distance need not correspond to billions of years
+  of uninterrupted developmental history. Structural maturity is an expected consequence of
+  creation in functional maturity.
+tier: 2
+role: accommodation
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: CRE-006
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "5 (JWST Early Structure)"
+forbids: "none"
+rival_account: >
+  Early JWST claims of over-massive high-z galaxies have been substantially moderated by
+  improved photometric calibration, spectroscopic follow-up, AGN contamination corrections,
+  and revised IMF/dust assumptions. Within LCDM the surviving tension is modest. The paper
+  itself concedes this moderation, which is correct and should be kept.
+risk_if_false: "Nothing downstream."
+notes: >
+  NON-PROGRESSIVE. Also the most volatile: it rests on a live literature that has moved
+  AGAINST the strong form of the anomaly since 2022-2023 (research-practices.md #5). Building
+  weight on it is a standing risk. Promotion requires a stated maturity DISTRIBUTION versus
+  redshift that differs from the LCDM expectation and is testable against a defined sample.

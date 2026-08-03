@@ -1,0 +1,17 @@
+id: OPN-002
+name: Model of rapid metric actualization during Day Four
+statement: >
+  Whether the Day Four event is representable as rapid metric expansion, as an alternative mechanism, or as a process presently unknown, is left open by the position paper (section 4).
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: PHY-001
+    dependency_type: formal
+  - claim_id: OPN-001
+    dependency_type: formal
+risk_if_false: >
+  PHY-001 is the load-bearing physical hypothesis of the programme; without a model it remains an assertion that something happened.
+notes: >
+  ROADMAP item 3. Any candidate must be consistent with CRE-005 holding immediately afterward.

@@ -1,0 +1,23 @@
+id: EXT-001
+name: TRT ontology - reality as constrained information in action
+statement: >
+  Imported from Triadic Reality Theory: actual reality is constrained information in action,
+  chi = A(I | L), where logic constrains information and actualization produces physical
+  reality. Creation is accordingly the intentional actualization of coherent informational
+  structure rather than the emergence of order from disorder.
+tier: 2
+role: imported
+proof_status: imported
+epistemic_status: conjectured
+source_documents:
+  - doc: CAC-v0.1
+    section: "7"
+external_citations:
+  - "Longmire, J.D. (2026). Triadic Reality Theory, v0.9. github.com/jdlongmire/triadic-reality-theory"
+risk_if_false: >
+  CAC loses its ontological setting for "actualization" as a primitive act. The programme
+  could be restated without TRT, but "discrete divine actualization" would then be a
+  theological description with no formal home.
+notes: >
+  The import is at the level of ONTOLOGY only. TRT's belt-level cosmology (ADCE) is NOT
+  imported and is not obviously compatible - see OPN-008 and 1-hypothesis/relation-to-trt.md.

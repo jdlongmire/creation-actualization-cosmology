@@ -1,0 +1,26 @@
+id: HER-002
+name: Day Four establishes covenantal function, not astrophysical chronology
+statement: >
+  The Day Four account states the appointment of the luminaries to their functions
+  (signs, seasons, days, years) rather than describing their physical formation history.
+tier: 2
+role: derived
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: CRE-004
+    dependency_type: exegetical
+  - claim_id: HER-001
+    dependency_type: exegetical
+source_documents:
+  - doc: CAC-v0.1
+    section: "2 (Axiom 4)"
+risk_if_false: >
+  A functional-appointment reading is what allows Day Four to carry cosmological
+  actualization without committing to a formation narrative. If the text will not bear it,
+  CRE-004 needs a different exegetical support.
+notes: >
+  Competing readings must be stated and priced (research-practices.md #4): framework,
+  analogical-day, and functional-ontology (Walton) readings each handle the same data.
+  Note that the functional reading is ALSO used by interpreters who reject CRE-001 -
+  borrowing its machinery while rejecting its usual conclusion needs explicit argument.

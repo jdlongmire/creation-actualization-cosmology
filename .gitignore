@@ -1,0 +1,25 @@
+# Rendered outputs (regenerate from source; release as assets if desired)
+*.pdf
+!**/releases/*.pdf
+
+# Local archive of superseded scaffolding
+_archive/
+
+# Lean / Lake build artifacts
+.lake/
+formalization/.lake/
+formalization/lrt/.lake/
+build/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Editor and OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

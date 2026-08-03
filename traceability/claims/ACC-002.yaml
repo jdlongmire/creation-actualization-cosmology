@@ -1,0 +1,27 @@
+id: ACC-002
+name: Redshift as created geometry plus evolution
+statement: >
+  Observed cosmological redshift is accommodated as the joint result of the metric structure
+  established at Day Four and subsequent ordinary evolution, rather than as evidence for a
+  continuous multi-Gyr expansion history.
+tier: 2
+role: accommodation
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: PHY-002
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "5 (Cosmological Redshift)"
+forbids: "none"
+rival_account: >
+  Standard cosmology derives redshift from FLRW metric expansion, with the distance-redshift
+  relation independently constrained by Type Ia supernovae, BAO, and the CMB, and cross-checked
+  by the observed (1+z) time dilation of supernova light curves. The rival's account is
+  quantitative and multiply constrained; CAC's is presently neither.
+risk_if_false: "Nothing downstream."
+notes: >
+  NON-PROGRESSIVE as stated. The (1+z) light-curve time dilation cross-check is the sharp
+  point here and is registered as OPN-010; a created-geometry model that reproduces it
+  quantitatively would be the programme's first real content.

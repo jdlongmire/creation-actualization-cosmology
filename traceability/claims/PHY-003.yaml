@@ -1,0 +1,21 @@
+id: PHY-003
+name: Gravitational dynamics following discrete actualization
+statement: >
+  Gravitational structure evolves under ordinary law from the actualized initial
+  configuration, with field equations compatible with general relativity where applicable.
+tier: 2
+role: derived
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: CRE-005
+    dependency_type: logical
+  - claim_id: PHY-001
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "Future Research Agenda (2)"
+risk_if_false: >
+  If no GR-compatible formulation exists across the actualization boundary, CRE-005 does not
+  connect the created state to present observation and the programme cannot compute anything.
+notes: "Realized by OPN-003."

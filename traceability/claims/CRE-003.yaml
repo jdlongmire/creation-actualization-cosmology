@@ -1,0 +1,19 @@
+id: CRE-003
+name: Functional maturity of the created order
+statement: >
+  Creation possesses functional maturity: the created order existed in operational
+  completeness rather than developmental infancy. Adam was created a mature man;
+  fruit trees bore fruit.
+tier: 1
+role: primitive
+proof_status: axiomatized
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-001
+    dependency_type: exegetical
+source_documents:
+  - doc: CAC-v0.1
+    section: "2 (Axiom 3); 3"
+risk_if_false: >
+  Without maturity the discrete act (CRE-002) leaves an inoperable universe, and the
+  bridge to cosmology (CRE-006) has nothing to extend.

@@ -1,0 +1,19 @@
+id: OPN-007
+name: Observational discriminators distinguishing CAC from LCDM
+statement: >
+  At least one observation that CAC forbids and LCDM permits, or that CAC permits and LCDM forbids, stated with its evaluation protocol in advance.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: OPN-004
+    dependency_type: empirical
+  - claim_id: OPN-009
+    dependency_type: empirical
+  - claim_id: OPN-010
+    dependency_type: empirical
+risk_if_false: >
+  This is the whole question. Until one exists the programme is unappraisable in Lakatos's sense and the appraisal verdict cannot move off UNAPPRAISED, however much belt machinery accumulates.
+notes: >
+  ROADMAP item 6, THE CRITICAL PATH. Everything else can succeed and leave the programme exactly where it is.

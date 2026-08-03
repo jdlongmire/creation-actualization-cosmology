@@ -1,0 +1,26 @@
+id: HER-001
+name: Genesis narrates creation from an Earth-local frame
+statement: >
+  Genesis consistently narrates creation from Earth's perspective and never adopts an
+  external cosmological viewpoint. Day Four is therefore described relative to Earth's
+  historical frame.
+tier: 2
+role: derived
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-001
+    dependency_type: exegetical
+  - claim_id: CRE-004
+    dependency_type: exegetical
+source_documents:
+  - doc: CAC-v0.1
+    section: "4"
+risk_if_false: >
+  Without the Earth-local frame the Day Four reading must supply a global simultaneity
+  convention, which general relativity does not supply freely. The frame claim is doing
+  more physical work than its exegetical form suggests.
+notes: >
+  Needs development: an observational frame in narrative is not the same as a preferred
+  reference frame in relativistic cosmology, and the slide between the two senses is the
+  first thing a competent critic will press.

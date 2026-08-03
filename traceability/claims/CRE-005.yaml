@@ -1,0 +1,16 @@
+id: CRE-005
+name: Stable intelligible physical law after Creation Week
+statement: >
+  Following Creation Week the universe operates under stable, intelligible physical laws.
+  Miracle characterizes creation itself; science characterizes providence thereafter.
+tier: 1
+role: primitive
+proof_status: axiomatized
+epistemic_status: argued
+source_documents:
+  - doc: CAC-v0.1
+    section: "2 (Axiom 5)"
+risk_if_false: >
+  Without it the programme cannot be tested at all: any observation could be attributed
+  to ongoing miracle, which is the unfalsifiability charge in its strongest form. This is
+  the axiom that makes CAC a candidate research programme rather than a position.

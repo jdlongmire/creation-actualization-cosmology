@@ -1,0 +1,30 @@
+id: ACC-005
+name: Some dark-sector inference may reflect creation boundary conditions
+statement: >
+  Some inferred dark-sector phenomena may represent artifacts of reconstructing a continuous
+  history from a universe possessing divinely specified initial conditions. The gravitational
+  observations themselves are not denied.
+tier: 2
+role: accommodation
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: CRE-002
+    dependency_type: logical
+  - claim_id: PHY-003
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "5 (Dark Matter and Dark Energy)"
+forbids: "none"
+rival_account: >
+  Dark matter is constrained by independent lines that are not reconstructions of history:
+  galactic rotation curves, cluster velocity dispersions, strong and weak lensing, the
+  Bullet Cluster mass-light separation, and the CMB third-peak amplitude. A history-artifact
+  account must address the non-historical lines, especially lensing and the Bullet Cluster,
+  which are present-epoch observations.
+risk_if_false: "Nothing downstream."
+notes: >
+  NON-PROGRESSIVE and the most exposed of the five. The paper correctly labels it "a
+  hypothesis requiring mathematical development." The rival_account above is the specific
+  form that development must take; until then the claim should not be cited as support.

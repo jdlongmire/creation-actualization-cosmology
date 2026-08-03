@@ -1,0 +1,18 @@
+id: CRE-002
+name: Creation is divine actualization, not the culmination of prior natural process
+statement: >
+  The created order is brought into being by a divine act rather than as the terminus
+  of a preceding natural process. There is no natural history behind Creation Week.
+tier: 1
+role: primitive
+proof_status: axiomatized
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-001
+    dependency_type: exegetical
+source_documents:
+  - doc: CAC-v0.1
+    section: "2 (Axiom 2)"
+risk_if_false: >
+  Without discreteness the programme collapses into a theistic gloss on continuous-history
+  cosmology, which is not an alternative research programme and forbids nothing LCDM permits.

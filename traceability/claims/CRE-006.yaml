@@ -1,0 +1,21 @@
+id: CRE-006
+name: Functional maturity extends to cosmology
+statement: >
+  The maturity principle is not restricted to biology. A universe created to support life
+  requires cosmological maturity - stable stellar illumination, gravitational architecture,
+  celestial navigation, seasonal cycles, dynamical stability - no less than biological maturity.
+tier: 1
+role: bridge
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-003
+    dependency_type: logical
+  - claim_id: CRE-004
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "3"
+risk_if_false: >
+  This is the bridge that makes the core cosmological rather than merely theological.
+  Without it CRE-003 is a claim about Eden and implies nothing about the observable universe.

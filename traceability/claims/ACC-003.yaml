@@ -1,0 +1,32 @@
+id: ACC-003
+name: The Hubble tension is conceptually unsurprising
+statement: >
+  If creation involved a discrete cosmological actualization, attempts to reconstruct cosmic
+  history from present observations may produce systematic discrepancies. The disagreement
+  between early- and late-universe determinations of H0 is therefore expected rather than
+  anomalous.
+tier: 2
+role: accommodation
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: CRE-002
+    dependency_type: logical
+  - claim_id: PHY-002
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "5 (Hubble Tension)"
+forbids: "none"
+rival_account: >
+  Standard cosmology treats the tension as either unresolved systematics or a signal of new
+  physics (early dark energy, varying Neff, modified recombination), with active programmes
+  on each. Note that the rival's versions PREDICT specific parameter shifts and are being
+  tested; "systematic discrepancies may appear" predicts no value and no sign.
+risk_if_false: "Nothing downstream."
+notes: >
+  NON-PROGRESSIVE, and the weakest of the five. "Expect discrepancies" is compatible with
+  ANY observed discrepancy including none, and with any magnitude or sign. The paper's use
+  of the word "predicts" here should be read as accommodation; per research-practices.md #1
+  the wording is a candidate correction for v0.2. Promotion requires deriving a magnitude
+  or a sign for the early-late offset.

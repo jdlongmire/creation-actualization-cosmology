@@ -1,0 +1,25 @@
+id: CRE-007
+name: Operational completeness does not entail deception
+statement: >
+  CAC does not assert that God fabricated a fictitious history. It asserts that the created
+  state was sufficient to accomplish its intended purposes immediately. This is functionality,
+  not false testimony, and is distinct from nineteenth-century appearance-of-age arguments.
+tier: 1
+role: bridge
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-003
+    dependency_type: logical
+  - claim_id: CRE-006
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "3"
+risk_if_false: >
+  If the distinction from appearance-of-age cannot be sustained, the programme inherits the
+  omphalos objection in full and its theological warrant is undercut by its own doctrine of God.
+notes: >
+  The distinction is asserted in the paper but not yet argued. It becomes acute under OPN-010
+  (processes observed IN TRANSIT), where the created state encodes not merely a mature end
+  configuration but an apparently completed process. Sharpening this is belt work, not core work.
