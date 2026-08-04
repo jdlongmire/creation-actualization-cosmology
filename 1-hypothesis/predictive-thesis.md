@@ -74,7 +74,7 @@ This is not a courtesy. A thesis that measures explanatory burden while exemptin
 
 The reciprocity is **mechanized, not merely stated**: [`0-program-methods/ops/reciprocity_check.py`](../0-program-methods/ops/reciprocity_check.py) reports CAC's own burden trajectory — total claim count, open-problem count, and forbidding-claim count — on every build, so that the programme's own accumulation is visible in the same place it asks the rival's to be. It is advisory rather than blocking, because a programme in its first week has no meaningful trajectory yet; it becomes load-bearing once there is a history to read.
 
-The honest current reading of CAC against its own instrument: **42 claims, 11 open problems, 2 predictions, 0 corroborations, and a burden ratio of 21 claims per claim that forbids anything — in one week.** Auxiliary structure is being added faster than content. That is expected during stand-up and it is exactly what the thesis says to watch for in a programme that has been running for decades — which is why the comparison is not yet meaningful in either direction, and why saying so is part of the claim.
+The honest current reading of CAC against its own instrument: **43 claims, 11 open problems, 2 predictions, 0 corroborations, and a burden ratio of 21.5 claims per claim that forbids anything — in one week.** Auxiliary structure is being added faster than content. That is expected during stand-up and it is exactly what the thesis says to watch for in a programme that has been running for decades — which is why the comparison is not yet meaningful in either direction, and why saying so is part of the claim.
 
 ## What this thesis is, and what it is not
 
