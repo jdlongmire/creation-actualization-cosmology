@@ -6,7 +6,7 @@ An alternative cosmological research programme founded on a different historical
 
 CAC does not seek to repair ΛCDM. It replaces its historical boundary conditions.
 
-**Status: CAC v0.1 — a position paper and a programme scaffold, not a cosmological model.** The programme's own [appraisal](3-prediction/appraisal.md) records it as **unappraised, with zero novel content**: 0 predictions, 5 accommodations, none of which forbids anything. That verdict is generated on every build, not asserted, and it is the honest starting point rather than a defect to be managed.
+**Status: CAC v0.1 — a position paper and a programme scaffold, not a cosmological model.** The programme's own [appraisal](3-prediction/appraisal.md) records it as **empirically unappraised, with one theoretically progressive step taken**: 1 prediction ([PRD-001](traceability/claims/PRD-001.yaml), protocol unexecuted), 5 accommodations, none of which forbids anything, and **0 novel-fact predictions about nature**. PRD-001 forbids a pattern in how a rival's models evolve, which is a legitimate Lakatosian object and a weaker species than the programme still owes. The ledger is generated on every build, not asserted, and it is the honest starting point rather than a defect to be managed.
 
 ---
 
@@ -45,9 +45,19 @@ Full statement in the [position paper §2](1-hypothesis/paper/CAC-v0.1.md); enum
 
 CAC is a candidate research programme, not a completed physical theory and not a quantitative rival to ΛCDM. Its hard core is held immune **by methodological decision** and rests on exegetical and theological grounds — it is not offered as a scientific claim, and the repository says so rather than blurring the point. What must earn scientific standing is the belt and, above all, the predictions.
 
-There are currently no predictions, and [OPN-011](traceability/claims/OPN-011.yaml) says why: **the programme has no likelihood function.** It has not specified $P(E \mid H_{\mathrm{CAC}})$ — what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution. This was surfaced by holding the framework's own Bayesian argument to its own standard: point 4 correctly identifies that the *prior* is doing the work in standard age determinations, but a prior shift cannot be computed against a likelihood nobody has written down. Until one exists, any observation is absorbable by "your priors generated that inference," which forbids nothing.
+There is currently **one** prediction — [PRD-001](traceability/claims/PRD-001.yaml), stated in [`1-hypothesis/predictive-thesis.md`](1-hypothesis/predictive-thesis.md) — and it is a prediction about the *trajectory of a rival's model development*, not about nature. There are **no novel-fact predictions**, and [OPN-011](traceability/claims/OPN-011.yaml) says why: **the programme has no likelihood function.** It has not specified $P(E \mid H_{\mathrm{CAC}})$ — what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution. This was surfaced by holding the framework's own Bayesian argument to its own standard: point 4 correctly identifies that the *prior* is doing the work in standard age determinations, but a prior shift cannot be computed against a likelihood nobody has written down. Until one exists, any observation is absorbable by "your priors generated that inference," which forbids nothing.
 
 The programme's scientific value depends entirely on closing that gap. See [`3-prediction/discriminators.md`](3-prediction/discriminators.md) for what would count and where the search is concentrated.
+
+## The predictive thesis — PRD-001
+
+[`1-hypothesis/predictive-thesis.md`](1-hypothesis/predictive-thesis.md). CAC's difference from the standard paradigm is one of **historical boundary conditions, not operational physics**, and two trajectories follow from that. Operational science, investigating the regular behavior of a consistently governed order, should keep converging. Historical reconstruction, inferring unique origins under an assumption of uninterrupted natural development, should accumulate explanatory burden as precision improves.
+
+**The asymmetry is the prediction, not the complexity.** Mature programmes generically accumulate structure — the Standard Model carries ~19 free parameters and has no historical boundary conditions to be wrong about — so complexity growth alone discriminates nothing. What CAC forbids is the two limbs moving together.
+
+Burden is measured by the **Historical Explanatory Burden Index**, deliberately a *vector* rather than a score: inferred components, adjustable parameters, surviving competing extensions, and reconstruction stability, each reported separately with its direction fixed in advance, adjudicated by a majority rule over three successive Planck/DESI/Euclid-class releases. A composite with four inputs and no weights would be *less* falsifiable than a single scalar, since any mixed outcome reads as confirmation to whoever holds the thesis; a single scalar invites Goodhart. The vector plus decision rule is the resolution of both.
+
+Two disciplines ship with it. **The test is void, not confirmed, if operational accuracy stops improving** — stagnation in the rival programme can never be counted as CAC's success. And **methodological reciprocity**: CAC is evaluated by the same instrument, mechanized at [`0-program-methods/ops/reciprocity_check.py`](0-program-methods/ops/reciprocity_check.py), which currently reports 41 claims per claim that forbids anything. That reading is unflattering and it is printed on every build for the same reason the accommodation ledger is.
 
 ## The accommodation ledger
 

@@ -1,0 +1,73 @@
+id: PRD-001
+name: Historical complexity asymmetry
+statement: >
+  As observational precision increases, OPERATIONAL models of the present universe will
+  continue to converge toward greater predictive accuracy, while HISTORICAL models that
+  assume uninterrupted natural development will exhibit increasing historical
+  explanatory burden. The prediction is the ASYMMETRY between the two limbs, not
+  complexity growth as such: mature programmes generically accumulate structure under
+  increasing precision (the Standard Model carries ~19 free parameters and has no
+  historical boundary conditions to be wrong about), so complexity alone discriminates
+  nothing. On the generic account both limbs complexify together; on CAC they separate.
+  Burden is measured by the Historical Explanatory Burden Index (HEBI), a VECTOR of four
+  independently reported components - H1 inferred cosmological components, H2 adjustable
+  parameters in leading historical models, H3 competing extensions surviving to a
+  subsequent data release, H4 stability of age and expansion-history reconstructions
+  across releases - against operational control O1 (measurement precision, predictive
+  residuals, reproducibility, independent agreement).
+tier: 3
+role: prediction
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: CRE-005
+    dependency_type: logical
+  - claim_id: EPI-002
+    dependency_type: logical
+  - claim_id: CRE-002
+    dependency_type: logical
+source_documents:
+  - doc: predictive-thesis
+    section: "whole document"
+falsifies: >
+  Evaluated over three successive major data releases of Planck / DESI / Euclid class
+  against a baseline recorded before evaluation begins: PRD-001 is REFUTED if at least
+  three of the four HEBI components move in the simplification direction (H1, H2, H3
+  decreasing; H4 converging) while O1 improves over the same interval. It is
+  CORROBORATED if at least three of four move in the burden-increasing direction while
+  O1 improves. The test is VOID - explicitly not confirmed - if O1 fails to improve,
+  since the claim is about a divergence and a stalled operational limb removes the
+  contrast; this clause exists so that stagnation in the rival programme can never be
+  counted as CAC's success. Any other outcome is indeterminate for that interval, and
+  intervals accumulate rather than resetting.
+risk_if_false: >
+  Refutation would remove the programme's only prediction and return the ledger to zero
+  novel content, with the additional cost that the refuting pattern - historical models
+  simplifying and converging as precision improves - is positive evidence FOR continuous
+  natural history rather than merely absence of evidence for CAC.
+notes: >
+  THE VECTOR IS NOT AGGREGATED, DELIBERATELY. A composite index with four inputs and no
+  weights is LESS falsifiable than a single scalar, because any mixed outcome reads as
+  confirmation to whoever already holds the thesis. Parameter count alone was rejected
+  for the opposite reason (Goodhart: a framework can grow more elaborate without adding
+  free parameters, or shed one while its architecture thickens). The resolution is a
+  vector with per-component directions fixed in advance and a majority decision rule.
+  ONE COMPONENT CURRENTLY POINTS AGAINST THE THESIS, recorded here rather than
+  discovered later: H4 has arguably moved the wrong way for CAC across Planck 2013 ->
+  2015 -> 2018, since central values for age, H0 and Omega_m tightened substantially.
+  The Hubble tension is a discrepancy BETWEEN METHODS, which is not the same measurement
+  as drift in a single reconstruction across releases. If H4 keeps converging the claim
+  loses one of four components immediately.
+  BASELINE OWED. No trajectory is measurable without a t_0. Fixing the counting
+  conventions for H1-H3 and recording current values is the first task under this claim;
+  until then PRD-001 is a stated prediction with an unexecuted protocol.
+  WHAT KIND OF PREDICTION THIS IS. A programme-level appraisal claim about the
+  trajectory of a rival's model development - a legitimate Lakatosian object, falsifiable
+  under the rule above. It is NOT a novel-fact prediction about nature: it forbids a
+  pattern in how models evolve, not an observation of the world. OPN-011 remains open and
+  this claim does not answer it. The ledger now reads one prediction; it should not be
+  read as one novel-fact prediction.
+  METHODOLOGICAL RECIPROCITY. CAC is evaluated by the same standard. Should it require an
+  indefinitely expanding body of auxiliary hypotheses without corresponding predictive
+  success, it is degenerative in the same sense. Mechanized advisory at
+  0-program-methods/ops/reciprocity_check.py rather than left as prose.

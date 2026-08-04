@@ -6,7 +6,7 @@
 
 | ID | Name | Refuted if |
 |---|---|---|
-| — | *(no predictions stated)* | — |
+| PRD-001 | Historical complexity asymmetry | Evaluated over three successive major data releases of Planck / DESI / Euclid class against a baseline recorded before evaluation begins: PRD-001 is REFUTED if at least three of the four HEBI components move in the simplification direction (H1, H2, H3 decreasing; H4 converging) while O1 improves over the same interval. It is CORROBORATED if at least three of four move in the burden-increasing direction while O1 improves. The test is VOID - explicitly not confirmed - if O1 fails to improve, since the claim is about a divergence and a stalled operational limb removes the contrast; this clause exists so that stagnation in the rival programme can never be counted as CAC's success. Any other outcome is indeterminate for that interval, and intervals accumulate rather than resetting. |
 
 ## All failure conditions (`risk_if_false`)
 
@@ -52,3 +52,4 @@
 | PHY-002 | 2 | Redshift is the primary observable through which cosmic history is reconstructed. If the created-geometry component cannot be given a quantitative form, ACC-002 and ACC-003 have no mechanism behind them. |
 | PHY-003 | 2 | If no GR-compatible formulation exists across the actualization boundary, CRE-005 does not connect the created state to present observation and the programme cannot compute anything. |
 | PHY-004 | 2 | The acoustic peak structure is a quantitative fit to a specific pre-recombination plasma history with several independent parameters. An account that cannot recover it is not competitive with the rival on the rival's strongest ground. |
+| PRD-001 | 3 | Refutation would remove the programme's only prediction and return the ledger to zero novel content, with the additional cost that the refuting pattern - historical models simplifying and converging as precision improves - is positive evidence FOR continuous natural history rather than merely absence of evidence for CAC. |

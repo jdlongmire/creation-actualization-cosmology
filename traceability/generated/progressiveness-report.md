@@ -8,15 +8,15 @@
 
 | Category | Count |
 |---|---|
-| Predictions (`role: prediction`, carry `falsifies`) | **0** |
+| Predictions (`role: prediction`, carry `falsifies`) | **1** |
 | Accommodations (`role: accommodation`) | 5 |
 | — of which forbid something | 0 |
 | — of which forbid nothing (non-progressive) | 5 |
-| **Novel-content claims** (predictions + forbidding accommodations) | **0** |
+| **Novel-content claims** (predictions + forbidding accommodations) | **1** |
 
 ## Verdict
 
-**UNAPPRAISED — no novel content.** Every claim currently either belongs to the hard core, supports it, or accommodates an already-known fact. On Lakatos's criterion the programme has not yet begun to be progressive, and no accumulation of further accommodation will change that.
+**1 prediction(s) stated.** Progressive status still requires that a *novel* fact be predicted and corroborated — see the appraisal log for which, if any, have been.
 
 ## Accommodations in detail
 

@@ -85,23 +85,29 @@ def main():
         n_forbid = sum(1 for c in claims.values()
                        if c.get("role") == "accommodation"
                        and str(c.get("forbids") or "").strip().lower() not in FORBIDS_NOTHING)
-        text = appraisal.read_text()
-        says_unappraised = "Unappraised" in text or "UNAPPRAISED" in text
-        novel = n_pred + n_forbid
-        if novel == 0 and not says_unappraised:
-            add("FAIL", "honest status",
-                "ledger shows 0 novel-content claims but the appraisal log does not say "
-                "unappraised — the status has been rounded up")
-        elif novel > 0 and says_unappraised:
-            add("WARN", "honest status",
-                f"{novel} novel-content claim(s) exist but the appraisal still reads "
-                "unappraised — update the log and its verdict")
-        else:
+        # Delegate to the canonical implementation rather than re-deriving the rule.
+        # This block previously carried its own copy, and the copies had already drifted
+        # (this one tested "Unappraised" capitalized; the script tested "nappraised").
+        rc_hs, out_hs, err_hs = run(["python3",
+                                     "0-program-methods/ops/honest_status_check.py"])
+        if rc_hs == 0:
             add("PASS", "honest status",
                 f"appraisal consistent with the ledger ({n_pred} prediction(s), "
                 f"{n_forbid} forbidding accommodation(s))")
+        else:
+            add("FAIL", "honest status", (err_hs or out_hs).strip().splitlines()[-1]
+                if (err_hs or out_hs).strip() else "honest_status_check.py failed")
     else:
         add("WARN", "honest status", "claims.json or appraisal.md missing")
+
+    # 4b. Reciprocity — CAC measured by its own instrument (PRD-001). Advisory only.
+    if claims_json.exists():
+        _, rec_out, rec_err = run(["python3",
+                                   "0-program-methods/ops/reciprocity_check.py"])
+        ratio_line = next((l.strip() for l in (rec_out or "").splitlines()
+                           if "burden ratio" in l), "")
+        add("INFO", "reciprocity",
+            ratio_line or "CAC's own burden trajectory reported (advisory)")
 
     # 5. Accommodation hygiene — every ACC must price its rival
     if claims_json.exists():

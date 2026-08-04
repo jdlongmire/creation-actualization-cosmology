@@ -33,9 +33,17 @@ def main() -> int:
         print("::error::ledger shows 0 novel-content claims but the appraisal log does "
               "not say unappraised — the status has been rounded up", file=sys.stderr)
         return 1
-    if novel > 0 and says_unappraised:
-        print(f"::warning::{novel} novel-content claim(s) exist but the appraisal still "
-              "reads unappraised — update the log")
+
+    # Once novel content exists, the appraisal must ADDRESS it by id. A substring test
+    # for "unappraised" cannot do this job: "empirically unappraised, one theoretically
+    # progressive step" is the honest verdict for a programme with a prediction and no
+    # corroboration, and the old check flagged exactly that correct state.
+    missing = sorted(c["id"] for c in preds + forbidding if c["id"] not in text)
+    if missing:
+        print(f"::error::novel-content claim(s) {', '.join(missing)} are not named in "
+              "the appraisal log — content exists that the standing verdict does not "
+              "account for", file=sys.stderr)
+        return 1
 
     print(f"OK — {len(preds)} prediction(s), {len(forbidding)} forbidding "
           f"accommodation(s); appraisal consistent with the ledger")
