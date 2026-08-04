@@ -10,6 +10,7 @@ Everything adjustable. Refutation is aimed **here**, not at the
 | [02-metric/](02-metric/) | Metric actualization, redshift, and light in transit | `PHY-002`, `OPN-002`, `OPN-004`, `OPN-009`, `OPN-010` |
 | [03-entropy/](03-entropy/) | Entropy accounting and the thermodynamic arrow | `ACC-001`, `OPN-005` |
 | [04-dark-sector/](04-dark-sector/) | Gravitational structure and dark-sector reinterpretation | `PHY-003`, `PHY-004`, `ACC-005`, `OPN-003`, `OPN-006` |
+| [05-specification/](05-specification/) | Specification, actualization, operation — the rationale behind `PRD-002`. Belt material by demotion: drafted as a prediction about investigator-supplied specification and declined as confirmed-by-construction | rationale for `PRD-002` |
 
 Open problems: [open-problems.md](open-problems.md).
 

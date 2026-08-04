@@ -8,15 +8,15 @@
 
 | Category | Count |
 |---|---|
-| Predictions (`role: prediction`, carry `falsifies`) | **1** |
+| Predictions (`role: prediction`, carry `falsifies`) | **2** |
 | Accommodations (`role: accommodation`) | 5 |
 | — of which forbid something | 0 |
 | — of which forbid nothing (non-progressive) | 5 |
-| **Novel-content claims** (predictions + forbidding accommodations) | **1** |
+| **Novel-content claims** (predictions + forbidding accommodations) | **2** |
 
 ## Verdict
 
-**1 prediction(s) stated.** Progressive status still requires that a *novel* fact be predicted and corroborated — see the appraisal log for which, if any, have been.
+**2 prediction(s) stated.** Progressive status still requires that a *novel* fact be predicted and corroborated — see the appraisal log for which, if any, have been.
 
 ## Accommodations in detail
 

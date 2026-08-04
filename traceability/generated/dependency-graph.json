@@ -40,7 +40,8 @@
     "PHY-002",
     "PHY-003",
     "PHY-004",
-    "PRD-001"
+    "PRD-001",
+    "PRD-002"
   ],
   "edges": [
     {
@@ -396,6 +397,21 @@
     {
       "from": "PRD-001",
       "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "PRD-002",
+      "to": "CRE-002",
+      "type": "logical"
+    },
+    {
+      "from": "PRD-002",
+      "to": "CRE-003",
+      "type": "logical"
+    },
+    {
+      "from": "PRD-002",
+      "to": "PRD-001",
       "type": "logical"
     }
   ]

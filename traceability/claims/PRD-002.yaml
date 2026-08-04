@@ -1,0 +1,80 @@
+id: PRD-002
+name: Initial-condition burden
+statement: >
+  As cosmological models increase in observational precision, explanatory burden for
+  historical origins will NOT migrate entirely into dynamical evolution. Successful
+  models will continue to depend on increasingly specific initial conditions and
+  boundary assumptions. The rival prediction is explicit and opposite: the inflationary
+  programme holds that increasingly complete dynamical models should REDUCE dependence
+  on finely specified initial conditions, deriving flatness and homogeneity from
+  generic initial data.
+  Stated information-theoretically, which is how it is measured: of the total
+  information required to specify the observed universe, the proportion residing in the
+  STATE (primordial spectrum shape, isocurvature content, primordial non-Gaussianity,
+  boundary assumptions) will not decline relative to the proportion residing in the LAWS
+  (dynamical content, evolution equations, the parameters of the matter-energy sector).
+  Standard cosmology's programmatic hope is that information migrates into the laws.
+  CAC expects it to remain, or grow, in the state.
+tier: 3
+role: prediction
+proof_status: prose_only
+epistemic_status: conjectured
+depends_on:
+  - claim_id: CRE-002
+    dependency_type: logical
+  - claim_id: CRE-003
+    dependency_type: logical
+  - claim_id: PRD-001
+    dependency_type: logical
+source_documents:
+  - doc: specification-and-actualization
+    section: "What survives as a prediction"
+falsifies: >
+  REFUTED if, across three successive major data releases, the state-side parameter
+  count falls or is absorbed into dynamics while the model's fit is maintained or
+  improved - concretely, if the inflationary programme (or a successor) succeeds in
+  deriving the observed primordial conditions from generic initial data, including a
+  resolution of the measure problem and an account of the low-entropy past, such that
+  the primordial spectrum ceases to be an independently specified input.
+  CORROBORATED if the state side grows: additional primordial-spectrum structure
+  (running, running-of-running, features), isocurvature components, or non-Gaussianity
+  parameters entering the headline analyses as required rather than constrained away,
+  while the dynamical sector does not absorb them.
+  VOID, not confirmed, for any interval in which observational precision on the
+  primordial sector does not improve - the claim is about where information sits under
+  IMPROVING measurement, and a stalled measurement yields no verdict.
+risk_if_false: >
+  Refutation would be a direct positive result for the rival: it is exactly the outcome
+  the inflationary programme was constructed to produce, and it would show explanatory
+  information migrating out of the state and into the laws, which is the opposite of
+  what a specified-then-actualized cosmos should look like. Unlike PRD-001, whose
+  refutation merely returns the ledger to zero, refutation here is evidence AGAINST the
+  hard core's account of where information originates.
+notes: >
+  DEMOTED FROM ITS ORIGINAL FORM. Drafted as "the specification prediction" - that
+  origins research would require progressively greater intelligent specification
+  supplied by investigators. That version is confirmed by construction (every model
+  begins with investigator specification), has no contrast class (specification grows in
+  every maturing experimental field, plausibly fastest in the operational limb), and its
+  falsifier was unsatisfiable. The rationale is kept at
+  2-theory/05-specification/specification-and-actualization.md as BELT material; only
+  this structural claim is registered.
+  ONE CLAIM, NOT TWO. A further "information localization prediction" was proposed - the
+  proportion of explanatory information found in boundary conditions rather than
+  evolution equations. That is this claim in information-theoretic register, not a
+  separate one, and registering both would put the ledger at 3 predictions against 2
+  claims of content. The information-theoretic formulation is adopted HERE as the
+  metric.
+  THE TREND MAY CURRENTLY POINT AGAINST THIS CLAIM, recorded now rather than discovered
+  later, on the same discipline as PRD-001's H4. Planck constrained the running of the
+  spectral index and primordial non-Gaussianity to values consistent with the simplest
+  single-field inflationary initial conditions. That is the state side NOT growing, and
+  it is what corroboration for the rival looks like. The claim is registered anyway,
+  because a prediction that could not already be losing would not be worth registering.
+  WHAT MAKES IT DIFFERENT FROM PRD-001. PRD-001 is a programme-level appraisal claim
+  about how a rival's models evolve. This one is about where information sits inside the
+  models, which is a structural property of the theory rather than of the community
+  building it - closer to a claim about nature, though still not a direct observational
+  prediction. The programme still owes one of those; OPN-011 remains open.
+  BASELINE OWED, as with PRD-001: the state-side and law-side parameter inventories must
+  be fixed by convention and recorded before any interval can be scored.

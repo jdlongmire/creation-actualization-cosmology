@@ -1,6 +1,6 @@
 # Discriminators — the critical path
 
-> **Tier 3.** This directory holds claims that *forbid* something. It holds exactly one, [PRD-001](../traceability/claims/PRD-001.yaml), and PRD-001 forbids a pattern in **how a rival's models evolve** rather than an observation of the world. The count of discriminators *about nature* is still **zero**, and that remains the single most important fact about the programme's status. This file states what such a discriminator would have to look like and where to hunt for one.
+> **Tier 3.** This directory holds claims that *forbid* something. It holds two — [PRD-001](../traceability/claims/PRD-001.yaml), which forbids a pattern in **how a rival's models evolve**, and [PRD-002](../traceability/claims/PRD-002.yaml), which forbids a pattern in **where information sits inside them**. Neither forbids an observation of the world. The count of discriminators *about nature* is still **zero**, and that remains the single most important fact about the programme's status. This file states what such a discriminator would have to look like and where to hunt for one.
 
 ## Why this is the critical path
 
