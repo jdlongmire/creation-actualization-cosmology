@@ -1,0 +1,40 @@
+id: EXT-005
+name: ADCE's rate laws are scale-free in the initial stock, so act and rate compose
+statement: >
+  ADCE v3.2 places all dynamical load on the bridge law (its section 9.4), and its
+  candidate laws are rate-shaped rather than stock-shaped. Proportional growth
+  (Nddot = lambda Ndot) yields Ndot proportional to exp(lambda t) and the attractor
+  H* = lambda/3 independently of any initial stock N_0; horizon-coupled growth ties the
+  rate to horizon area, a geometric quantity likewise independent of the absolute
+  count. A functionally mature initial actualized stock is therefore invisible to these
+  laws. CAC's act and ADCE's rate answer different questions - the initial condition
+  and the growth law - and COMPOSE rather than compete.
+tier: 2
+role: imported
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: EXT-003
+    dependency_type: logical
+  - claim_id: CRE-003
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "relation-to-trt.md"
+external_citations:
+  - "triadic-reality-theory 2-theory/04-cosmology/adce.md v3.2.1, sections 9.4 (bridge law carries the dynamical load) and 10 (candidate phenomenological growth laws)"
+risk_if_false: >
+  If a surviving ADCE branch turned out to depend on the absolute stock rather than on
+  its growth structure, composition would fail for that branch and OPN-008's original
+  divergence framing would be correct for it. One such branch is already known and is
+  registered separately at OPN-012: everpresent Lambda, ADCE's declared rival, scales
+  as V_4^(-1/2) and is a stock-dependent law.
+notes: >
+  Established by reading ADCE's own stated laws, NOT by re-running its bridge-law grid
+  scan. That is the limit of the claim's warrant and the reason it is prose_only.
+  This SHARPENS OPN-008's disposition. "Common ontology, divergent belts" was correct
+  that the temporal profile is a free parameter (EXT-003) but overstated the
+  consequence: on the rate-shaped laws the two belts are not rivals at all, since a
+  mature stock plus a growth law is a coherent joint position neither belt stated.
+  The divergence that survives is narrower and lives at OPN-012, where the quantity is
+  the stock rather than its rate.

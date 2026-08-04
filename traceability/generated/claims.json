@@ -324,6 +324,23 @@
     "statement": "Given that the biblical narrative is authoritative (CRE-001) and that God produces systems functionally mature (CRE-003), it is reasonable to reject the hypothesis of deep time as NECESSARY. The claim is modal: what is denied is the entailment from the observational corpus to a multi-Gyr history, not the consistency of that history with the corpus.\n",
     "tier": 1
   },
+  "CRE-009": {
+    "epistemic_status": "argued",
+    "id": "CRE-009",
+    "name": "Contingency requires a non-contingent actualizing source",
+    "notes": "DELIBERATELY CARRIES NO DEPENDENCY EDGE TO EXT-001. The four attributes named here - non-contingent, logical, informational, actualizable - are recognisably TRT's primitives in theological register, and drawing a dependency edge would re-assert the \"naturally derives from TRT\" claim that OPN-008 withdrew. The convergence is real and worth stating in prose; it is not a derivation in either direction, and the registry must not imply one. WHAT IT DOES AND DOES NOT DELIVER. It grounds actualization as the required category. It does NOT deliver discreteness, functional maturity, or any timeline - those are CRE-002, CRE-003 and CRE-008, argued on separate grounds. A contingency argument establishes that there is a non-contingent source; it says nothing about the temporal profile of what that source does. Reading more out of it than that is the same over-reading CRE-008's notes warn against.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If contingency did not require a non-contingent source, actualization would be one optional description of the origin among others, and CRE-002's \"actualization rather than culmination\" would be a preference rather than a requirement. The programme would still be statable but would lose the reason its central category is the right one.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "origins-framework",
+        "section": "point 5"
+      }
+    ],
+    "statement": "The universe is contingent and does not account for its own existence. It therefore requires a source that is non-contingent, logical, informational, and actualizable - the Logos. This is the metaphysical ground of the creative act CRE-002 asserts: actualization is not merely the category CAC prefers for the origin of the cosmos, it is the category a contingent order requires.\n",
+    "tier": 1
+  },
   "EPI-001": {
     "depends_on": [
       {
@@ -466,6 +483,36 @@
       }
     ],
     "statement": "TRT stratifies informational structure as representable, admissible, actual, and outcome-actual (ONT-003), with every actual structure L3-admissible (ACT-001, Lean-verified). A distant record is a physical structure and is therefore actual. The PROCESS the record records must be separately assigned: in chi, or not. TRT does not forbid an actual record of a non-actual process; it forbids leaving the question undeclared. Any CAC account of light in transit must state, per class of distant record, whether the recorded process is actual.\n",
+    "tier": 2
+  },
+  "EXT-005": {
+    "depends_on": [
+      {
+        "claim_id": "EXT-003",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-003",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "external_citations": [
+      "triadic-reality-theory 2-theory/04-cosmology/adce.md v3.2.1, sections 9.4 (bridge law carries the dynamical load) and 10 (candidate phenomenological growth laws)"
+    ],
+    "id": "EXT-005",
+    "name": "ADCE's rate laws are scale-free in the initial stock, so act and rate compose",
+    "notes": "Established by reading ADCE's own stated laws, NOT by re-running its bridge-law grid scan. That is the limit of the claim's warrant and the reason it is prose_only. This SHARPENS OPN-008's disposition. \"Common ontology, divergent belts\" was correct that the temporal profile is a free parameter (EXT-003) but overstated the consequence: on the rate-shaped laws the two belts are not rivals at all, since a mature stock plus a growth law is a coherent joint position neither belt stated. The divergence that survives is narrower and lives at OPN-012, where the quantity is the stock rather than its rate.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If a surviving ADCE branch turned out to depend on the absolute stock rather than on its growth structure, composition would fail for that branch and OPN-008's original divergence framing would be correct for it. One such branch is already known and is registered separately at OPN-012: everpresent Lambda, ADCE's declared rival, scales as V_4^(-1/2) and is a stock-dependent law.\n",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "relation-to-trt.md"
+      }
+    ],
+    "statement": "ADCE v3.2 places all dynamical load on the bridge law (its section 9.4), and its candidate laws are rate-shaped rather than stock-shaped. Proportional growth (Nddot = lambda Ndot) yields Ndot proportional to exp(lambda t) and the attractor H* = lambda/3 independently of any initial stock N_0; horizon-coupled growth ties the rate to horizon area, a geometric quantity likewise independent of the absolute count. A functionally mature initial actualized stock is therefore invisible to these laws. CAC's act and ADCE's rate answer different questions - the initial condition and the growth law - and COMPOSE rather than compete.\n",
     "tier": 2
   },
   "HER-001": {
@@ -714,7 +761,7 @@
     "epistemic_status": "argued",
     "id": "OPN-008",
     "name": "Consistency with TRT's belt-level cosmology (ADCE) - RESOLVED",
-    "notes": "Opened at stand-up by reading ADCE directly rather than the position paper's section 7 summary. Closed the same day on TRT's own registered refutation rather than on a compromise between the programmes. COST CARRIED, not dropped: underdetermination means the core does not entail discreteness either, so section 7's \"naturally derives from\" is wrong and becomes \"adopts the ontology of\" in v0.2. Produced two results: EXT-003 (the free parameter) and EXT-004 (the disambiguation obligation, which constrains OPN-010).\n",
+    "notes": "Opened at stand-up by reading ADCE directly rather than the position paper's section 7 summary. Closed the same day on TRT's own registered refutation rather than on a compromise between the programmes. COST CARRIED, not dropped: underdetermination means the core does not entail discreteness either, so section 7's \"naturally derives from\" is wrong and becomes \"adopts the ontology of\" in v0.2. Produced two results: EXT-003 (the free parameter) and EXT-004 (the disambiguation obligation, which constrains OPN-010). SHARPENED 2026-08-04 on JD's observation that ADCE's structure could itself have originated functionally mature. \"Divergent belts\" was too strong: it was right about the free parameter and wrong about the consequence. Act and rate answer different questions - initial condition versus growth law - and on ADCE's rate-shaped laws they compose into a joint position neither belt stated (EXT-005). The divergence that survives is narrower and stock-shaped, at OPN-012. WHAT THE SHARPENING DOES NOT CHANGE: compatibility is PERMISSION, NOT DERIVATION. The underdetermination argument that establishes it is the same one that killed section 7's \"naturally derives from\", and keeping only the favourable half would be the conventionalist twist in CAC's own favour. Nor are the cores equally warranted - TRT claims immunity by necessity (the denial of L3 is self-refuting), CAC by methodological decision, and CAC cannot inherit TRT's warrant by adopting its ontology.\n",
     "proof_status": "prose_only",
     "risk_if_false": "If TRT's core did fix a temporal profile for A, the disposition reopens and one of the two belts is inconsistent with the shared ontology rather than an alternative development of it. EXT-003 is the load-bearing premise; it rests on a refutation TRT registered against its own hypothesis, which is strong evidence but is a single source.\n",
     "role": "derived",
@@ -724,7 +771,7 @@
         "section": "7 (programme note)"
       }
     ],
-    "statement": "RESOLVED 2026-08-03 (PI-1 O2a). Disposition: COMMON ONTOLOGY, DIVERGENT BELTS. CAC and ADCE are distinct belt developments of a shared hard core, differing on the temporal profile of actualizing action - a parameter TRT's core genuinely leaves free (EXT-003). The conflict is belt-versus-belt, not belt-versus-core, and TRT's own registry says so: \"The TRT hard core is untouched either way.\" Neither belt is positioned to supersede the other - ADCE's severe test failed across the natural bridge-law grid in every cell, and CAC has zero predictions.\n",
+    "statement": "RESOLVED 2026-08-03 (PI-1 O2a), SHARPENED 2026-08-04. Disposition: COMPATIBLE CORES, COMPOSABLE BELTS. The two hard cores share no proposition on which they could disagree - TRT's constrains the form and status of the actual (the central identity, the three primitives, the four-tier engine) and fixes no content, occasion or duration for any particular actualization; CAC's makes historical and content claims about one actualization event. Every CAC commitment is one TRT's core leaves open, and no TRT commitment is one CAC denies. The belts differ on the temporal profile of actualizing action, a parameter TRT's core genuinely leaves free (EXT-003), and TRT's own registry says so: \"The TRT hard core is untouched either way.\" The 2026-08-04 sharpening: on ADCE's rate-shaped bridge laws the belts do not merely coexist, they COMPOSE - a mature initial stock is invisible to a scale-free growth law (EXT-005). Neither belt is positioned to supersede the other - ADCE's severe test failed across the natural bridge-law grid in every cell, and CAC has zero predictions.\n",
     "tier": 2
   },
   "OPN-009": {
@@ -795,11 +842,42 @@
     "epistemic_status": "open",
     "id": "OPN-011",
     "name": "CAC has no likelihood function",
-    "notes": "Registered 2026-08-03 when JD's Origins Framework stated the apparent-age argument in explicitly Bayesian terms. Holding the argument to its own standard is what surfaced the gap - the framework names the factor standard practice gets wrong and, in doing so, names exactly the factor CAC has not supplied. This now SUPERSEDES OPN-010 as the sharpest open problem. OPN-010 asked the programme to state a position on processes in transit; the Origins Framework states one (see OPN-010's own notes). What remains is not a position but a FUNCTION, and it is the same function OPN-007 needs. Where to start: EPI-002's constructive limb, since ordinary law acting on a specified initial state has computable consequences and is the one place the likelihood is not hostage to the creation act itself.\n",
+    "notes": "Registered 2026-08-03 when JD's Origins Framework stated the apparent-age argument in explicitly Bayesian terms. Holding the argument to its own standard is what surfaced the gap - the framework names the factor standard practice gets wrong and, in doing so, names exactly the factor CAC has not supplied. This now SUPERSEDES OPN-010 as the sharpest open problem. OPN-010 asked the programme to state a position on processes in transit; the Origins Framework states one (see OPN-010's own notes). What remains is not a position but a FUNCTION, and it is the same function OPN-007 needs. Where to start: EPI-002's constructive limb, since ordinary law acting on a specified initial state has computable consequences and is the one place the likelihood is not hostage to the creation act itself. TWO CANDIDATE ROUTES REGISTERED 2026-08-04, both from the Origins Framework v0.2 pass. (1) OPN-012 - the 4-volume stock dependence of everpresent Lambda, the first thing the programme has produced that is shaped like a likelihood rather than like a reply to an objection. Confidence LOW and the literature check is not done. (2) THE DIRECTIONAL-RESIDUAL REFORMULATION of Origins Framework point 7. The anomaly list as stated is an argument from the existence of surprises, which does not run without the likelihood this claim says is missing - and which any progressing programme would survive, since open problems are what a live research programme feeds on. The form that could run is the claim that the residuals are DIRECTIONALLY BIASED: that observed systems are systematically MORE mature, ordered or intact than gradualist expectation, never systematically less. That version forbids something and is the reason point 7 is stated in the framework but deliberately NOT registered as ten accommodations - see origins-framework.md.\n",
     "proof_status": "open",
     "risk_if_false": "Without a likelihood the programme forbids nothing: any observation is absorbable by \"your priors generated that inference.\" That is unfalsifiability in its strongest form and is the direct cause of the progressiveness ledger reading zero. OPN-007 (a discriminator) is unreachable until this is supplied.\n",
     "role": "open",
     "statement": "The programme has not specified P(E | H_CAC): what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution. EPI-001 correctly identifies that the prior is doing the work in standard age determinations, but a prior shift cannot be computed without a likelihood on the other side. Supplying one is the precondition of every observational claim the programme might make.\n",
+    "tier": 2
+  },
+  "OPN-012": {
+    "depends_on": [
+      {
+        "claim_id": "OPN-011",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "EXT-005",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "EXT-004",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "conjectured",
+    "external_citations": [
+      "Sorkin, R.D. (1997) - Lambda conjugate to 4-volume, Poisson fluctuation delta-N ~ sqrt(N)",
+      "Ahmed, Dodelson, Greene and Sorkin (2004) - everpresent Lambda phenomenology",
+      "Zwane, Afshordi and Sorkin (2018) - cosmological fits; Das, Nasiri and Yazdi (2023) - implementation-dependence and typicality concerns",
+      "triadic-reality-theory 2-theory/04-cosmology/adce.md v3.2.1 section 11 (the mean-growth versus fluctuation rivalry)"
+    ],
+    "id": "OPN-012",
+    "name": "The 4-volume stock dependence of everpresent Lambda - first computable discriminator lead",
+    "notes": "CONFIDENCE LOW, and the literature check has NOT been done. Registering it as a lead rather than a result. Before any development: read whether the causal-set literature already treats a non-accumulated stock, since the fluctuation phenomenology may presuppose the birth process in a way that settles limb (b) immediately. WHY IT MATTERS DESPITE THE LOW CONFIDENCE. This is the first thing the programme has produced that is shaped like P(E | H_CAC) rather than like a reply to an objection. Limb (a) is CAC eliminating one of its own belt options on a calculation, which is internal progress but forbids no observation. Limb (b) would forbid an observation if it survives, and is therefore the live one. Arose 2026-08-03 from JD's observation that ADCE's structure could itself have originated functionally mature. That move is correct on the rate-shaped laws (EXT-005); this claim registers the one place it is not free.\n",
+    "proof_status": "open",
+    "risk_if_false": "Limb (a) is arithmetic and is unlikely to be wrong in direction, though the exponent depends on how V_4 is defined for a non-traversed history - which is precisely the question CAC has not answered. Limb (b) may already be closed in the causal-set literature, in which case the lead dies and OPN-011 loses its only computable route found so far.\n",
+    "role": "open",
+    "statement": "Causal-set kinematics supplies one quantity that depends on the actualized STOCK rather than on its growth rate: the fluctuation-driven cosmological constant Lambda ~ +/- hbar / sqrt(V_4) (Sorkin 1997; Ahmed, Dodelson, Greene and Sorkin 2004), which ADCE registers as its declared rival. Two questions follow for CAC, and both are computable rather than hermeneutic. (a) MAGNITUDE. With V_4 ~ (ct)^4, Lambda scales as t^(-2). Substituting a realized 4-volume of order 10^4 yr for one of order 10^10 yr raises Lambda by roughly thirteen orders of magnitude against the observed value. If CAC adopts causal-set kinematics at all, it must actualize V_4 itself mature, not merely its contents - EXT-004 branch two in its most committing form. (b) SPECTRUM. The fluctuation delta-N ~ sqrt(N) is a statistic OF A BIRTH PROCESS. A stock produced in a single act does not obviously carry the same fluctuation spectrum as one grown over 10^10 yr. If that difference survives being made precise, act-versus-accumulation has an observational signature in Lambda-fluctuation phenomenology.\n",
     "tier": 2
   },
   "PHY-001": {

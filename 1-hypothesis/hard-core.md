@@ -8,7 +8,7 @@
 
 ## The immune commitments
 
-The five axioms of the position paper, the two consequences the paper draws in §3, and three commitments inherited from the [Origins Framework](origins-framework.md).
+The five axioms of the position paper, the two consequences the paper draws in §3, and four commitments inherited from the [Origins Framework](origins-framework.md).
 
 1. **Genesis is history** ([CRE-001](../traceability/claims/CRE-001.yaml)). The biblical creation narrative records genuine historical events.
 
@@ -31,6 +31,8 @@ The five axioms of the position paper, the two consequences the paper draws in �
 9. **Apparent age is prior-dependent, not observed** ([EPI-001](../traceability/claims/EPI-001.yaml)). "This system appears old" is a posterior, computed under a likelihood and a prior, not a datum read off an instrument. Standard practice sets the prior on discrete actualization near zero, and the posterior follows the prior.
 
 10. **Methodological designism** ([EPI-002](../traceability/claims/EPI-002.yaml)). Intervention is the exception; law is the rule. Conduct inquiry expecting stable law while holding the metaphysics open. This is the methodological face of commitment 5, and it is what makes the programme testable at all.
+
+11. **Contingency requires a non-contingent actualizing source** ([CRE-009](../traceability/claims/CRE-009.yaml)). The universe does not account for its own existence and requires a source that is non-contingent, logical, informational and actualizable. This is the metaphysical ground of commitment 2: actualization is the category a contingent order *requires*, not the one the programme prefers. It grounds the category and supplies no timeline — see [origins-framework.md](origins-framework.md) point 5 for what it deliberately does not deliver.
 
 ## The warrant for immunity — by *decision*, stated openly
 

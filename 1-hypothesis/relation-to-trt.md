@@ -1,6 +1,6 @@
 # Relation to Triadic Reality Theory
 
-> **Status: dispositioned 2026-08-03** (PI-1 objective O2a). [OPN-008](../traceability/claims/OPN-008.yaml) is closed. The disposition is **common ontology, divergent belts** — and it is chosen on an argument, not on cost.
+> **Status: dispositioned 2026-08-03, sharpened 2026-08-04** (PI-1 objective O2a). [OPN-008](../traceability/claims/OPN-008.yaml) is closed. The disposition is **compatible cores, composable belts** — and it is chosen on an argument, not on cost. The 2026-08-03 wording was *common ontology, divergent belts*; "divergent" proved too strong once the belts were checked against each other directly, and the correction is [below](#the-belts-compose-they-do-not-merely-coexist).
 >
 > **Consequence carried:** the position paper's §7 phrase "naturally derives from" is **wrong** and is corrected in v0.2 to "adopts the ontology of." TRT's ontology does not derive CAC. See *The cost, stated plainly* below.
 
@@ -38,9 +38,45 @@ Three things follow, and they settle the question.
 
 ## The disposition
 
-**Common ontology, divergent belts.** CAC and ADCE are distinct belt developments of a shared hard core, differing on the temporal profile of $\mathcal{A}$ — a parameter the core genuinely leaves free, as TRT's own refutation of the forcing form demonstrates.
+**Compatible cores, composable belts.** CAC and ADCE are distinct belt developments of a shared hard core, differing on the temporal profile of $\mathcal{A}$ — a parameter the core genuinely leaves free, as TRT's own refutation of the forcing form demonstrates.
 
-This is stronger than "the programmes happen to be compatible." It identifies *where* they diverge, *why* the divergence is legitimate, and *what* would decide between them: not an argument about the ontology, which underdetermines both, but the observational performance of each belt.
+This is stronger than "the programmes happen to be compatible." It identifies *where* they differ, *why* the difference is legitimate, and *what* would decide between them: not an argument about the ontology, which underdetermines both, but the observational performance of each belt.
+
+### The cores share no proposition on which they could disagree
+
+Read the two hard cores side by side and the compatibility is categorical rather than lucky.
+
+TRT's core constrains the **form and status of the actual**: the central identity, the three co-requiring primitives, the four-tier engine, and the posit that actuality is a genuine status distinct from possibility. It fixes no content, no occasion, and no duration for any particular actualization.
+
+CAC's core makes **historical and content claims about one actualization event**: Genesis as history, actualization rather than culmination, functional maturity, Day Four, stable law thereafter.
+
+Every CAC commitment is a claim TRT's core leaves open, and no TRT commitment is one CAC denies. The one place they could have collided is duration, and §8's static-universe result closes it: the temporal profile is not fixed by the core.
+
+**TRT's core is therefore silent on duration.** Where a timeline appears on the TRT side it belongs to ADCE's *belt*, which develops its bridge laws inside the standard expansion history — matter-era deceleration until $z \approx 0.7$, DESI DR2 BAO fits, a phantom crossing near $z \approx 0.4$. "ADCE works within the conventional timeline" is accurate. "TRT requires deep time" is not, and CAC's disposition depends on that distinction holding.
+
+Two things the compatibility does **not** license, both easy to slide into:
+
+- **Compatibility is permission, not derivation.** The underdetermination argument that establishes it is the same one that killed §7's "naturally derives from." Keeping only the favourable half is the conventionalist twist applied in CAC's own favour.
+- **The cores are not equally warranted.** TRT claims immunity by *necessity* — the denial of $L_3$ is self-refuting. CAC claims immunity by *methodological decision* and says so on the page. CAC cannot inherit TRT's warrant by adopting its ontology.
+
+### The belts compose, they do not merely coexist
+
+The 2026-08-03 wording said *divergent belts*. That was right about the free parameter and wrong about the consequence.
+
+ADCE v3.2 places all dynamical load on the bridge law (§9.4), and its candidate laws are **rate-shaped rather than stock-shaped**. Proportional growth $\ddot N = \lambda \dot N$ gives $\dot N \propto e^{\lambda t}$ and the attractor $H^* = \lambda/3$ *independently of any initial stock* $N_0$. Horizon-coupled growth ties the rate to horizon area, a geometric quantity likewise independent of the absolute count. A functionally mature initial actualized stock is invisible to both.
+
+So CAC's act and ADCE's rate are answers to **different questions** — the initial condition and the growth law — and a mature stock plus a growth law is a coherent joint position that neither belt has stated. Registered as [EXT-005](../traceability/claims/EXT-005.yaml). The warrant is a reading of ADCE's own stated laws, not a re-run of its bridge-law grid scan, and the claim is held at that strength.
+
+### Where composition is not free — the one stock-shaped quantity
+
+ADCE's declared rival supplies the exception. Everpresent $\Lambda \sim \pm\hbar/\sqrt{V_4}$ (Sorkin 1997; Ahmed, Dodelson, Greene and Sorkin 2004) depends on the total 4-volume rather than on its rate of growth, and with $V_4 \sim (ct)^4$ this gives $\Lambda \propto t^{-2}$. Substituting a realized 4-volume of order $10^4$ yr for one of order $10^{10}$ yr raises $\Lambda$ by roughly **thirteen orders of magnitude** against the observed value.
+
+Two consequences, registered as [OPN-012](../traceability/claims/OPN-012.yaml):
+
+- If CAC adopts causal-set kinematics at all, it must actualize $V_4$ **itself** mature, not merely its contents. That is [EXT-004](../traceability/claims/EXT-004.yaml) branch two in its most committing form, and it owes [CRE-007](../traceability/claims/CRE-007.yaml) the corresponding argument.
+- The fluctuation $\delta N \sim \sqrt{N}$ is a statistic *of a birth process*. A stock produced in a single act does not obviously carry the same spectrum as one grown over $10^{10}$ yr. If that survives being made precise, act-versus-accumulation has an observational signature — which would be the first thing the programme has produced that is shaped like $P(E \mid H_{\mathrm{CAC}})$ rather than like a reply to an objection.
+
+Confidence on the second limb is **LOW** and the causal-set literature check has not been done. It is registered as a lead, not a result.
 
 ## The cost, stated plainly
 

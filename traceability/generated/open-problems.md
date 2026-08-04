@@ -16,6 +16,7 @@ The `OPN-*` traceability claims are the **canonical registry** of open problems.
 | OPN-009 | 2 | open | Light travel time from cosmological distances | CRE-004, HER-001, PHY-001 |
 | OPN-010 | 2 | open | Processes observed in transit | CRE-007, OPN-009, EXT-004 |
 | OPN-011 | 2 | open | CAC has no likelihood function | EPI-001, EPI-002, CRE-006 |
+| OPN-012 | 2 | conjectured | The 4-volume stock dependence of everpresent Lambda - first computable discriminator lead | OPN-011, EXT-005, EXT-004 |
 
 ## Statements & failure conditions
 
@@ -78,4 +79,10 @@ Distant observations record not merely arrived light but PROCESSES WITH INTERNAL
 The programme has not specified P(E \| H_CAC): what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution. EPI-001 correctly identifies that the prior is doing the work in standard age determinations, but a prior shift cannot be computed without a likelihood on the other side. Supplying one is the precondition of every observational claim the programme might make.
 
 *Risk if false:* Without a likelihood the programme forbids nothing: any observation is absorbable by "your priors generated that inference." That is unfalsifiability in its strongest form and is the direct cause of the progressiveness ledger reading zero. OPN-007 (a discriminator) is unreachable until this is supplied.
+
+### OPN-012 — The 4-volume stock dependence of everpresent Lambda - first computable discriminator lead
+
+Causal-set kinematics supplies one quantity that depends on the actualized STOCK rather than on its growth rate: the fluctuation-driven cosmological constant Lambda ~ +/- hbar / sqrt(V_4) (Sorkin 1997; Ahmed, Dodelson, Greene and Sorkin 2004), which ADCE registers as its declared rival. Two questions follow for CAC, and both are computable rather than hermeneutic. (a) MAGNITUDE. With V_4 ~ (ct)^4, Lambda scales as t^(-2). Substituting a realized 4-volume of order 10^4 yr for one of order 10^10 yr raises Lambda by roughly thirteen orders of magnitude against the observed value. If CAC adopts causal-set kinematics at all, it must actualize V_4 itself mature, not merely its contents - EXT-004 branch two in its most committing form. (b) SPECTRUM. The fluctuation delta-N ~ sqrt(N) is a statistic OF A BIRTH PROCESS. A stock produced in a single act does not obviously carry the same fluctuation spectrum as one grown over 10^10 yr. If that difference survives being made precise, act-versus-accumulation has an observational signature in Lambda-fluctuation phenomenology.
+
+*Risk if false:* Limb (a) is arithmetic and is unlikely to be wrong in direction, though the exponent depends on how V_4 is defined for a non-traversed history - which is precisely the question CAC has not answered. Limb (b) may already be closed in the causal-set literature, in which case the lead dies and OPN-011 loses its only computable route found so far.
 

@@ -1,0 +1,34 @@
+id: CRE-009
+name: Contingency requires a non-contingent actualizing source
+statement: >
+  The universe is contingent and does not account for its own existence. It therefore
+  requires a source that is non-contingent, logical, informational, and actualizable -
+  the Logos. This is the metaphysical ground of the creative act CRE-002 asserts:
+  actualization is not merely the category CAC prefers for the origin of the cosmos,
+  it is the category a contingent order requires.
+tier: 1
+role: bridge
+proof_status: prose_only
+epistemic_status: argued
+source_documents:
+  - doc: origins-framework
+    section: "point 5"
+risk_if_false: >
+  If contingency did not require a non-contingent source, actualization would be one
+  optional description of the origin among others, and CRE-002's "actualization rather
+  than culmination" would be a preference rather than a requirement. The programme
+  would still be statable but would lose the reason its central category is the right
+  one.
+notes: >
+  DELIBERATELY CARRIES NO DEPENDENCY EDGE TO EXT-001. The four attributes named here -
+  non-contingent, logical, informational, actualizable - are recognisably TRT's
+  primitives in theological register, and drawing a dependency edge would re-assert the
+  "naturally derives from TRT" claim that OPN-008 withdrew. The convergence is real and
+  worth stating in prose; it is not a derivation in either direction, and the registry
+  must not imply one.
+  WHAT IT DOES AND DOES NOT DELIVER. It grounds actualization as the required category.
+  It does NOT deliver discreteness, functional maturity, or any timeline - those are
+  CRE-002, CRE-003 and CRE-008, argued on separate grounds. A contingency argument
+  establishes that there is a non-contingent source; it says nothing about the temporal
+  profile of what that source does. Reading more out of it than that is the same
+  over-reading CRE-008's notes warn against.

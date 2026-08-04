@@ -39,6 +39,17 @@ Ordinary gravitational law acting on a specified initial state over a short inte
 
 This is also the one place the likelihood is not hostage to the creation act itself: EPI-002 asserts that the post-creation era runs on law, so $P(E \mid H_{\mathrm{CAC}})$ over that era is computable from the initial configuration without any appeal to what actualization "would" produce. Start [OPN-011](../traceability/claims/OPN-011.yaml) here.
 
+### 1b. The 4-volume stock dependence — [OPN-012](../traceability/claims/OPN-012.yaml)
+
+**Added 2026-08-04. The first lead that is computable rather than hermeneutic, and the first thing shaped like a likelihood rather than like a reply to an objection.**
+
+ADCE's rate-shaped bridge laws are scale-free in the initial stock, so a functionally mature actualized stock composes with them ([EXT-005](../traceability/claims/EXT-005.yaml)). ADCE's *rival* is the exception: everpresent $\Lambda \sim \pm\hbar/\sqrt{V_4}$ depends on the total 4-volume, and with $V_4 \sim (ct)^4$ this gives $\Lambda \propto t^{-2}$.
+
+- **Magnitude (arithmetic, near-certain in direction).** A realized 4-volume of order $10^4$ yr rather than $10^{10}$ yr raises $\Lambda$ by roughly thirteen orders of magnitude against the observed value. If CAC adopts causal-set kinematics, it must actualize $V_4$ itself mature. This is CAC eliminating one of its own belt options on a calculation — internal progress, forbidding no observation.
+- **Spectrum (the live limb).** $\delta N \sim \sqrt{N}$ is a statistic *of a birth process*. A stock produced in one act need not carry the spectrum of one grown over $10^{10}$ yr. If the difference survives being made precise, act-versus-accumulation has an observational signature.
+
+**Do the literature check first.** Confidence is LOW and the causal-set literature may already settle the spectrum question, in which case the lead dies cheaply rather than after development work. Sources to read: Sorkin (1997); Ahmed, Dodelson, Greene and Sorkin (2004); Zwane, Afshordi and Sorkin (2018); Das, Nasiri and Yazdi (2023).
+
 ### 2. Processes observed in transit — [OPN-010](../traceability/claims/OPN-010.yaml)
 
 **Position now declared; likelihood outstanding.** The Origins Framework answers this via EXT-004 branch two — the record is actual, the recorded process is not, and this is not deception because the luminaries' stated function is signs and seasons rather than chronicle ([HER-002](../traceability/claims/HER-002.yaml)) and the chronological inference comes from the observer's priors ([EPI-001](../traceability/claims/EPI-001.yaml)).
@@ -53,6 +64,14 @@ What keeps it on the list is the residual: the Cana argument is strongest for *c
 Any CAC account of light in transit makes *some* commitment about what these records are. That commitment is where a discriminator lives. If the account says the records are of real processes, it owes a mechanism by which those processes occurred within the programme's history. If it says they are specified rather than occurred, it owes a response to [CRE-007](../traceability/claims/CRE-007.yaml) — and, more usefully here, it may forbid particular *inconsistencies* between independent records of the same distant event, which is a testable claim.
 
 **The residuals are the opportunity.** A created-geometry redshift model ([OPN-004](../traceability/claims/OPN-004.yaml)) that reproduces the distance-redshift relation will not in general reproduce the $(1+z)$ time-dilation scaling *exactly*. The size and shape of the mismatch is a candidate prediction — and one that current supernova samples can already constrain.
+
+### 2b. The directional-residual reformulation of Origins Framework point 7
+
+**Added 2026-08-04.** Point 7's anomaly set is not registered, because as stated it is ten accommodations of already-known facts and its argument form needs the very likelihood that is missing (see [`origins-framework.md`](../1-hypothesis/origins-framework.md) and [OPN-011](../traceability/claims/OPN-011.yaml)).
+
+The reformulation that could reach tier 3: **the residuals are directionally biased.** Observed systems are systematically *more* mature, ordered, intact or earlier-formed than gradualist expectation permits, and never systematically less. Stated that way it forbids something — a class of systems found systematically *less* developed than the gradualist prediction would embarrass CAC — and it commits to a direction on residuals not yet measured, which is what separates a prediction from a retrodiction.
+
+What it needs before registration: a defined sample, a stated gradualist expectation to measure the residual against, and the failure condition written into `falsifies` first. Absent those it is a slogan, and the ledger should keep counting it at zero.
 
 ### 3. Light travel time — [OPN-009](../traceability/claims/OPN-009.yaml)
 
