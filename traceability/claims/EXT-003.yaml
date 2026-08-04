@@ -1,0 +1,35 @@
+id: EXT-003
+name: TRT's core underdetermines the temporal profile of actualization
+statement: >
+  TRT's hard core characterizes actualizing action A as a mapping from admissible to
+  actual structure (ACT-001) and fixes no temporal profile for it. Whether A operates
+  at a rate or in an act, continuously or discretely, is not settled by the core.
+  Established by TRT's own registered refutation: ADCE's v2 hypothesis that continued
+  actualization necessarily changes geometry was refuted by red-team and is recorded
+  in ADCE section 8 as false by the paper's own equations - "the capacity bound plus
+  continued actualization therefore constrain a(t) not at all". ADCE's reformulated
+  rate structure is an additional belt-level posit which, in its own words, nothing
+  forces.
+tier: 2
+role: imported
+proof_status: imported
+epistemic_status: argued
+depends_on:
+  - claim_id: EXT-001
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "7 (programme note); relation-to-trt.md"
+external_citations:
+  - "Longmire, J.D. (2026). ADCE v3.2, section 8, in triadic-reality-theory. Central geometric hypothesis reformulated after falsification criterion 3 fired."
+  - "triadic-reality-theory traceability OPN-008: 'The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture.'"
+risk_if_false: >
+  If TRT's core DID fix a temporal profile, one of CAC and ADCE would be inconsistent
+  with the shared ontology rather than a legitimate belt alternative to it, and the
+  OPN-008 disposition would have to be reopened.
+notes: >
+  Cuts both ways and CAC pays for it. Underdetermination means the core does not
+  entail continuity, but equally does not entail discreteness - so the position
+  paper's "CAC naturally derives from TRT" is unavailable and is corrected in v0.2.
+  A finding owed back upstream: TRT does not record this parameter as an open choice
+  on its own side.

@@ -1,17 +1,38 @@
 id: OPN-008
-name: Consistency with TRT's belt-level cosmology (ADCE)
+name: Consistency with TRT's belt-level cosmology (ADCE) - RESOLVED
 statement: >
-  TRT's Actualization-Driven Cosmological Expansion note develops a CONTINUOUS accumulation of realized causal history over cosmic time, on a causal-set number-volume substrate with targets anchored to DESI. CAC asserts a DISCRETE actualization. Whether both are admissible belt developments of the same ontology, whether one supersedes the other, or whether the programmes are independent, is undecided.
+  RESOLVED 2026-08-03 (PI-1 O2a). Disposition: COMMON ONTOLOGY, DIVERGENT BELTS. CAC
+  and ADCE are distinct belt developments of a shared hard core, differing on the
+  temporal profile of actualizing action - a parameter TRT's core genuinely leaves
+  free (EXT-003). The conflict is belt-versus-belt, not belt-versus-core, and TRT's
+  own registry says so: "The TRT hard core is untouched either way." Neither belt is
+  positioned to supersede the other - ADCE's severe test failed across the natural
+  bridge-law grid in every cell, and CAC has zero predictions.
 tier: 2
-role: open
-proof_status: open
-epistemic_status: open
+role: derived
+proof_status: prose_only
+epistemic_status: argued
 depends_on:
   - claim_id: EXT-001
     dependency_type: interpretive
+  - claim_id: EXT-003
+    dependency_type: logical
   - claim_id: CRE-002
     dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "7 (programme note)"
 risk_if_false: >
-  Position paper section 7 claims CAC 'naturally derives from' TRT. If the two cosmologies are incompatible, that claim must be weakened to 'adopts TRT's ontology', which costs the programme its strongest grounding argument.
+  If TRT's core did fix a temporal profile for A, the disposition reopens and one of
+  the two belts is inconsistent with the shared ontology rather than an alternative
+  development of it. EXT-003 is the load-bearing premise; it rests on a refutation
+  TRT registered against its own hypothesis, which is strong evidence but is a single
+  source.
 notes: >
-  Found at stand-up by reading ADCE directly rather than the section 7 summary. Three dispositions are priced in 1-hypothesis/relation-to-trt.md; none chosen. VSOK objective O2.
+  Opened at stand-up by reading ADCE directly rather than the position paper's section
+  7 summary. Closed the same day on TRT's own registered refutation rather than on a
+  compromise between the programmes. COST CARRIED, not dropped: underdetermination
+  means the core does not entail discreteness either, so section 7's "naturally
+  derives from" is wrong and becomes "adopts the ontology of" in v0.2. Produced two
+  results: EXT-003 (the free parameter) and EXT-004 (the disambiguation obligation,
+  which constrains OPN-010).

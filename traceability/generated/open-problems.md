@@ -13,9 +13,8 @@ The `OPN-*` traceability claims are the **canonical registry** of open problems.
 | OPN-005 | 2 | open | CMB implications and the acoustic peak structure | PHY-004, OPN-001 |
 | OPN-006 | 2 | open | Large-scale structure formation | PHY-003, CRE-006 |
 | OPN-007 | 2 | open | Observational discriminators distinguishing CAC from LCDM | OPN-004, OPN-009, OPN-010 |
-| OPN-008 | 2 | open | Consistency with TRT's belt-level cosmology (ADCE) | EXT-001, CRE-002 |
 | OPN-009 | 2 | open | Light travel time from cosmological distances | CRE-004, HER-001, PHY-001 |
-| OPN-010 | 2 | open | Processes observed in transit | CRE-007, OPN-009 |
+| OPN-010 | 2 | open | Processes observed in transit | CRE-007, OPN-009, EXT-004 |
 
 ## Statements & failure conditions
 
@@ -61,12 +60,6 @@ At least one observation that CAC forbids and LCDM permits, or that CAC permits 
 
 *Risk if false:* This is the whole question. Until one exists the programme is unappraisable in Lakatos's sense and the appraisal verdict cannot move off UNAPPRAISED, however much belt machinery accumulates.
 
-### OPN-008 — Consistency with TRT's belt-level cosmology (ADCE)
-
-TRT's Actualization-Driven Cosmological Expansion note develops a CONTINUOUS accumulation of realized causal history over cosmic time, on a causal-set number-volume substrate with targets anchored to DESI. CAC asserts a DISCRETE actualization. Whether both are admissible belt developments of the same ontology, whether one supersedes the other, or whether the programmes are independent, is undecided.
-
-*Risk if false:* Position paper section 7 claims CAC 'naturally derives from' TRT. If the two cosmologies are incompatible, that claim must be weakened to 'adopts TRT's ontology', which costs the programme its strongest grounding argument.
-
 ### OPN-009 — Light travel time from cosmological distances
 
 Under CRE-004, what accounts for light presently arriving from sources at cosmological distance. Axiom 4's Earth-frame reading and section 4's rapid actualization gesture at an answer; neither supplies one.
@@ -75,7 +68,7 @@ Under CRE-004, what accounts for light presently arriving from sources at cosmol
 
 ### OPN-010 — Processes observed in transit
 
-Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light.
+Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light. Per EXT-004 the account must additionally DECLARE, per class of record, whether the recorded process is actual in TRT's sense.
 
 *Risk if false:* This is the sharpest form of the omphalos objection and bears directly on CRE-007's claim that operational completeness does not entail deception. If unanswerable, CRE-007 fails and the theological warrant is undercut by the programme's own doctrine of God.
 

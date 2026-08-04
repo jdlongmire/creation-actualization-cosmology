@@ -14,10 +14,15 @@ Carries a working-draft status note. Not for deposit.
 Recorded in the [appraisal log](../../3-prediction/appraisal.md) and the
 [traceability registry](../../traceability/claims/), not held in conversation:
 
-- **The section 7 inheritance claim is stronger than the repository can support.**
-  "CAC naturally derives from TRT" should read "CAC adopts TRT's ontology" until
-  [OPN-008](../../traceability/claims/OPN-008.yaml) is dispositioned. TRT's own belt
-  cosmology develops continuous actualization over cosmic time.
+- **The section 7 inheritance claim is wrong** — settled, not merely suspected.
+  "CAC naturally derives from TRT" becomes **"CAC adopts the ontology of TRT."**
+  [OPN-008](../../traceability/claims/OPN-008.yaml) was dispositioned 2026-08-03:
+  TRT's core underdetermines the temporal profile of actualization
+  ([EXT-003](../../traceability/claims/EXT-003.yaml)), established by TRT's own
+  registered refutation of ADCE's forcing hypothesis. An ontology that does not
+  entail continuity does not entail discreteness either, so the derivation claim is
+  unavailable in both directions. This is a required correction, not an optional
+  softening.
 - **Two uses of "predicts" in section 5 are doing accommodation's work** (Hubble
   tension, JWST early structure). Neither forbids anything. Recorded against
   [ACC-003](../../traceability/claims/ACC-003.yaml) and

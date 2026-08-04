@@ -13,6 +13,8 @@ graph TD
   CRE-007["CRE-007<br/>bridge/prose_only"]
   EXT-001["EXT-001<br/>imported/imported"]
   EXT-002["EXT-002<br/>imported/imported"]
+  EXT-003["EXT-003<br/>imported/imported"]
+  EXT-004["EXT-004<br/>imported/imported"]
   HER-001["HER-001<br/>derived/prose_only"]
   HER-002["HER-002<br/>derived/prose_only"]
   HER-003["HER-003<br/>derived/prose_only"]
@@ -23,7 +25,7 @@ graph TD
   OPN-005["OPN-005<br/>open/open"]
   OPN-006["OPN-006<br/>open/open"]
   OPN-007["OPN-007<br/>open/open"]
-  OPN-008["OPN-008<br/>open/open"]
+  OPN-008["OPN-008<br/>derived/prose_only"]
   OPN-009["OPN-009<br/>open/open"]
   OPN-010["OPN-010<br/>open/open"]
   PHY-001["PHY-001<br/>derived/prose_only"]
@@ -46,6 +48,8 @@ graph TD
   CRE-006 --> CRE-004
   CRE-007 --> CRE-003
   CRE-007 --> CRE-006
+  EXT-003 --> EXT-001
+  EXT-004 --> EXT-001
   HER-001 --> CRE-001
   HER-001 --> CRE-004
   HER-002 --> CRE-004
@@ -67,12 +71,14 @@ graph TD
   OPN-007 --> OPN-009
   OPN-007 --> OPN-010
   OPN-008 --> EXT-001
+  OPN-008 --> EXT-003
   OPN-008 --> CRE-002
   OPN-009 --> CRE-004
   OPN-009 --> HER-001
   OPN-009 --> PHY-001
   OPN-010 --> CRE-007
   OPN-010 --> OPN-009
+  OPN-010 --> EXT-004
   PHY-001 --> CRE-004
   PHY-001 --> CRE-006
   PHY-002 --> PHY-001

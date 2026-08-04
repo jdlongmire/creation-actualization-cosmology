@@ -1,0 +1,32 @@
+id: EXT-004
+name: The four-tier engine imposes a disambiguation obligation on in-transit accounts
+statement: >
+  TRT stratifies informational structure as representable, admissible, actual, and
+  outcome-actual (ONT-003), with every actual structure L3-admissible (ACT-001,
+  Lean-verified). A distant record is a physical structure and is therefore actual.
+  The PROCESS the record records must be separately assigned: in chi, or not. TRT
+  does not forbid an actual record of a non-actual process; it forbids leaving the
+  question undeclared. Any CAC account of light in transit must state, per class of
+  distant record, whether the recorded process is actual.
+tier: 2
+role: imported
+proof_status: imported
+epistemic_status: argued
+depends_on:
+  - claim_id: EXT-001
+    dependency_type: logical
+source_documents:
+  - doc: CAC-v0.1
+    section: "relation-to-trt.md"
+external_citations:
+  - "triadic-reality-theory traceability ONT-003 (four-tier engine), ACT-001 (actualization preserves admissibility; Lean-verified)"
+risk_if_false: >
+  If the tiers imposed no such obligation, the TRT import would be decorative - it
+  would supply vocabulary for "actualization" and constrain nothing downstream.
+notes: >
+  This is where the inheritance earns its keep. It converts "CAC should say something
+  about light in transit" into "CAC must assign a tier and declare a status", which is
+  the difference between a gesture and a position. Each declaration carries a bill:
+  actual process => owes a history in which it occurred within the programme's
+  interval (OPN-009/OPN-010 at their hardest); non-actual process => owes the argument
+  that an actual record of a non-actual process is not the deception CRE-007 disclaims.

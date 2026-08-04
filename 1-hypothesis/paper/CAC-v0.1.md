@@ -184,7 +184,11 @@ The extraordinary order of the universe therefore reflects rational specificatio
 
 Entropy measures the subsequent growth of accessible physical states from an intentionally specified beginning.
 
-> **Programme note (added at stand-up, not part of the position statement).** The inheritance from TRT is asserted here at the level of *ontology*. TRT's own belt-level cosmology note, [Actualization-Driven Cosmological Expansion (ADCE)](https://github.com/jdlongmire/triadic-reality-theory/blob/main/2-theory/04-cosmology/adce.md), develops a *continuous* accumulation of realized causal history over cosmic time. CAC's discrete-actualization boundary condition is not obviously compatible with that development. The relation is therefore registered as an open problem, [OPN-008](../../traceability/claims/OPN-008.yaml), and stated in full at [`relation-to-trt.md`](../relation-to-trt.md), rather than assumed.
+> **Programme note (added at stand-up; dispositioned 2026-08-03. Not part of the position statement).** **The phrase "naturally derives from" above is wrong and is corrected in v0.2 to "adopts the ontology of."**
+>
+> TRT's hard core characterizes actualizing action as a *mapping* from admissible to actual structure and fixes no temporal profile for it. TRT established this against itself: its belt-level cosmology note [ADCE](https://github.com/jdlongmire/triadic-reality-theory/blob/main/2-theory/04-cosmology/adce.md) once held that continued actualization necessarily changes geometry, and §8 now records that claim as false by its own equations — "the capacity bound plus continued actualization therefore constrain $a(t)$ not at all."
+>
+> So whether actualization operates *at a rate* or *in an act* is a parameter the core leaves free ([EXT-003](../../traceability/claims/EXT-003.yaml)). ADCE chooses rate; CAC chooses act. Both are legitimate belt developments of a shared ontology, and [OPN-008](../../traceability/claims/OPN-008.yaml) is closed on that basis. But the freedom cuts both ways: an ontology that does not entail continuity does not entail discreteness either. TRT gives CAC a formal home for "discrete divine actualization." It does not give CAC an argument for it. Full statement at [`relation-to-trt.md`](../relation-to-trt.md).
 
 ---
 

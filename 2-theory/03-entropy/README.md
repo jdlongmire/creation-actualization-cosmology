@@ -28,9 +28,12 @@ counts it as contributing nothing.
 
 ## The TRT coupling
 
-[OPN-008](../../traceability/claims/OPN-008.yaml) lands here as well as in the
-[relation-to-TRT](../../1-hypothesis/relation-to-trt.md) file. Position paper §7 states
-that entropy measures the growth of accessible states from an intentionally specified
-beginning — but TRT's own belt cosmology has actualization *continuing* to accumulate
-over cosmic time. The two entropy pictures are not the same picture, and this is the
-directory where the difference has to be worked out.
+[OPN-008](../../traceability/claims/OPN-008.yaml) closed 2026-08-03 as *common ontology,
+divergent belts*, which settles the **ontological** question and leaves the **entropy**
+question open and sharper. Position paper §7 states that entropy measures the growth of
+accessible states from an intentionally specified beginning; TRT's belt cosmology has
+actualization *continuing* to accumulate over cosmic time. Since the core underdetermines
+the temporal profile ([EXT-003](../../traceability/claims/EXT-003.yaml)), these are two
+legitimate but genuinely different entropy pictures — so CAC owes an account of its own
+here rather than an appeal to TRT's. This is the directory where that account gets
+written.

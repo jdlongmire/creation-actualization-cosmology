@@ -300,7 +300,7 @@
     ],
     "id": "EXT-001",
     "name": "TRT ontology - reality as constrained information in action",
-    "notes": "The import is at the level of ONTOLOGY only. TRT's belt-level cosmology (ADCE) is NOT imported and is not obviously compatible - see OPN-008 and 1-hypothesis/relation-to-trt.md.\n",
+    "notes": "The import is at the level of ONTOLOGY only. TRT's belt-level cosmology (ADCE) is NOT imported. Their relation was dispositioned 2026-08-03 as COMMON ONTOLOGY, DIVERGENT BELTS - see OPN-008, EXT-003, and 1-hypothesis/relation-to-trt.md. The import supplies a formal home for actualization-as-primitive-act; it does NOT supply an argument for discreteness, since the core underdetermines the temporal profile of A in both directions (EXT-003).\n",
     "proof_status": "imported",
     "risk_if_false": "CAC loses its ontological setting for \"actualization\" as a primitive act. The programme could be restated without TRT, but \"discrete divine actualization\" would then be a theological description with no formal home.\n",
     "role": "imported",
@@ -328,6 +328,59 @@
       }
     ],
     "statement": "The observational corpus of modern cosmology - CMB anisotropy measurements, the distance-redshift relation, BAO, lensing, abundance and structure surveys - is accepted as data. CAC disputes the historical reconstruction placed on it, not the measurements.\n",
+    "tier": 2
+  },
+  "EXT-003": {
+    "depends_on": [
+      {
+        "claim_id": "EXT-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "external_citations": [
+      "Longmire, J.D. (2026). ADCE v3.2, section 8, in triadic-reality-theory. Central geometric hypothesis reformulated after falsification criterion 3 fired.",
+      "triadic-reality-theory traceability OPN-008: 'The TRT hard core is untouched either way; this is a belt-level physics-facing conjecture.'"
+    ],
+    "id": "EXT-003",
+    "name": "TRT's core underdetermines the temporal profile of actualization",
+    "notes": "Cuts both ways and CAC pays for it. Underdetermination means the core does not entail continuity, but equally does not entail discreteness - so the position paper's \"CAC naturally derives from TRT\" is unavailable and is corrected in v0.2. A finding owed back upstream: TRT does not record this parameter as an open choice on its own side.\n",
+    "proof_status": "imported",
+    "risk_if_false": "If TRT's core DID fix a temporal profile, one of CAC and ADCE would be inconsistent with the shared ontology rather than a legitimate belt alternative to it, and the OPN-008 disposition would have to be reopened.\n",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "7 (programme note); relation-to-trt.md"
+      }
+    ],
+    "statement": "TRT's hard core characterizes actualizing action A as a mapping from admissible to actual structure (ACT-001) and fixes no temporal profile for it. Whether A operates at a rate or in an act, continuously or discretely, is not settled by the core. Established by TRT's own registered refutation: ADCE's v2 hypothesis that continued actualization necessarily changes geometry was refuted by red-team and is recorded in ADCE section 8 as false by the paper's own equations - \"the capacity bound plus continued actualization therefore constrain a(t) not at all\". ADCE's reformulated rate structure is an additional belt-level posit which, in its own words, nothing forces.\n",
+    "tier": 2
+  },
+  "EXT-004": {
+    "depends_on": [
+      {
+        "claim_id": "EXT-001",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "external_citations": [
+      "triadic-reality-theory traceability ONT-003 (four-tier engine), ACT-001 (actualization preserves admissibility; Lean-verified)"
+    ],
+    "id": "EXT-004",
+    "name": "The four-tier engine imposes a disambiguation obligation on in-transit accounts",
+    "notes": "This is where the inheritance earns its keep. It converts \"CAC should say something about light in transit\" into \"CAC must assign a tier and declare a status\", which is the difference between a gesture and a position. Each declaration carries a bill: actual process => owes a history in which it occurred within the programme's interval (OPN-009/OPN-010 at their hardest); non-actual process => owes the argument that an actual record of a non-actual process is not the deception CRE-007 disclaims.\n",
+    "proof_status": "imported",
+    "risk_if_false": "If the tiers imposed no such obligation, the TRT import would be decorative - it would supply vocabulary for \"actualization\" and constrain nothing downstream.\n",
+    "role": "imported",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "relation-to-trt.md"
+      }
+    ],
+    "statement": "TRT stratifies informational structure as representable, admissible, actual, and outcome-actual (ONT-003), with every actual structure L3-admissible (ACT-001, Lean-verified). A distant record is a physical structure and is therefore actual. The PROCESS the record records must be separately assigned: in chi, or not. TRT does not forbid an actual record of a non-actual process; it forbids leaving the question undeclared. Any CAC account of light in transit must state, per class of distant record, whether the recorded process is actual.\n",
     "tier": 2
   },
   "HER-001": {
@@ -565,18 +618,28 @@
         "dependency_type": "interpretive"
       },
       {
+        "claim_id": "EXT-003",
+        "dependency_type": "logical"
+      },
+      {
         "claim_id": "CRE-002",
         "dependency_type": "logical"
       }
     ],
-    "epistemic_status": "open",
+    "epistemic_status": "argued",
     "id": "OPN-008",
-    "name": "Consistency with TRT's belt-level cosmology (ADCE)",
-    "notes": "Found at stand-up by reading ADCE directly rather than the section 7 summary. Three dispositions are priced in 1-hypothesis/relation-to-trt.md; none chosen. VSOK objective O2.\n",
-    "proof_status": "open",
-    "risk_if_false": "Position paper section 7 claims CAC 'naturally derives from' TRT. If the two cosmologies are incompatible, that claim must be weakened to 'adopts TRT's ontology', which costs the programme its strongest grounding argument.\n",
-    "role": "open",
-    "statement": "TRT's Actualization-Driven Cosmological Expansion note develops a CONTINUOUS accumulation of realized causal history over cosmic time, on a causal-set number-volume substrate with targets anchored to DESI. CAC asserts a DISCRETE actualization. Whether both are admissible belt developments of the same ontology, whether one supersedes the other, or whether the programmes are independent, is undecided.\n",
+    "name": "Consistency with TRT's belt-level cosmology (ADCE) - RESOLVED",
+    "notes": "Opened at stand-up by reading ADCE directly rather than the position paper's section 7 summary. Closed the same day on TRT's own registered refutation rather than on a compromise between the programmes. COST CARRIED, not dropped: underdetermination means the core does not entail discreteness either, so section 7's \"naturally derives from\" is wrong and becomes \"adopts the ontology of\" in v0.2. Produced two results: EXT-003 (the free parameter) and EXT-004 (the disambiguation obligation, which constrains OPN-010).\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If TRT's core did fix a temporal profile for A, the disposition reopens and one of the two belts is inconsistent with the shared ontology rather than an alternative development of it. EXT-003 is the load-bearing premise; it rests on a refutation TRT registered against its own hypothesis, which is strong evidence but is a single source.\n",
+    "role": "derived",
+    "source_documents": [
+      {
+        "doc": "CAC-v0.1",
+        "section": "7 (programme note)"
+      }
+    ],
+    "statement": "RESOLVED 2026-08-03 (PI-1 O2a). Disposition: COMMON ONTOLOGY, DIVERGENT BELTS. CAC and ADCE are distinct belt developments of a shared hard core, differing on the temporal profile of actualizing action - a parameter TRT's core genuinely leaves free (EXT-003). The conflict is belt-versus-belt, not belt-versus-core, and TRT's own registry says so: \"The TRT hard core is untouched either way.\" Neither belt is positioned to supersede the other - ADCE's severe test failed across the natural bridge-law grid in every cell, and CAC has zero predictions.\n",
     "tier": 2
   },
   "OPN-009": {
@@ -613,16 +676,20 @@
       {
         "claim_id": "OPN-009",
         "dependency_type": "empirical"
+      },
+      {
+        "claim_id": "EXT-004",
+        "dependency_type": "interpretive"
       }
     ],
     "epistemic_status": "open",
     "id": "OPN-010",
     "name": "Processes observed in transit",
-    "notes": "NOT named in the position paper; added at stand-up. Flagged in the ROADMAP as the most promising place to look for OPN-007, on the reasoning that maximum exposure and maximum discriminating power are the same property.\n",
+    "notes": "NOT named in the position paper; added at stand-up. Flagged in the ROADMAP as the most promising place to look for OPN-007, on the reasoning that maximum exposure and maximum discriminating power are the same property. Since the OPN-008 disposition (2026-08-03) the option space is narrower and better defined: EXT-004 forbids leaving the recorded process's status undeclared, and each of the two available declarations carries a stated bill.\n",
     "proof_status": "open",
     "risk_if_false": "This is the sharpest form of the omphalos objection and bears directly on CRE-007's claim that operational completeness does not entail deception. If unanswerable, CRE-007 fails and the theological warrant is undercut by the programme's own doctrine of God.\n",
     "role": "open",
-    "statement": "Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light.\n",
+    "statement": "Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light. Per EXT-004 the account must additionally DECLARE, per class of record, whether the recorded process is actual in TRT's sense.\n",
     "tier": 2
   },
   "PHY-001": {

@@ -6,13 +6,13 @@ GitHub **Issues** track the *active subset* (those currently being worked), filt
 
 ## Reading the registry
 
-Ten problems are registered at stand-up. Three groupings matter more than the numbering:
+Ten problems were registered at stand-up; **nine remain open** (OPN-008 closed 2026-08-03). Three groupings matter more than the numbering:
 
 **The critical path.** [OPN-007](../traceability/claims/OPN-007.yaml) — an observational discriminator. Nothing else changes the programme's Lakatosian status. Every other problem can be solved and leave the [appraisal](../3-prediction/appraisal.md) verdict exactly where it is.
 
 **The unnamed objections.** [OPN-009](../traceability/claims/OPN-009.yaml) (light travel time) and [OPN-010](../traceability/claims/OPN-010.yaml) (processes observed in transit) are not raised in the position paper. They were added at stand-up because they are the first and second objections a competent reader raises, and because OPN-010 bears directly on [CRE-007](../traceability/claims/CRE-007.yaml)'s claim that operational completeness does not entail deception — a claim the paper asserts but does not argue.
 
-**The inherited conflict.** [OPN-008](../traceability/claims/OPN-008.yaml) — TRT's belt cosmology develops continuous actualization over cosmic time; CAC asserts discrete actualization. Priced in [`../1-hypothesis/relation-to-trt.md`](../1-hypothesis/relation-to-trt.md), undecided.
+**The inherited conflict — closed.** [OPN-008](../traceability/claims/OPN-008.yaml) asked whether TRT's continuous-actualization belt cosmology and CAC's discrete boundary condition can share an ontology. Dispositioned 2026-08-03 as *common ontology, divergent belts*, on TRT's own registered refutation of its forcing hypothesis. It has left this registry (its role is no longer `open`) and the argument now lives at [`../1-hypothesis/relation-to-trt.md`](../1-hypothesis/relation-to-trt.md). It produced two imported results — [EXT-003](../traceability/claims/EXT-003.yaml) (the free parameter) and [EXT-004](../traceability/claims/EXT-004.yaml) (the disambiguation obligation, now a dependency of OPN-010).
 
 ## The degeneration watch-point
 

@@ -14,6 +14,8 @@
     "CRE-007",
     "EXT-001",
     "EXT-002",
+    "EXT-003",
+    "EXT-004",
     "HER-001",
     "HER-002",
     "HER-003",
@@ -111,6 +113,16 @@
     {
       "from": "CRE-007",
       "to": "CRE-006",
+      "type": "logical"
+    },
+    {
+      "from": "EXT-003",
+      "to": "EXT-001",
+      "type": "logical"
+    },
+    {
+      "from": "EXT-004",
+      "to": "EXT-001",
       "type": "logical"
     },
     {
@@ -220,6 +232,11 @@
     },
     {
       "from": "OPN-008",
+      "to": "EXT-003",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-008",
       "to": "CRE-002",
       "type": "logical"
     },
@@ -247,6 +264,11 @@
       "from": "OPN-010",
       "to": "OPN-009",
       "type": "empirical"
+    },
+    {
+      "from": "OPN-010",
+      "to": "EXT-004",
+      "type": "interpretive"
     },
     {
       "from": "PHY-001",

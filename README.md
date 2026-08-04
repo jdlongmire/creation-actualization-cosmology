@@ -60,7 +60,9 @@ OPN-010 is flagged as the most promising place to look for the programme's first
 
 CAC imports TRT's ontology — $\chi \equiv \mathcal{A}(I \mid L)$ — as the setting in which "actualization" is a primitive act rather than a limit of natural process.
 
-It does **not** import TRT's belt-level cosmology. TRT's [ADCE](https://github.com/jdlongmire/triadic-reality-theory/blob/main/2-theory/04-cosmology/adce.md) note develops a *continuous* accumulation of realized causal history over cosmic time, which is not obviously compatible with CAC's discrete boundary condition. The conflict is registered as [OPN-008](traceability/claims/OPN-008.yaml) and priced in [`relation-to-trt.md`](1-hypothesis/relation-to-trt.md) rather than smoothed over.
+It does **not** import TRT's belt-level cosmology. [OPN-008](traceability/claims/OPN-008.yaml) asked whether CAC's discrete actualization and TRT's [ADCE](https://github.com/jdlongmire/triadic-reality-theory/blob/main/2-theory/04-cosmology/adce.md) — which develops a *continuous* accumulation of realized causal history — can both be developments of the same ontology. **Dispositioned 2026-08-03: common ontology, divergent belts.** The temporal profile of actualization is a parameter TRT's core leaves free, established by TRT's own registered refutation of ADCE's forcing hypothesis. ADCE chooses rate; CAC chooses act.
+
+**The disposition costs CAC its grounding argument, and the repository carries the cost rather than banking the result.** An ontology that does not entail continuity does not entail discreteness either, so the position paper's "naturally derives from TRT" is *wrong*, not merely unsupported, and becomes "adopts the ontology of" in v0.2. What the import supplies is a formal home for actualization-as-act, plus one real constraint: TRT's four-tier engine forbids leaving the status of a distant record's process undeclared ([EXT-004](traceability/claims/EXT-004.yaml)), which narrows the option space at OPN-010. Full argument in [`relation-to-trt.md`](1-hypothesis/relation-to-trt.md).
 
 ## Working in this repository
 
