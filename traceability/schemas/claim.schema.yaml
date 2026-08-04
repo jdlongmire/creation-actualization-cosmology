@@ -17,10 +17,11 @@ required: [id, name, statement, tier, role, proof_status, epistemic_status]
 properties:
   id:
     type: string
-    pattern: "^(CRE|HER|PHY|ACC|PRD|OPN|EXT)-[0-9]{3}$"
+    pattern: "^(CRE|HER|EPI|PHY|ACC|PRD|OPN|EXT)-[0-9]{3}$"
     description: |
       Unique identifier with semantic prefix:
         CRE - creation / hard-core commitments   HER - hermeneutics, exegetical hypotheses
+        EPI - epistemic / inferential commitments (how evidence is evaluated)
         PHY - physical mechanism (belt)          ACC - accommodations of known facts
         PRD - empirical predictions              OPN - open problems
         EXT - imported external results
@@ -58,7 +59,7 @@ properties:
       type: object
       required: [claim_id]
       properties:
-        claim_id: { type: string, pattern: "^(CRE|HER|PHY|ACC|PRD|OPN|EXT)-[0-9]{3}$" }
+        claim_id: { type: string, pattern: "^(CRE|HER|EPI|PHY|ACC|PRD|OPN|EXT)-[0-9]{3}$" }
         dependency_type:
           type: string
           enum: [logical, formal, exegetical, interpretive, empirical]

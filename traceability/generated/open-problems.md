@@ -15,6 +15,7 @@ The `OPN-*` traceability claims are the **canonical registry** of open problems.
 | OPN-007 | 2 | open | Observational discriminators distinguishing CAC from LCDM | OPN-004, OPN-009, OPN-010 |
 | OPN-009 | 2 | open | Light travel time from cosmological distances | CRE-004, HER-001, PHY-001 |
 | OPN-010 | 2 | open | Processes observed in transit | CRE-007, OPN-009, EXT-004 |
+| OPN-011 | 2 | open | CAC has no likelihood function | EPI-001, EPI-002, CRE-006 |
 
 ## Statements & failure conditions
 
@@ -71,4 +72,10 @@ Under CRE-004, what accounts for light presently arriving from sources at cosmol
 Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light. Per EXT-004 the account must additionally DECLARE, per class of record, whether the recorded process is actual in TRT's sense.
 
 *Risk if false:* This is the sharpest form of the omphalos objection and bears directly on CRE-007's claim that operational completeness does not entail deception. If unanswerable, CRE-007 fails and the theological warrant is undercut by the programme's own doctrine of God.
+
+### OPN-011 — CAC has no likelihood function
+
+The programme has not specified P(E \| H_CAC): what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution. EPI-001 correctly identifies that the prior is doing the work in standard age determinations, but a prior shift cannot be computed without a likelihood on the other side. Supplying one is the precondition of every observational claim the programme might make.
+
+*Risk if false:* Without a likelihood the programme forbids nothing: any observation is absorbable by "your priors generated that inference." That is unfalsifiability in its strongest form and is the direct cause of the progressiveness ledger reading zero. OPN-007 (a discriminator) is unreachable until this is supplied.
 

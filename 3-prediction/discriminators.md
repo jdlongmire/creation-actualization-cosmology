@@ -19,13 +19,31 @@ A discriminator is a claim, stated **before** evaluation, that meets all four co
 
 A claim meeting 1–4 is registered with `role: prediction`. A claim meeting some but not all is registered as `role: accommodation` with a `forbids` field recording exactly how far it gets.
 
+## The gate: there is no likelihood function — [OPN-011](../traceability/claims/OPN-011.yaml)
+
+Nothing in the hunt below is reachable until the programme can state $P(E \mid H_{\mathrm{CAC}})$ — what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution.
+
+This became explicit on 2026-08-03, when the [Origins Framework](../1-hypothesis/origins-framework.md) stated the apparent-age argument in Bayesian terms. [EPI-001](../traceability/claims/EPI-001.yaml) is right that standard age determinations are prior-driven and that the prior is doing the work. But Bayes has two factors, and holding the argument to its own standard surfaces the gap: the recommended prior shift cannot be *computed* against a likelihood the programme has not supplied. Absent one, every observation is absorbable by "your priors generated that inference" — which forbids nothing, and is exactly why the ledger reads zero.
+
+The likelihood is not a preliminary to the discriminator hunt. **It is the discriminator hunt**, stated precisely.
+
 ## Where to hunt
 
-Ranked by expected yield, which tracks exposure rather than comfort.
+Ranked by expected yield. Note that the ranking **changed on 2026-08-03**: the constructive limb of methodological designism now leads, and processes-in-transit has dropped, because the Origins Framework supplied a position there and what remains is the likelihood rather than the position.
 
-### 1. Processes observed in transit — [OPN-010](../traceability/claims/OPN-010.yaml)
+### 1. The constructive limb of methodological designism — [EPI-002](../traceability/claims/EPI-002.yaml), [OPN-006](../traceability/claims/OPN-006.yaml)
 
-The strongest candidate. Distant observations record processes with internal duration, not just arrived photons:
+**The most promising ground, and the least exploited.** If intervention is the exception and law is the rule, then everything after Creation Week is ordinary physics acting on an actualized initial configuration. That is substantive, constrained, and computable in principle — and it needs no relitigation of apparent age, which is where the argument tends to get stuck.
+
+Ordinary gravitational law acting on a specified initial state over a short interval either does or does not reproduce observed structure. If the growth history differs from ΛCDM's, then growth-rate observables discriminate: $f\sigma_8$ from redshift-space distortions, cluster abundance evolution. Both programmes then make quantitatively comparable statements about the same measured quantity, which is the cleanest form a discriminator can take.
+
+This is also the one place the likelihood is not hostage to the creation act itself: EPI-002 asserts that the post-creation era runs on law, so $P(E \mid H_{\mathrm{CAC}})$ over that era is computable from the initial configuration without any appeal to what actualization "would" produce. Start [OPN-011](../traceability/claims/OPN-011.yaml) here.
+
+### 2. Processes observed in transit — [OPN-010](../traceability/claims/OPN-010.yaml)
+
+**Position now declared; likelihood outstanding.** The Origins Framework answers this via EXT-004 branch two — the record is actual, the recorded process is not, and this is not deception because the luminaries' stated function is signs and seasons rather than chronicle ([HER-002](../traceability/claims/HER-002.yaml)) and the chronological inference comes from the observer's priors ([EPI-001](../traceability/claims/EPI-001.yaml)).
+
+What keeps it on the list is the residual: the Cana argument is strongest for *configurations*. These are records of processes with internal duration and **cross-channel consistency**:
 
 - Type Ia supernova light curves time-dilated by $(1+z)$, measured out to $z \approx 1$ and consistent across the sample
 - The SN 1987A ring geometry, whose light-echo timing gives a geometric distance largely independent of the cosmic distance ladder
@@ -36,13 +54,9 @@ Any CAC account of light in transit makes *some* commitment about what these rec
 
 **The residuals are the opportunity.** A created-geometry redshift model ([OPN-004](../traceability/claims/OPN-004.yaml)) that reproduces the distance-redshift relation will not in general reproduce the $(1+z)$ time-dilation scaling *exactly*. The size and shape of the mismatch is a candidate prediction — and one that current supernova samples can already constrain.
 
-### 2. Light travel time — [OPN-009](../traceability/claims/OPN-009.yaml)
+### 3. Light travel time — [OPN-009](../traceability/claims/OPN-009.yaml)
 
 Lower expected yield than OPN-010 because the existing treatments in the literature (relativistic time-dilation cosmologies, alternative synchrony conventions, in-transit creation) mostly resolve *arrival* without forbidding anything further. Survey and price them rather than reinventing; the value here is establishing what CAC must hold, which then constrains OPN-010.
-
-### 3. Structure formation rate — [OPN-006](../traceability/claims/OPN-006.yaml)
-
-If actualized initial conditions plus ordinary gravitational law over a short interval produce a *different* structure-growth history than ΛCDM, growth-rate observables ($f\sigma_8$ from redshift-space distortions, cluster abundance evolution) discriminate. This route requires OPN-001 and OPN-003 first, so it is slower — but it is the route where the two programmes make quantitatively comparable statements about the same measured quantity, which is the cleanest form a discriminator can take.
 
 ### 4. Promotion of an existing accommodation
 
@@ -54,3 +68,4 @@ Each of [ACC-001](../traceability/claims/ACC-001.yaml) through [ACC-005](../trac
 - "CAC allows the possibility of X." Allowing forbids nothing.
 - "Systematic discrepancies may appear." Compatible with any outcome including none — this is the precise defect recorded against ACC-003.
 - A retrodiction of a fact the programme was built to accommodate.
+- **"Your priors generated that inference."** True, useful, and defensive. It removes a reason to reject CAC; it supplies no reason to expect anything. Until [OPN-011](../traceability/claims/OPN-011.yaml) is answered this is the programme's whole observational repertoire, and the ledger counts it at zero.

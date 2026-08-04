@@ -1,0 +1,36 @@
+id: EPI-001
+name: Apparent age is prior-dependent, not observed
+statement: >
+  "This system appears old" is not an observation. It is a posterior, computed from data
+  under a likelihood and a prior. Standard practice assigns effectively zero prior weight
+  to discrete divine actualization, so the posterior concentrates on deep time largely
+  independently of the data. Systems that appear old therefore reflect a set of
+  naturalistic Bayesian priors that do not take CRE-001 and CRE-003 into account.
+tier: 1
+role: bridge
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-001
+    dependency_type: logical
+  - claim_id: CRE-003
+    dependency_type: logical
+  - claim_id: CRE-008
+    dependency_type: logical
+source_documents:
+  - doc: origins-framework
+    section: "point 4"
+risk_if_false: >
+  If age determinations were prior-independent - genuinely read off the data without
+  auxiliary assumption - then CRE-008's modal claim collapses and the observational
+  corpus would directly contradict the programme's interval.
+notes: >
+  CORRECT AS EPISTEMOLOGY, and it is the right reply to a large class of "but it LOOKS
+  old" objections: the inference is theory-laden and the prior is doing the work.
+  BUT IT IS DEFENSIVE ONLY, and the programme must describe it as such. Bayes has two
+  factors and this claim addresses one. CAC has not specified P(E | H_CAC) - see
+  OPN-011 - so the recommended prior shift cannot actually be COMPUTED, only asserted.
+  Worse, absent a likelihood, ANY observation can be absorbed by "your priors generated
+  that inference", which is the unfalsifiability charge in its strongest form and is
+  precisely why the progressiveness ledger reads zero. Neutralizing an objection is not
+  producing a claim.

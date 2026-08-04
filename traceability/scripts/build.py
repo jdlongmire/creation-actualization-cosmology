@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CLAIMS_DIR = ROOT / "traceability" / "claims"
 GEN_DIR = ROOT / "traceability" / "generated"
 
-ID_PREFIXES = {"CRE", "HER", "PHY", "ACC", "PRD", "OPN", "EXT"}
+ID_PREFIXES = {"CRE", "HER", "EPI", "PHY", "ACC", "PRD", "OPN", "EXT"}
 REQUIRED = ["id", "name", "statement", "tier", "role", "proof_status", "epistemic_status"]
 ROLES = {"primitive", "bridge", "derived", "imported", "accommodation", "prediction", "open"}
 PROOF_ORDER = ["verified", "imported", "axiomatized", "prose_only", "open"]

@@ -14,6 +14,10 @@
 | 6 | **Observational predictions distinguishing CAC from ΛCDM** | [OPN-007](../traceability/claims/OPN-007.yaml) | 2 → 3 | open — **critical path** |
 | 7 | Compare explanatory power by Lakatos's criteria | [`3-prediction/appraisal.md`](../3-prediction/appraisal.md) | 0 | standing |
 
+## The gate on everything: OPN-011
+
+[OPN-011](../traceability/claims/OPN-011.yaml) — the programme has no likelihood function — was opened 2026-08-03 and is the precondition of item 6 and therefore of the programme's Lakatosian status. It is not one item among seven; it is what item 6 *is*, stated precisely. Begin it at [EPI-002](../traceability/claims/EPI-002.yaml)'s constructive limb, where post-Creation-Week law acting on a specified initial configuration makes the likelihood computable without appeal to what actualization "would" produce.
+
 ## The critical path is item 6
 
 Items 1 through 5 are belt construction. They can all succeed and leave the programme exactly where it is now: **unappraised, with zero novel content**. Item 6 is the only item whose completion changes the programme's Lakatosian status, and item 7 is meaningless until item 6 produces something to appraise.
@@ -31,14 +35,14 @@ Both were added at stand-up. They are registered because a young-cosmos programm
 | [OPN-009](../traceability/claims/OPN-009.yaml) | **Light travel time.** Under CRE-004, what accounts for light presently arriving from sources at cosmological distance? | This is the first objection any reader raises. Axiom 4's Earth-frame reading and §4's "rapid actualization of cosmic spacetime" gesture at an answer; neither supplies one. |
 | [OPN-010](../traceability/claims/OPN-010.yaml) | **Processes observed in transit.** Distant observations record *processes with internal duration* — supernova light-curve time dilation scaling as $(1+z)$, the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. | Sharper than OPN-009 and less often addressed. A created-in-transit account must explain not merely arrival but the observed *internal consistency* of processes unfolding at distance. This is where CAC is most exposed, and therefore where a real discriminator is most likely to be found. |
 
-OPN-010 is flagged as the most promising place to look for item 6. Exposure and discriminating power are the same property viewed from opposite ends.
+**Both answered 2026-08-03** by the [Origins Framework](../1-hypothesis/origins-framework.md) (record actual, process not; defended by HER-002 + EPI-001), and [CRE-007](../traceability/claims/CRE-007.yaml) upgraded to *argued*. The stand-up framing of OPN-010 was partly wrong: it treated a time-dilated light curve as though it *were* an age, when the age is a posterior under auxiliary assumptions. What survives is the narrower residual — cross-channel internal consistency in records of processes — and that residual is now a question for the likelihood (OPN-011), not for the position.
 
 ## Sequencing (indicative, revised each PI)
 
-**PI-1 — stand the programme up and find the sharpest question.** Registry complete; TRT relation (OPN-008) dispositioned; a first written attempt at OPN-009/OPN-010 that states what CAC would have to hold, not what it does hold. No formalism.
+**PI-1 — stand the programme up and find the sharpest question.** ✅ Registry complete. ✅ TRT relation (OPN-008) dispositioned. ✅ OPN-009/OPN-010 answered by the Origins Framework. **The sharpest question was found and it is [OPN-011](../traceability/claims/OPN-011.yaml)** — the programme has no likelihood function. PI-1 delivered its actual objective, which was to locate the real problem rather than to solve one.
 
-**PI-2 — postulates.** Item 1, constrained by whatever PI-1 established the answer to OPN-009/010 must satisfy. Building the postulates *after* knowing what they must explain is cheaper than the reverse.
+**PI-2 — the likelihood, at the one place it is computable.** OPN-011 via [EPI-002](../traceability/claims/EPI-002.yaml)'s constructive limb: ordinary law acting on an actualized initial configuration over a short interval, compared against growth-rate observables ($f\sigma_8$, cluster abundance evolution). This displaces the original PI-2 (postulates), because postulates built before knowing what likelihood they must support is the same mistake in a new place.
 
-**PI-3 — discriminator hunt.** Item 6 in earnest.
+**PI-3 — postulates and the discriminator.** Item 1 constrained by PI-2's findings, then item 6 in earnest.
 
 Items 2 through 5 are scheduled against these, not before them.

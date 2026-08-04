@@ -3,10 +3,12 @@
 > **Tier:** 1-hypothesis. **Lakatos role:** the **hard core** of the research programme — the commitments held immune from refutation by the *negative heuristic*. Refutation is not aimed here; it is directed at the [protective belt](../2-theory/). This file enumerates *what is in the core*, so that the negative heuristic can be applied without ambiguity.
 >
 > See [`../0-program-methods/METHODOLOGY.md`](../0-program-methods/METHODOLOGY.md) for the apparatus. The narrative statement of the core is the position paper, [`paper/CAC-v0.1.md`](paper/CAC-v0.1.md) §2.
+>
+> **The level above this one is [`origins-framework.md`](origins-framework.md)** — the five-point framework of which CAC's axioms are the cosmological specialization. Several commitments below are consequences of it rather than independent posits, and three of them (CRE-008, EPI-001, EPI-002) come from there directly.
 
 ## The immune commitments
 
-The five axioms of the position paper, plus the two consequences the paper draws from them in §3.
+The five axioms of the position paper, the two consequences the paper draws in §3, and three commitments inherited from the [Origins Framework](origins-framework.md).
 
 1. **Genesis is history** ([CRE-001](../traceability/claims/CRE-001.yaml)). The biblical creation narrative records genuine historical events.
 
@@ -21,6 +23,14 @@ The five axioms of the position paper, plus the two consequences the paper draws
 6. **Maturity extends to cosmology** ([CRE-006](../traceability/claims/CRE-006.yaml)). The maturity principle is not restricted to biology. A universe created to support life requires cosmological maturity — stable illumination, gravitational architecture, celestial navigation, seasonal cycles — no less than biological maturity. This is the bridge that makes the core cosmological rather than merely theological.
 
 7. **Operational completeness is not deception** ([CRE-007](../traceability/claims/CRE-007.yaml)). CAC does not assert that God fabricated a fictitious history. It asserts that the created state was sufficient to accomplish its purposes immediately. Functionality, not false testimony.
+
+   *Upgraded 2026-08-03 from asserted to argued.* The [Origins Framework](origins-framework.md) point 2 generalizes the maturity pattern past Creation Week — the wine at Cana, healings that skip the normal biological process. The Cana wine carried chemical properties a chemist would date to years of fermentation and deceived nobody, because deception requires an intent to induce false belief and a functional artifact produced for a stated function makes no claim about its own provenance.
+
+8. **Deep time is not necessary** ([CRE-008](../traceability/claims/CRE-008.yaml)). What is denied is the *entailment* from the observational corpus to a multi-Gyr history. What is not asserted is that the corpus is inconsistent with one. The modal strength is deliberate and the programme holds it there.
+
+9. **Apparent age is prior-dependent, not observed** ([EPI-001](../traceability/claims/EPI-001.yaml)). "This system appears old" is a posterior, computed under a likelihood and a prior, not a datum read off an instrument. Standard practice sets the prior on discrete actualization near zero, and the posterior follows the prior.
+
+10. **Methodological designism** ([EPI-002](../traceability/claims/EPI-002.yaml)). Intervention is the exception; law is the rule. Conduct inquiry expecting stable law while holding the metaphysics open. This is the methodological face of commitment 5, and it is what makes the programme testable at all.
 
 ## The warrant for immunity — by *decision*, stated openly
 

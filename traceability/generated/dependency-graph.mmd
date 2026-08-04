@@ -11,6 +11,9 @@ graph TD
   CRE-005["CRE-005<br/>primitive/axiomatized"]
   CRE-006["CRE-006<br/>bridge/prose_only"]
   CRE-007["CRE-007<br/>bridge/prose_only"]
+  CRE-008["CRE-008<br/>bridge/prose_only"]
+  EPI-001["EPI-001<br/>bridge/prose_only"]
+  EPI-002["EPI-002<br/>bridge/prose_only"]
   EXT-001["EXT-001<br/>imported/imported"]
   EXT-002["EXT-002<br/>imported/imported"]
   EXT-003["EXT-003<br/>imported/imported"]
@@ -28,6 +31,7 @@ graph TD
   OPN-008["OPN-008<br/>derived/prose_only"]
   OPN-009["OPN-009<br/>open/open"]
   OPN-010["OPN-010<br/>open/open"]
+  OPN-011["OPN-011<br/>open/open"]
   PHY-001["PHY-001<br/>derived/prose_only"]
   PHY-002["PHY-002<br/>derived/prose_only"]
   PHY-003["PHY-003<br/>derived/open"]
@@ -48,6 +52,12 @@ graph TD
   CRE-006 --> CRE-004
   CRE-007 --> CRE-003
   CRE-007 --> CRE-006
+  CRE-008 --> CRE-001
+  CRE-008 --> CRE-003
+  EPI-001 --> CRE-001
+  EPI-001 --> CRE-003
+  EPI-001 --> CRE-008
+  EPI-002 --> CRE-005
   EXT-003 --> EXT-001
   EXT-004 --> EXT-001
   HER-001 --> CRE-001
@@ -79,6 +89,9 @@ graph TD
   OPN-010 --> CRE-007
   OPN-010 --> OPN-009
   OPN-010 --> EXT-004
+  OPN-011 --> EPI-001
+  OPN-011 --> EPI-002
+  OPN-011 --> CRE-006
   PHY-001 --> CRE-004
   PHY-001 --> CRE-006
   PHY-002 --> PHY-001

@@ -1,0 +1,29 @@
+id: CRE-008
+name: Deep time is not necessary
+statement: >
+  Given that the biblical narrative is authoritative (CRE-001) and that God produces
+  systems functionally mature (CRE-003), it is reasonable to reject the hypothesis of
+  deep time as NECESSARY. The claim is modal: what is denied is the entailment from the
+  observational corpus to a multi-Gyr history, not the consistency of that history with
+  the corpus.
+tier: 1
+role: bridge
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-001
+    dependency_type: exegetical
+  - claim_id: CRE-003
+    dependency_type: logical
+source_documents:
+  - doc: origins-framework
+    section: "point 3"
+risk_if_false: >
+  If deep time were entailed by the corpus rather than inferred under auxiliary
+  assumptions, CAC's boundary condition would be inconsistent with the data it accepts
+  (EXT-002) rather than an alternative reading of it, and the programme would be refuted
+  at the core rather than at the belt.
+notes: >
+  Hold this at its stated strength. "Not necessary" is defensible; "false" is a much
+  stronger claim the programme has not argued and does not need. Over-reading it is the
+  most likely way to turn a sound modal point into an unsupported one.

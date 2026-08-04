@@ -23,6 +23,12 @@ The layout is a **[Lakatosian research programme](0-program-methods/METHODOLOGY.
 
 Supporting: **[traceability/](traceability/)** (claim ↔ dependency ↔ prose audit), **[references/](references/)**, **[reviews/](reviews/)**.
 
+## The Origins Framework
+
+CAC's five axioms are the *cosmological specialization* of a five-point origins framework stated at [`1-hypothesis/origins-framework.md`](1-hypothesis/origins-framework.md): the Bible as material authoritative source; God producing systems functionally mature (Adam and Eve, the wine at Cana, healings that skip the normal biological process); deep time therefore not *necessary*; apparent age as the output of naturalistic Bayesian priors rather than an observation; and methodological designism, since intervention is by definition the exception.
+
+Points 4 and 5 do the most work here. Point 4 is correct as epistemology and is the right reply to a large class of "but it *looks* old" objections — the inference is theory-laden and the prior is carrying it. Point 5 is where the programme becomes testable: if law is the rule, the post-creation era is ordinary physics on an actualized initial configuration, which is falsifiable without relitigating apparent age.
+
 ## The five axioms
 
 1. The biblical creation narrative records genuine historical events.
@@ -37,7 +43,9 @@ Full statement in the [position paper §2](1-hypothesis/paper/CAC-v0.1.md); enum
 
 CAC is a candidate research programme, not a completed physical theory and not a quantitative rival to ΛCDM. Its hard core is held immune **by methodological decision** and rests on exegetical and theological grounds — it is not offered as a scientific claim, and the repository says so rather than blurring the point. What must earn scientific standing is the belt and, above all, the predictions.
 
-There are currently no predictions. The programme's scientific value depends entirely on whether it develops one. See [`3-prediction/discriminators.md`](3-prediction/discriminators.md) for what would count and where the search is concentrated.
+There are currently no predictions, and [OPN-011](traceability/claims/OPN-011.yaml) says why: **the programme has no likelihood function.** It has not specified $P(E \mid H_{\mathrm{CAC}})$ — what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution. This was surfaced by holding the framework's own Bayesian argument to its own standard: point 4 correctly identifies that the *prior* is doing the work in standard age determinations, but a prior shift cannot be computed against a likelihood nobody has written down. Until one exists, any observation is absorbable by "your priors generated that inference," which forbids nothing.
+
+The programme's scientific value depends entirely on closing that gap. See [`3-prediction/discriminators.md`](3-prediction/discriminators.md) for what would count and where the search is concentrated.
 
 ## The accommodation ledger
 
@@ -47,14 +55,16 @@ The traceability build enforces the distinction mechanically: accommodations car
 
 The mechanism is deliberately unflattering. §5 is the most rhetorically attractive part of the paper and the least scientifically load-bearing, and making that visible on every build is the cheapest available defence against the failure this programme is most exposed to.
 
-## The two problems the paper does not name
+## The two problems the paper does not name — now answered
 
 Registered at stand-up because a young-cosmos programme that does not confront them is not being read seriously:
 
 - **[OPN-009](traceability/claims/OPN-009.yaml) — light travel time.** What accounts for light presently arriving from cosmological distances.
 - **[OPN-010](traceability/claims/OPN-010.yaml) — processes observed in transit.** $(1+z)$ supernova light-curve time dilation, the SN 1987A ring geometry, quasar variability, binary pulsar spin-down. Sharper than OPN-009, less often addressed, and bearing directly on the paper's claim that operational completeness does not entail deception.
 
-OPN-010 is flagged as the most promising place to look for the programme's first discriminator, on the reasoning that maximum exposure and maximum discriminating power are the same property.
+**Both were answered on 2026-08-03** by the Origins Framework, taking the branch on which the record is actual and the recorded process is not — defensible because the luminaries' stated function is signs and seasons rather than chronicle, and because the chronological inference is supplied by the observer's priors rather than asserted by the artifact. [CRE-007](traceability/claims/CRE-007.yaml) is correspondingly upgraded from *asserted* to *argued*.
+
+What remains is not a position but a **likelihood** ([OPN-011](traceability/claims/OPN-011.yaml)), which is why the discriminator hunt has moved off these two and onto the constructive limb of methodological designism.
 
 ## Relation to Triadic Reality Theory
 

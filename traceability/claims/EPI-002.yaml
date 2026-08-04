@@ -1,0 +1,32 @@
+id: EPI-002
+name: Methodological designism
+statement: >
+  Divine intervention is by definition the exception and not the rule. Methodological
+  designism - conduct inquiry expecting stable law, while holding the metaphysics open -
+  is therefore a reasonable normative operational model. This is the methodological face
+  of CRE-005.
+tier: 1
+role: bridge
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: CRE-005
+    dependency_type: logical
+source_documents:
+  - doc: origins-framework
+    section: "point 5"
+risk_if_false: >
+  Without it the programme cannot be tested at all: any observation could be attributed
+  to ongoing intervention. This is the claim that makes CAC a candidate research
+  programme rather than a position.
+notes: >
+  Its DEFENSIVE use is obvious - it blocks the charge that CAC licenses arbitrary
+  miracle-invocation. Its CONSTRUCTIVE use is more important and currently unexploited:
+  if law is the norm, everything after Creation Week is ordinary physics acting on an
+  actualized initial configuration, which is a substantive and falsifiable claim that
+  does not require relitigating apparent age. This is where the discriminator hunt should
+  concentrate (OPN-006, OPN-007).
+  It also imposes a COST DISCIPLINE the programme must self-enforce: if intervention is
+  the exception, invoking it is expensive. Every appeal to actualization to explain what
+  ordinary law could have produced is a withdrawal from falsifiable content - and under
+  EPI-002 that is a violation of CAC's own commitments, not merely a strategic error.

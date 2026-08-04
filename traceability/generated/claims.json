@@ -280,7 +280,7 @@
     "epistemic_status": "argued",
     "id": "CRE-007",
     "name": "Operational completeness does not entail deception",
-    "notes": "The distinction is asserted in the paper but not yet argued. It becomes acute under OPN-010 (processes observed IN TRANSIT), where the created state encodes not merely a mature end configuration but an apparently completed process. Sharpening this is belt work, not core work.\n",
+    "notes": "UPGRADED 2026-08-03 from asserted to argued. The stand-up audit recorded that the paper asserted this without argument; JD's Origins Framework (point 2) supplies one by generalizing the maturity pattern beyond Creation Week - the wine at Cana, healings that skip the normal biological process. The Cana wine had chemical properties a chemist would date to years of fermentation and deceived no one, because deception requires an intent to induce false belief and a functional artifact produced for a stated function makes no claim about its own provenance. Combined with EPI-001 (the chronological inference is supplied by the observer's priors, not asserted by the artifact), the deception charge does not attach. RESIDUAL: the argument is strongest for CONFIGURATIONS (mature wine, mature tree). Distant records of PROCESSES with internal duration and cross-channel consistency (OPN-010) are a harder case, and the reply there runs through the functional purpose of the luminaries (HER-002) rather than through the Cana analogy directly.\n",
     "proof_status": "prose_only",
     "risk_if_false": "If the distinction from appearance-of-age cannot be sustained, the programme inherits the omphalos objection in full and its theological warrant is undercut by its own doctrine of God.\n",
     "role": "bridge",
@@ -288,9 +288,94 @@
       {
         "doc": "CAC-v0.1",
         "section": "3"
+      },
+      {
+        "doc": "origins-framework",
+        "section": "point 2"
       }
     ],
     "statement": "CAC does not assert that God fabricated a fictitious history. It asserts that the created state was sufficient to accomplish its intended purposes immediately. This is functionality, not false testimony, and is distinct from nineteenth-century appearance-of-age arguments.\n",
+    "tier": 1
+  },
+  "CRE-008": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-001",
+        "dependency_type": "exegetical"
+      },
+      {
+        "claim_id": "CRE-003",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "CRE-008",
+    "name": "Deep time is not necessary",
+    "notes": "Hold this at its stated strength. \"Not necessary\" is defensible; \"false\" is a much stronger claim the programme has not argued and does not need. Over-reading it is the most likely way to turn a sound modal point into an unsupported one.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If deep time were entailed by the corpus rather than inferred under auxiliary assumptions, CAC's boundary condition would be inconsistent with the data it accepts (EXT-002) rather than an alternative reading of it, and the programme would be refuted at the core rather than at the belt.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "origins-framework",
+        "section": "point 3"
+      }
+    ],
+    "statement": "Given that the biblical narrative is authoritative (CRE-001) and that God produces systems functionally mature (CRE-003), it is reasonable to reject the hypothesis of deep time as NECESSARY. The claim is modal: what is denied is the entailment from the observational corpus to a multi-Gyr history, not the consistency of that history with the corpus.\n",
+    "tier": 1
+  },
+  "EPI-001": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-003",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-008",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "EPI-001",
+    "name": "Apparent age is prior-dependent, not observed",
+    "notes": "CORRECT AS EPISTEMOLOGY, and it is the right reply to a large class of \"but it LOOKS old\" objections: the inference is theory-laden and the prior is doing the work. BUT IT IS DEFENSIVE ONLY, and the programme must describe it as such. Bayes has two factors and this claim addresses one. CAC has not specified P(E | H_CAC) - see OPN-011 - so the recommended prior shift cannot actually be COMPUTED, only asserted. Worse, absent a likelihood, ANY observation can be absorbed by \"your priors generated that inference\", which is the unfalsifiability charge in its strongest form and is precisely why the progressiveness ledger reads zero. Neutralizing an objection is not producing a claim.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "If age determinations were prior-independent - genuinely read off the data without auxiliary assumption - then CRE-008's modal claim collapses and the observational corpus would directly contradict the programme's interval.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "origins-framework",
+        "section": "point 4"
+      }
+    ],
+    "statement": "\"This system appears old\" is not an observation. It is a posterior, computed from data under a likelihood and a prior. Standard practice assigns effectively zero prior weight to discrete divine actualization, so the posterior concentrates on deep time largely independently of the data. Systems that appear old therefore reflect a set of naturalistic Bayesian priors that do not take CRE-001 and CRE-003 into account.\n",
+    "tier": 1
+  },
+  "EPI-002": {
+    "depends_on": [
+      {
+        "claim_id": "CRE-005",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "argued",
+    "id": "EPI-002",
+    "name": "Methodological designism",
+    "notes": "Its DEFENSIVE use is obvious - it blocks the charge that CAC licenses arbitrary miracle-invocation. Its CONSTRUCTIVE use is more important and currently unexploited: if law is the norm, everything after Creation Week is ordinary physics acting on an actualized initial configuration, which is a substantive and falsifiable claim that does not require relitigating apparent age. This is where the discriminator hunt should concentrate (OPN-006, OPN-007). It also imposes a COST DISCIPLINE the programme must self-enforce: if intervention is the exception, invoking it is expensive. Every appeal to actualization to explain what ordinary law could have produced is a withdrawal from falsifiable content - and under EPI-002 that is a violation of CAC's own commitments, not merely a strategic error.\n",
+    "proof_status": "prose_only",
+    "risk_if_false": "Without it the programme cannot be tested at all: any observation could be attributed to ongoing intervention. This is the claim that makes CAC a candidate research programme rather than a position.\n",
+    "role": "bridge",
+    "source_documents": [
+      {
+        "doc": "origins-framework",
+        "section": "point 5"
+      }
+    ],
+    "statement": "Divine intervention is by definition the exception and not the rule. Methodological designism - conduct inquiry expecting stable law, while holding the metaphysics open - is therefore a reasonable normative operational model. This is the methodological face of CRE-005.\n",
     "tier": 1
   },
   "EXT-001": {
@@ -690,6 +775,31 @@
     "risk_if_false": "This is the sharpest form of the omphalos objection and bears directly on CRE-007's claim that operational completeness does not entail deception. If unanswerable, CRE-007 fails and the theological warrant is undercut by the programme's own doctrine of God.\n",
     "role": "open",
     "statement": "Distant observations record not merely arrived light but PROCESSES WITH INTERNAL DURATION: Type Ia supernova light curves time-dilated as (1+z), the SN 1987A ring light-echo geometry, quasar variability, binary pulsar spin-down. A created-in-transit account must explain the observed internal consistency of processes apparently unfolding at distance, not only the arrival of the light. Per EXT-004 the account must additionally DECLARE, per class of record, whether the recorded process is actual in TRT's sense.\n",
+    "tier": 2
+  },
+  "OPN-011": {
+    "depends_on": [
+      {
+        "claim_id": "EPI-001",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "EPI-002",
+        "dependency_type": "logical"
+      },
+      {
+        "claim_id": "CRE-006",
+        "dependency_type": "logical"
+      }
+    ],
+    "epistemic_status": "open",
+    "id": "OPN-011",
+    "name": "CAC has no likelihood function",
+    "notes": "Registered 2026-08-03 when JD's Origins Framework stated the apparent-age argument in explicitly Bayesian terms. Holding the argument to its own standard is what surfaced the gap - the framework names the factor standard practice gets wrong and, in doing so, names exactly the factor CAC has not supplied. This now SUPERSEDES OPN-010 as the sharpest open problem. OPN-010 asked the programme to state a position on processes in transit; the Origins Framework states one (see OPN-010's own notes). What remains is not a position but a FUNCTION, and it is the same function OPN-007 needs. Where to start: EPI-002's constructive limb, since ordinary law acting on a specified initial state has computable consequences and is the one place the likelihood is not hostage to the creation act itself.\n",
+    "proof_status": "open",
+    "risk_if_false": "Without a likelihood the programme forbids nothing: any observation is absorbable by \"your priors generated that inference.\" That is unfalsifiability in its strongest form and is the direct cause of the progressiveness ledger reading zero. OPN-007 (a discriminator) is unreachable until this is supplied.\n",
+    "role": "open",
+    "statement": "The programme has not specified P(E | H_CAC): what a discretely actualized cosmos should be expected to look like, in what respects, with what distribution. EPI-001 correctly identifies that the prior is doing the work in standard age determinations, but a prior shift cannot be computed without a likelihood on the other side. Supplying one is the precondition of every observational claim the programme might make.\n",
     "tier": 2
   },
   "PHY-001": {

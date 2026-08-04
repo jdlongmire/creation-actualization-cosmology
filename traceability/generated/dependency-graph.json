@@ -12,6 +12,9 @@
     "CRE-005",
     "CRE-006",
     "CRE-007",
+    "CRE-008",
+    "EPI-001",
+    "EPI-002",
     "EXT-001",
     "EXT-002",
     "EXT-003",
@@ -29,6 +32,7 @@
     "OPN-008",
     "OPN-009",
     "OPN-010",
+    "OPN-011",
     "PHY-001",
     "PHY-002",
     "PHY-003",
@@ -113,6 +117,36 @@
     {
       "from": "CRE-007",
       "to": "CRE-006",
+      "type": "logical"
+    },
+    {
+      "from": "CRE-008",
+      "to": "CRE-001",
+      "type": "exegetical"
+    },
+    {
+      "from": "CRE-008",
+      "to": "CRE-003",
+      "type": "logical"
+    },
+    {
+      "from": "EPI-001",
+      "to": "CRE-001",
+      "type": "logical"
+    },
+    {
+      "from": "EPI-001",
+      "to": "CRE-003",
+      "type": "logical"
+    },
+    {
+      "from": "EPI-001",
+      "to": "CRE-008",
+      "type": "logical"
+    },
+    {
+      "from": "EPI-002",
+      "to": "CRE-005",
       "type": "logical"
     },
     {
@@ -269,6 +303,21 @@
       "from": "OPN-010",
       "to": "EXT-004",
       "type": "interpretive"
+    },
+    {
+      "from": "OPN-011",
+      "to": "EPI-001",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-011",
+      "to": "EPI-002",
+      "type": "logical"
+    },
+    {
+      "from": "OPN-011",
+      "to": "CRE-006",
+      "type": "logical"
     },
     {
       "from": "PHY-001",

@@ -6,6 +6,7 @@ generator: scripts/build.py
 prefixes:
   CRE: creation / hard-core commitments
   HER: hermeneutics, exegetical hypotheses
+  EPI: epistemic / inferential commitments (how evidence is evaluated)
   PHY: physical mechanism (belt)
   ACC: accommodations of known facts (non-progressive by construction)
   PRD: empirical predictions (severe tests)

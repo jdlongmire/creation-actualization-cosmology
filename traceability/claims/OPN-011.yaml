@@ -1,0 +1,35 @@
+id: OPN-011
+name: CAC has no likelihood function
+statement: >
+  The programme has not specified P(E | H_CAC): what a discretely actualized cosmos should
+  be expected to look like, in what respects, with what distribution. EPI-001 correctly
+  identifies that the prior is doing the work in standard age determinations, but a prior
+  shift cannot be computed without a likelihood on the other side. Supplying one is the
+  precondition of every observational claim the programme might make.
+tier: 2
+role: open
+proof_status: open
+epistemic_status: open
+depends_on:
+  - claim_id: EPI-001
+    dependency_type: logical
+  - claim_id: EPI-002
+    dependency_type: logical
+  - claim_id: CRE-006
+    dependency_type: logical
+risk_if_false: >
+  Without a likelihood the programme forbids nothing: any observation is absorbable by
+  "your priors generated that inference." That is unfalsifiability in its strongest form
+  and is the direct cause of the progressiveness ledger reading zero. OPN-007 (a
+  discriminator) is unreachable until this is supplied.
+notes: >
+  Registered 2026-08-03 when JD's Origins Framework stated the apparent-age argument in
+  explicitly Bayesian terms. Holding the argument to its own standard is what surfaced
+  the gap - the framework names the factor standard practice gets wrong and, in doing so,
+  names exactly the factor CAC has not supplied.
+  This now SUPERSEDES OPN-010 as the sharpest open problem. OPN-010 asked the programme to
+  state a position on processes in transit; the Origins Framework states one (see
+  OPN-010's own notes). What remains is not a position but a FUNCTION, and it is the same
+  function OPN-007 needs. Where to start: EPI-002's constructive limb, since ordinary law
+  acting on a specified initial state has computable consequences and is the one place the
+  likelihood is not hostage to the creation act itself.
