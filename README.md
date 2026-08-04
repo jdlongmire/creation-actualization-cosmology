@@ -1,5 +1,7 @@
 # Creation Actualization Cosmology (CAC)
 
+[![CI](https://github.com/jdlongmire/creation-actualization-cosmology/actions/workflows/ci.yml/badge.svg)](https://github.com/jdlongmire/creation-actualization-cosmology/actions/workflows/ci.yml)
+
 An alternative cosmological research programme founded on a different historical boundary condition: that the universe was **discretely actualized into functional maturity** during Creation Week, and has operated under stable physical law since.
 
 CAC does not seek to repair ΛCDM. It replaces its historical boundary conditions.
