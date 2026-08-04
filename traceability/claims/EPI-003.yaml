@@ -1,0 +1,69 @@
+id: EPI-003
+name: The contested branch point is uniformitarian historical inference, not the exit of final causes
+statement: >
+  The transition of the natural sciences from design-assuming natural philosophy to what
+  is now called methodological naturalism was TWO transitions, and CAC contests only the
+  second.
+  (1) FINAL CAUSES EXIT PROXIMATE EXPLANATION - Bacon's Novum Organum (1620) separating
+  final from efficient causes, Descartes' Principia Philosophiae (1644) barring final
+  causes from physics. Method thereafter excludes teleological explanation from the
+  account of how a system operates. CAC DOES NOT CONTEST THIS. EPI-002's methodological
+  designism is compatible with it by construction: conduct inquiry expecting stable law
+  while holding the metaphysics open.
+  (2) UNIFORMITARIAN HISTORICAL INFERENCE - Hutton's Theory of the Earth (1788), Lyell's
+  Principles of Geology (1830-33): explain the past by causes now in operation, at rates
+  now observed. THIS is the commitment CAC contests, because it is a claim about
+  HISTORICAL BOUNDARY CONDITIONS rather than about operational method, and it is the
+  direct ancestor of the prior EPI-001 identifies as driving standard age determinations.
+  The distinction matters because a programme that appears to contest (1) is contesting
+  the exclusion of teleology from physics, which CAC does not do and which would make it
+  the "God of the gaps" position it disclaims.
+tier: 2
+role: derived
+proof_status: prose_only
+epistemic_status: argued
+depends_on:
+  - claim_id: EPI-001
+    dependency_type: logical
+  - claim_id: EPI-002
+    dependency_type: logical
+source_documents:
+  - doc: origins-framework
+    section: "point 6 - the branch point"
+external_citations:
+  - "Bacon, F. (1620) Novum Organum - separation of final from efficient causes"
+  - "Descartes, R. (1644) Principia Philosophiae - final causes barred from physics"
+  - "Hutton, J. (1788) Theory of the Earth; Lyell, C. (1830-33) Principles of Geology - present causes as the key to the past"
+  - "de Vries, P. (1986) 'Naturalism in the Natural Sciences', Christian Scholar's Review 15(1), 388-396 - coinage of 'methodological naturalism' (conference paper 1983); Brightman used the term earlier and independently. VERIFIED 2026-08-04"
+  - "Buckland, W. (1836) Bridgewater Treatise VI - abandons the geological-deluge / biblical-Flood correlation; accepts Agassiz's glacial account by 1840. VERIFIED 2026-08-04"
+risk_if_false: >
+  If the two transitions were really one, CAC's objection would land against the
+  exclusion of final causes from operational physics - which EPI-002 explicitly accepts -
+  and the programme would be internally inconsistent at the point where it claims to be
+  most disciplined.
+notes: >
+  THE LABEL IS RETROSPECTIVE. "Methodological naturalism" is a 20th-century coinage (de
+  Vries 1983/1986; Brightman earlier), so no 17th- or 19th-century practitioner described
+  himself that way. Citing period figures as adherents of a named doctrine they never
+  held would be an anachronism a reviewer will catch immediately; the claim is about what
+  their METHOD assumed, not about a label they used.
+  THE RIVAL ACCOUNT, AT ITS STRONGEST, AND IT IS STRONG. The branch was not a
+  philosophical coup imposed on a working science. It was earned by explanatory success,
+  and the decisive evidence is that diluvial geology was abandoned BY ITS OWN LEADING
+  PRACTITIONER on the evidence: William Buckland, the most prominent scientific
+  diluvialist in Britain, dropped the geological-deluge / biblical-Flood correlation in
+  his own 1836 Bridgewater Treatise and accepted Agassiz's glacial explanation by 1840.
+  A programme proposing to reopen the branch point owes an account of why that
+  abandonment was wrong ON THE EVIDENCE THEN AVAILABLE, not merely a diagnosis of the
+  priors that followed it. CAC has not supplied one, and this claim does not supply one.
+  IT CANNOT CORROBORATE PRD-001 OR PRD-002, and reading it that way would be the exact
+  error the programme's ledger exists to prevent. The trajectory from 1830 to the present
+  is an ALREADY-KNOWN fact; treating it as confirmation of a trajectory prediction is
+  accommodation wearing a prediction's clothes. Both PRD claims are scored forward over
+  future data releases for precisely this reason. What this claim supplies is scope and
+  motivation: it names WHERE the disagreement is, so the predictions are not read as
+  attacks on operational method.
+  WHAT IT SHARPENS. Lyellian uniformitarianism is the historical-boundary-condition
+  assumption whose consequences PRD-001 and PRD-002 test. Inflation is a modern instance
+  of the same move at the cosmological scale - deriving the observed state from generic
+  initial data rather than specifying it - which is why PRD-002 names it as the rival.

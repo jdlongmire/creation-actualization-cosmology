@@ -16,6 +16,7 @@
     "CRE-009",
     "EPI-001",
     "EPI-002",
+    "EPI-003",
     "EXT-001",
     "EXT-002",
     "EXT-003",
@@ -152,6 +153,16 @@
     {
       "from": "EPI-002",
       "to": "CRE-005",
+      "type": "logical"
+    },
+    {
+      "from": "EPI-003",
+      "to": "EPI-001",
+      "type": "logical"
+    },
+    {
+      "from": "EPI-003",
+      "to": "EPI-002",
       "type": "logical"
     },
     {

@@ -15,6 +15,7 @@ graph TD
   CRE-009["CRE-009<br/>bridge/prose_only"]
   EPI-001["EPI-001<br/>bridge/prose_only"]
   EPI-002["EPI-002<br/>bridge/prose_only"]
+  EPI-003["EPI-003<br/>derived/prose_only"]
   EXT-001["EXT-001<br/>imported/imported"]
   EXT-002["EXT-002<br/>imported/imported"]
   EXT-003["EXT-003<br/>imported/imported"]
@@ -63,6 +64,8 @@ graph TD
   EPI-001 --> CRE-003
   EPI-001 --> CRE-008
   EPI-002 --> CRE-005
+  EPI-003 --> EPI-001
+  EPI-003 --> EPI-002
   EXT-003 --> EXT-001
   EXT-004 --> EXT-001
   EXT-005 --> EXT-003

@@ -31,6 +31,7 @@
 | 4 | Apparent age is prior-dependent | [EPI-001](../traceability/claims/EPI-001.yaml) |
 | 5 | Contingency requires a non-contingent actualizing source | [CRE-009](../traceability/claims/CRE-009.yaml) |
 | 6 | Stable intelligible law after Creation Week; methodological designism | [CRE-005](../traceability/claims/CRE-005.yaml), [EPI-002](../traceability/claims/EPI-002.yaml) |
+| 6 | The contested branch point is uniformitarian historical inference, not the exit of final causes | [EPI-003](../traceability/claims/EPI-003.yaml) |
 | 7 | *Not registered.* See below. | — |
 | 1–6 + Day Four | Discrete actualization of the observable heavens | [CRE-002](../traceability/claims/CRE-002.yaml), [CRE-004](../traceability/claims/CRE-004.yaml) |
 
@@ -79,6 +80,26 @@ This is where the discriminator hunt should concentrate. See [`../3-prediction/d
 Point 6 also carries a discipline the programme must self-impose: **if intervention is the exception, then invoking it is costly.** Every appeal to actualization to explain a structure that ordinary law could have produced is a withdrawal from the programme's falsifiable content, and point 6 is the reason that is a violation of CAC's own commitments rather than merely a strategic error. This is the [degeneration watch-point](../2-theory/open-problems.md).
 
 The parenthetical that methodological designism is "how science began" is a historical observation about the motivations of early modern natural philosophy. It is defensible and it is not load-bearing: the warrant for point 6 is the argument above, not the genealogy. The programme should not lean on the genealogy, because a genetic claim about why a method was adopted establishes nothing about whether the method is correct.
+
+### The branch point — and which one CAC actually contests
+
+The genealogy does one piece of real work, though, and it is not the one it looks like. Naming *where* natural science branched from design-assuming natural philosophy fixes the scope of the disagreement, and the branch was **two transitions rather than one**. Registered as [EPI-003](../traceability/claims/EPI-003.yaml).
+
+**First: final causes exit proximate explanation.** Bacon's *Novum Organum* (1620) separates final from efficient causes; Descartes' *Principia Philosophiae* (1644) bars final causes from physics. From there, method excludes teleological explanation from the account of how a system operates.
+
+**CAC does not contest this, and should say so loudly.** Point 6 is compatible with it by construction — conduct inquiry expecting stable law while holding the metaphysics open. A programme that appears to be reopening *this* transition is arguing for teleology inside proximate physics, which is the "God of the gaps" position CAC disclaims, and a reader who cannot tell the two apart will assume the worse one.
+
+**Second: uniformitarian historical inference.** Hutton's *Theory of the Earth* (1788) and Lyell's *Principles of Geology* (1830–33) establish that the past is explained by causes now in operation, at rates now observed.
+
+**This is the one CAC contests**, and only this one. It is a commitment about *historical boundary conditions*, not about operational method, and it is the direct ancestor of the prior [EPI-001](../traceability/claims/EPI-001.yaml) identifies as driving standard age determinations. It is also the assumption whose downstream consequences [PRD-001](../traceability/claims/PRD-001.yaml) and [PRD-002](../traceability/claims/PRD-002.yaml) test — and inflation is the same move made at cosmological scale, deriving the observed state from generic initial data rather than specifying it, which is why PRD-002 names it as the rival.
+
+**Two disciplines attach to this, and dropping either would cost more than the point is worth.**
+
+*The label is retrospective.* "Methodological naturalism" is a twentieth-century coinage — Paul de Vries at a 1983 conference, published as "Naturalism in the Natural Sciences," *Christian Scholar's Review* 15(1), 1986, 388–396, with Edgar Sheffield Brightman using it earlier and independently. No seventeenth- or nineteenth-century practitioner described himself that way, so the claim is about what their method assumed, never about a doctrine they professed.
+
+*The rival account is strong and must be stated at full strength.* The branch was not a philosophical coup imposed on a working science; it was earned by explanatory success. The decisive fact is that diluvial geology was abandoned **by its own leading practitioner, on the evidence**: William Buckland, Britain's most prominent scientific diluvialist, dropped the geological-deluge and biblical-Flood correlation in his own 1836 Bridgewater Treatise, and accepted Agassiz's glacial explanation by 1840. Any programme proposing to reopen the branch point owes an account of why that abandonment was wrong *on the evidence then available*, rather than a diagnosis of the priors that came after it. CAC has not supplied one, and EPI-003 does not pretend to.
+
+**And it cannot be cited as corroboration.** The trajectory from 1830 to the present is an already-known fact. Treating it as confirmation of PRD-001 or PRD-002 would be accommodation wearing a prediction's clothes, which is the precise failure the [ledger](../traceability/generated/progressiveness-report.md) exists to catch, and it is why both predictions are scored forward over future data releases instead.
 
 ## Point 7 — the anomaly set, and why it is not in the registry
 
